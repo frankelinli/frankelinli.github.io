@@ -27,6 +27,7 @@ const config = {
   organizationName: 'frankelinli', // Usually your GitHub org/user name.
   projectName: 'frankelinli.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
