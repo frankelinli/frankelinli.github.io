@@ -37,7 +37,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh', //及时不用多语言网站，设置这个zh，可以是docusaurus页面呈现中文UI；
-    locales: ['en'],
+    locales: ['en','zh'],
   },
 
   presets: [
@@ -51,9 +51,9 @@ const config = {
           path: "docs/doc1",
           routeBasePath: "doc1",
           breadcrumbs: false,
-          // showLastUpdateTime: true,
-          //editUrl:
-          //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          showLastUpdateTime: true,
+          editUrl: ({versionDocsDirPath, docPath}) =>
+          `https://frankelinli.github.io/${versionDocsDirPath}/${docPath}`,
         },
         blog: {
           showReadingTime: true,
@@ -103,6 +103,8 @@ const config = {
         routeBasePath: 'docusaurus-test',
         sidebarPath: require.resolve('./sidebars.js'),
         breadcrumbs: false,
+        editUrl: ({versionDocsDirPath, docPath}) =>
+        `https://github.com/frankelinli/frankelinli.github.io/edit/main/${versionDocsDirPath}/${docPath}`,
       },   
     ],
 
