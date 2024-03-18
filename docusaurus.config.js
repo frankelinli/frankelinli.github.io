@@ -36,7 +36,7 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh', //及时不用多语言网站，设置这个zh，可以是docusaurus页面呈现中文UI；
     locales: ['en'],
   },
 
