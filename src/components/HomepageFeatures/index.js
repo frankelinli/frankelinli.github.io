@@ -16,15 +16,15 @@ const FeatureList = [
   },
 
   {
-    title: '兰',
-    // imgSrc: require('@site/static/img/logo-wrap.png').default,
-    imgSrc: 'https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/23422_138de.jpg',
+    title: 'Docusaurus实践',
+    // imgSrc: require('@site/static/img/logo-cwap.png').default,
+    imgSrc: 'https://docusaurus.io/img/docusaurus_keytar.svg',
     description: (
       <>
-        pending
+        Docusaurus建站和使用的经验总结
       </>
     ),
-    to:'doc2'
+    to:'docusaurus-test'
   },
 
   {

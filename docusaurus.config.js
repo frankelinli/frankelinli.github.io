@@ -82,25 +82,25 @@ const config = {
   plugins: [
     'docusaurus-plugin-image-zoom', //图片放大缩小插件
     '@docusaurus/theme-live-codeblock', //实时呈现代码插件
-    //Wrap文档
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'doc2',
-        path: 'docs/doc2',
-        routeBasePath: 'doc2',
-        sidebarPath: require.resolve('./sidebars.js'),
-        breadcrumbs: true,
-      }, 
-    ],    
+    // //doc2文档
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'docusaurus-test',
+    //     path: 'docs/docusaurus-test',
+    //     routeBasePath: '',
+    //     sidebarPath: require.resolve('./sidebars.js'),
+    //     breadcrumbs: true,
+    //   }, 
+    // ],    
 
     //测试用，index.js首页没有添加卡片连接，需要手动在地址栏里输入
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'test',
-        path: 'docs/test',
-        routeBasePath: 'test',
+        id: 'docusaurus-test',
+        path: 'docs/docusaurus-test',
+        routeBasePath: 'docusaurus-test',
         sidebarPath: require.resolve('./sidebars.js'),
         breadcrumbs: false,
       },   
