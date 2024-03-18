@@ -60,3 +60,53 @@
     - `user_name`和`user_email`: 这些字段指定了提交的作者信息，以便在`gh-pages`分支的部署中使用GitHub Actions机器人的身份。
 
 这个示例工作流程会在每次将代码推送到`main`分支时运行。它首先检出代码，然后安装依赖项并构建网站。最后，它使用`actions-gh-pages`动作将构建输出发布到`gh-pages`分支，以实现GitHub Pages的部署。
+
+
+
+---
+
+
+
+### 它是模拟有一个人在一台安装了node的电脑上运行npm deploy命令
+
+![Assistant](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/assistant.b077c338.svg)
+
+Assistant
+
+Poe
+
+
+
+是的，您可以将GitHub Actions工作流程视为在具有Node.js安装的计算机上运行`npm deploy`命令的模拟。工作流程中的步骤通过执行相应的操作来模拟在本地计算机上进行操作的过程。
+
+具体地，工作流程中的步骤包括：
+
+1. 使用`actions/checkout@v3`动作从GitHub仓库中检出代码。
+2. 使用`actions/setup-node@v3`动作设置Node.js环境，并安装指定版本的Node.js。
+3. 使用`npm ci`命令安装项目的依赖项。
+4. 使用`npm run build`命令构建网站。
+5. 使用`peaceiris/actions-gh-pages@v3`动作将构建输出发布到GitHub Pages。
+
+通过这些步骤的模拟执行，GitHub Actions可以在云端为您自动完成构建和部署的过程，而无需您在本地计算机上手动执行这些命令。这使得您可以轻松地集成自动化流程到GitHub仓库中，并在每次推送代码时自动进行构建和部署。
+
+
+
+### 每次工作流执行时，都要安装node.js和依赖项？
+
+![Assistant](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/assistant.b077c338.svg)
+
+Assistant
+
+Poe
+
+
+
+在默认情况下，GitHub Actions会在每次工作流程执行时重新安装Node.js和项目依赖项。这是因为GitHub Actions的执行环境是一个干净的虚拟机，每次工作流程执行时都会从头开始构建和配置环境。
+
+然而，为了提高工作流程的执行效率，您可以使用缓存来避免每次都重新安装依赖项。GitHub Actions提供了缓存功能，允许您将构建所需的依赖项缓存起来，下次执行时可以直接从缓存中加载，而无需重新下载和安装。
+
+在示例工作流程中，使用了`actions/setup-node@v3`动作的`cache`参数来启用依赖项的缓存。这样，如果之前已经缓存了相同的依赖项，下次执行时将直接从缓存中加载，加快工作流程的执行速度。
+
+请注意，缓存的有效性取决于您的项目依赖项是否发生了变化。如果依赖项没有发生变化，缓存将有效，并且可以加快工作流程的执行速度。但如果依赖项发生了变化，GitHub Actions会自动重新安装最新的依赖项。
+
+因此，通过使用缓存机制，可以在一定程度上避免在每次工作流程执行时都重新安装Node.js和依赖项，提高工作流程的执行效率。
