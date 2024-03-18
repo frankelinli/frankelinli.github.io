@@ -4,7 +4,7 @@
         <title>富兰克林李 Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>富兰克林李 Blog</description>
-        <lastBuildDate>Mon, 18 Mar 2024 16:06:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Mar 2024 16:14:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,13 +12,13 @@
             <title><![CDATA[20240316]]></title>
             <link>https://frankelinli.github.io/blog/20240316</link>
             <guid>https://frankelinli.github.io/blog/20240316</guid>
-            <pubDate>Mon, 18 Mar 2024 16:06:10 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 16:14:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[20240318大化瑶族]]></title>
             <link>https://frankelinli.github.io/blog/20240318大化瑶族</link>
             <guid>https://frankelinli.github.io/blog/20240318大化瑶族</guid>
-            <pubDate>Mon, 18 Mar 2024 16:06:10 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 16:14:42 GMT</pubDate>
             <description><![CDATA[设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？]]></description>
             <content:encoded><![CDATA[<p>设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？</p>
 <p>还是改回腾讯云自带的服务，取消cloudflare了。</p>
@@ -42,18 +42,86 @@
 <h1>终于搞定了，不要再高了</h1>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[20240319]]></title>
-            <link>https://frankelinli.github.io/blog/20240319</link>
-            <guid>https://frankelinli.github.io/blog/20240319</guid>
-            <pubDate>Mon, 18 Mar 2024 16:06:10 GMT</pubDate>
-            <description><![CDATA[大发放]]></description>
-            <content:encoded><![CDATA[<p>大发放</p>]]></content:encoded>
+            <title><![CDATA[docusaurus和腾讯云服务器的朴素沟通]]></title>
+            <link>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</link>
+            <guid>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</guid>
+            <pubDate>Mon, 18 Mar 2024 16:14:42 GMT</pubDate>
+            <description><![CDATA[本地电脑，访问远程主机的localhost:3000]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="Direct link to 本地电脑，访问远程主机的localhost:3000" title="Direct link to 本地电脑，访问远程主机的localhost:3000">​</a></h3>
+<p>ssh -L 3000:localhost:3000 root@121.220.83.133</p>
+<p>这个命令会将本地电脑的 <code>3000</code> 端口转发到远程主机上的 <code>localhost:3000</code> 端口。</p>
+<p>SSH 端口转发是一次性的，只要你关闭了终端窗口，端口转发就会自动停止。</p>
+<p>端口转发只会影响你当前的 SSH 连接以及转发的端口，不会影响你的其他网络连接和端口使用</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="从远程服务器下载备份文件到本地">从远程服务器下载（备份）文件到本地<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E4%BB%8E%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8B%E8%BD%BD%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%88%B0%E6%9C%AC%E5%9C%B0" class="hash-link" aria-label="Direct link to 从远程服务器下载（备份）文件到本地" title="Direct link to 从远程服务器下载（备份）文件到本地">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">scp -r root@121.220.83.133:/www/wwwroot/konglong/* C:\Users\wingxu\Desktop\shiyishi\</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>在这个命令中，<code>-r</code> 选项表示要递归复制整个目录树，<code>root@121.220.83.133:/www/wwwroot/ceshi/*</code> 指定了要复制的远程目录和文件名通配符，<code>C:\Users\wingxu\Desktop\shiyishi\</code> 指定了要将文件复制到本地的目录。请注意，路径末尾的斜杠很重要，它表示将文件复制到目录中，而不是将整个远程目录复制到本地目录中。</p>
+<p>在运行命令时，您需要输入远程主机的密码。另外，请确保本地主机和远程主机之间的网络连接正常，并且您具有足够的权限访问远程主机上的文件和目录。</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="linux主机设置一键deploy部署静态网站">Linux主机，设置一键deploy部署静态网站<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#linux%E4%B8%BB%E6%9C%BA%E8%AE%BE%E7%BD%AE%E4%B8%80%E9%94%AEdeploy%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99" class="hash-link" aria-label="Direct link to Linux主机，设置一键deploy部署静态网站" title="Direct link to Linux主机，设置一键deploy部署静态网站">​</a></h3>
+<p>制作一个Linux的批处理，首先运行npm run build;然后执行把build里构建好的文件，复制到网站根目录下。</p>
+<p>您可以创建一个Shell脚本，将这两条命令放在一起执行。具体步骤如下：</p>
+<p><strong>打开终端，使用文本编辑器创建一个新文件，比如说<code>deploy.sh</code>：</strong></p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nano deploy.sh</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><strong>在文件中输入以下内容：</strong></p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">#!/bin/bash</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 进入项目目录</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo "正在进入项目目录：/www/wwwroot/konglong"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cd /www/wwwroot/konglong</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 执行npm run build</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo "正在执行npm run build命令"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run build</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 复制文件</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo "正在复制文件到目标目录：/www/wwwroot/mart"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cp -r /www/wwwroot/konglong/build/* /www/wwwroot/mart/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 完成</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo "部署已完成"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>这个脚本首先进入项目目录<code>/www/wwwroot/konglong</code>，然后执行<code>npm run build</code>命令生成打包文件，最后使用<code>cp</code>命令将打包文件复制到目标目录<code>/www/wwwroot/mart</code>。</p>
+<p><strong>保存并退出文件。然后使用以下命令为脚本添加可执行权限：</strong></p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">chmod +x deploy.sh</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><strong>现在您可以运行这个脚本了。在终端中输入以下命令：</strong></p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">./deploy.sh</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>这个命令会执行<code>deploy.sh</code>脚本，依次执行<code>npm run build</code>和<code>cp</code>命令。</p>
+<p>请注意，这个脚本中的路径应该根据您的实际情况进行修改。另外，如果您不希望每次运行脚本时都需要输入密码，可以将脚本放在root用户的家目录下，并使用root用户运行脚本。</p>
+<p><strong>如果您将这个脚本保存在一个可执行的文件中，并将该文件添加到系统的PATH环境变量中，那么您可以在任意目录下运行该命令。</strong></p>
+<p>以下是将脚本添加到PATH环境变量的步骤：</p>
+<ol>
+<li>将脚本保存为一个可执行文件，比如<code>deploy.sh</code>。</li>
+<li>将文件复制到/usr/local/bin目录下：</li>
+</ol>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo cp deploy.sh /usr/local/bin/deploy</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>这个命令将文件复制到/usr/local/bin目录下，并将文件名改为<code>deploy</code>。这个目录通常是系统的PATH环境变量包含的目录之一。</p>
+<ol start="3">
+<li>添加执行权限：</li>
+</ol>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo chmod +x /usr/local/bin/deploy</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>这个命令将给<code>/usr/local/bin/deploy</code>文件添加可执行权限。</p>
+<ol start="4">
+<li>现在您可以在任意目录下运行该命令了：</li>
+</ol>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">deploy</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>这个命令会执行<code>/usr/local/bin/deploy</code>文件，依次执行<code>npm run build</code>和<code>cp</code>命令。</p>
+<p>请注意，如果您在执行命令时仍然遇到权限问题，可以尝试使用sudo命令以root权限运行该命令。</p>
+<hr>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">cat ~/.ssh/id_rsa.pub | ssh root@121.220.83.133 "mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ssh秘钥这样就不用每次连接服务器都输入密码了">SSH秘钥，这样就不用每次连接服务器都输入密码了<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#ssh%E7%A7%98%E9%92%A5%E8%BF%99%E6%A0%B7%E5%B0%B1%E4%B8%8D%E7%94%A8%E6%AF%8F%E6%AC%A1%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%BD%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E4%BA%86" class="hash-link" aria-label="Direct link to SSH秘钥，这样就不用每次连接服务器都输入密码了" title="Direct link to SSH秘钥，这样就不用每次连接服务器都输入密码了">​</a></h3>
+<p>在默认情况下，每次使用 <code>scp</code> 命令都需要输入远程主机的密码。为了避免每次手动输入密码，您可以使用 SSH 公钥认证的方式。</p>
+<p>SSH 公钥认证的基本原理是，在本地主机上生成一对公钥和私钥，将公钥复制到远程主机上，然后将私钥用于本地主机与远程主机之间的认证，这样就可以实现自动登录，不再需要手动输入密码。</p>
+<p>以下是使用 SSH 公钥认证的步骤：</p>
+<ol>
+<li>在本地主机上生成 SSH 密钥对。</li>
+</ol>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ssh-keygen -t rsa</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>按照提示输入文件名和密码。如果您不想设置密码，可以直接按回车键。</p>
+<ol start="2">
+<li>将公钥复制到远程主机上。</li>
+</ol>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ssh-copy-id username@remote_host</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>[如果windows终端执行不了这个代码，则需要安装git,用Git的bash终端来执行这个命令]</p>
+<p>其中 <code>username</code> 是远程主机上的用户名，<code>remote_host</code> 是远程主机的 IP 地址或主机名。运行命令后，您需要输入远程主机的密码。</p>
+<ol start="3">
+<li>测试 SSH 公钥认证是否生效。</li>
+</ol>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ssh root@121.220.83.133</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>如果 SSH 公钥认证设置成功，您将可以直接登录到远程主机，不再需要输入密码。此时，您可以使用 <code>scp</code> 命令将文件上传到远程主机，不再需要手动输入密码。</p>
+<hr>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">rsync -avzhe ssh --delete C:\Users\wingxu\wiki root@121.220.83.133:/www/wwwroot/konglong</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[za]]></title>
             <link>https://frankelinli.github.io/blog/za</link>
             <guid>https://frankelinli.github.io/blog/za</guid>
-            <pubDate>Mon, 18 Mar 2024 16:06:10 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 16:14:42 GMT</pubDate>
             <description><![CDATA[本地电脑，访问远程主机的localhost:3000]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/za#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="Direct link to 本地电脑，访问远程主机的localhost:3000" title="Direct link to 本地电脑，访问远程主机的localhost:3000">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@111.220.91.134</p>
@@ -64,14 +132,6 @@
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">scp -r build/* root@111.230.81.144:/www/wwwroot/mart</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>在window本机终端上执行。这个命令使用<code>-r</code>选项递归复制<code>build</code>目录下的所有文件（但不包括<code>build</code>目录本身），并将其上传到远程主机<code>111.230.81.144</code>的<code>/www/wwwroot/ceshi</code>目录中。</p>
 <p>请注意，如果远程目录不存在，<code>scp</code>命令将创建该目录。</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[再一个]]></title>
-            <link>https://frankelinli.github.io/blog/再一个</link>
-            <guid>https://frankelinli.github.io/blog/再一个</guid>
-            <pubDate>Mon, 18 Mar 2024 16:06:10 GMT</pubDate>
-            <description><![CDATA[发电房]]></description>
-            <content:encoded><![CDATA[<p>发电房</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[20240317]]></title>
