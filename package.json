@@ -2,6 +2,7 @@
   "name": "my-website",
   "version": "0.0.0",
   "private": true,
+  "homepage": "frankelinli.github.io",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -20,6 +21,7 @@
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "docusaurus-plugin-image-zoom": "^2.0.0",
+    "gh-pages": "^6.1.1",
     "prism-react-renderer": "^2.3.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
