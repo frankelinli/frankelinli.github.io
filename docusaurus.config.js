@@ -59,7 +59,7 @@ const config = {
           showReadingTime: true,
           blogTitle: 'frankelinle blog!',
           blogDescription: 'A Docusaurus powered blog!',
-          postsPerPage: '3',
+          postsPerPage: 2,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
