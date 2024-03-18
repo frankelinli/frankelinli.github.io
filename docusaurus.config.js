@@ -170,7 +170,7 @@ const config = {
           //   sidebarId: 'zidongSidebar',
           //   label: 'orange',
           // },
-          {to: '/test', label: 'Docusaurua实践', position: 'left'},
+          {to: '/docusaurus-test', label: 'Docusaurua实践', position: 'left'},
 
           // {
           //   docsPluginId:'test',
