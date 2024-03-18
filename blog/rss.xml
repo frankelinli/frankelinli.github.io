@@ -4,7 +4,7 @@
         <title>富兰克林李 Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>富兰克林李 Blog</description>
-        <lastBuildDate>Mon, 18 Mar 2024 16:14:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Mar 2024 16:42:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,13 +12,13 @@
             <title><![CDATA[20240316]]></title>
             <link>https://frankelinli.github.io/blog/20240316</link>
             <guid>https://frankelinli.github.io/blog/20240316</guid>
-            <pubDate>Mon, 18 Mar 2024 16:14:42 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 16:42:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[20240318大化瑶族]]></title>
             <link>https://frankelinli.github.io/blog/20240318大化瑶族</link>
             <guid>https://frankelinli.github.io/blog/20240318大化瑶族</guid>
-            <pubDate>Mon, 18 Mar 2024 16:14:42 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 16:42:41 GMT</pubDate>
             <description><![CDATA[设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？]]></description>
             <content:encoded><![CDATA[<p>设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？</p>
 <p>还是改回腾讯云自带的服务，取消cloudflare了。</p>
@@ -45,14 +45,14 @@
             <title><![CDATA[docusaurus和腾讯云服务器的朴素沟通]]></title>
             <link>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</link>
             <guid>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</guid>
-            <pubDate>Mon, 18 Mar 2024 16:14:42 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 16:42:41 GMT</pubDate>
             <description><![CDATA[本地电脑，访问远程主机的localhost:3000]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="Direct link to 本地电脑，访问远程主机的localhost:3000" title="Direct link to 本地电脑，访问远程主机的localhost:3000">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@121.220.83.133</p>
 <p>这个命令会将本地电脑的 <code>3000</code> 端口转发到远程主机上的 <code>localhost:3000</code> 端口。</p>
 <p>SSH 端口转发是一次性的，只要你关闭了终端窗口，端口转发就会自动停止。</p>
 <p>端口转发只会影响你当前的 SSH 连接以及转发的端口，不会影响你的其他网络连接和端口使用</p>
-<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="哈哈">哈哈<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E5%93%88%E5%93%88" class="hash-link" aria-label="Direct link to 哈哈" title="Direct link to 哈哈">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="从远程服务器下载备份文件到本地">从远程服务器下载（备份）文件到本地<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E4%BB%8E%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8B%E8%BD%BD%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%88%B0%E6%9C%AC%E5%9C%B0" class="hash-link" aria-label="Direct link to 从远程服务器下载（备份）文件到本地" title="Direct link to 从远程服务器下载（备份）文件到本地">​</a></h3>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">scp -r root@121.220.83.133:/www/wwwroot/konglong/* C:\Users\wingxu\Desktop\shiyishi\</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>在这个命令中，<code>-r</code> 选项表示要递归复制整个目录树，<code>root@121.220.83.133:/www/wwwroot/ceshi/*</code> 指定了要复制的远程目录和文件名通配符，<code>C:\Users\wingxu\Desktop\shiyishi\</code> 指定了要将文件复制到本地的目录。请注意，路径末尾的斜杠很重要，它表示将文件复制到目录中，而不是将整个远程目录复制到本地目录中。</p>
@@ -121,7 +121,7 @@
             <title><![CDATA[za]]></title>
             <link>https://frankelinli.github.io/blog/za</link>
             <guid>https://frankelinli.github.io/blog/za</guid>
-            <pubDate>Mon, 18 Mar 2024 16:14:42 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 16:42:41 GMT</pubDate>
             <description><![CDATA[本地电脑，访问远程主机的localhost:3000]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/za#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="Direct link to 本地电脑，访问远程主机的localhost:3000" title="Direct link to 本地电脑，访问远程主机的localhost:3000">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@111.220.91.134</p>
