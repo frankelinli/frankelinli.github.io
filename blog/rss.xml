@@ -4,7 +4,7 @@
         <title>富兰克林李 Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>富兰克林李 Blog</description>
-        <lastBuildDate>Mon, 18 Mar 2024 15:12:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Mar 2024 15:13:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,13 +12,13 @@
             <title><![CDATA[20240316]]></title>
             <link>https://frankelinli.github.io/blog/20240316</link>
             <guid>https://frankelinli.github.io/blog/20240316</guid>
-            <pubDate>Mon, 18 Mar 2024 15:12:29 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 15:13:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[20240318大化瑶族]]></title>
             <link>https://frankelinli.github.io/blog/20240318大化瑶族</link>
             <guid>https://frankelinli.github.io/blog/20240318大化瑶族</guid>
-            <pubDate>Mon, 18 Mar 2024 15:12:29 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 15:13:27 GMT</pubDate>
             <description><![CDATA[设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？]]></description>
             <content:encoded><![CDATA[<p>设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？</p>
 <p>还是改回腾讯云自带的服务，取消cloudflare了。</p>
@@ -39,7 +39,7 @@
             <title><![CDATA[20240319]]></title>
             <link>https://frankelinli.github.io/blog/20240319</link>
             <guid>https://frankelinli.github.io/blog/20240319</guid>
-            <pubDate>Mon, 18 Mar 2024 15:12:29 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 15:13:27 GMT</pubDate>
             <description><![CDATA[大发放]]></description>
             <content:encoded><![CDATA[<p>大发放</p>]]></content:encoded>
         </item>
@@ -47,7 +47,7 @@
             <title><![CDATA[再一个]]></title>
             <link>https://frankelinli.github.io/blog/再一个</link>
             <guid>https://frankelinli.github.io/blog/再一个</guid>
-            <pubDate>Mon, 18 Mar 2024 15:12:29 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 15:13:27 GMT</pubDate>
             <description><![CDATA[发电房]]></description>
             <content:encoded><![CDATA[<p>发电房</p>]]></content:encoded>
         </item>

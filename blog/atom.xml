@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankelinli.github.io/blog</id>
     <title>富兰克林李 Blog</title>
-    <updated>2024-03-18T15:12:29.000Z</updated>
+    <updated>2024-03-18T15:13:27.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankelinli.github.io/blog"/>
     <subtitle>富兰克林李 Blog</subtitle>
@@ -11,13 +11,13 @@
         <title type="html"><![CDATA[20240316]]></title>
         <id>https://frankelinli.github.io/blog/20240316</id>
         <link href="https://frankelinli.github.io/blog/20240316"/>
-        <updated>2024-03-18T15:12:29.000Z</updated>
+        <updated>2024-03-18T15:13:27.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[20240318大化瑶族]]></title>
         <id>https://frankelinli.github.io/blog/20240318大化瑶族</id>
         <link href="https://frankelinli.github.io/blog/20240318大化瑶族"/>
-        <updated>2024-03-18T15:12:29.000Z</updated>
+        <updated>2024-03-18T15:13:27.000Z</updated>
         <summary type="html"><![CDATA[设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？]]></summary>
         <content type="html"><![CDATA[<p>设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？</p>
 <p>还是改回腾讯云自带的服务，取消cloudflare了。</p>
@@ -38,7 +38,7 @@
         <title type="html"><![CDATA[20240319]]></title>
         <id>https://frankelinli.github.io/blog/20240319</id>
         <link href="https://frankelinli.github.io/blog/20240319"/>
-        <updated>2024-03-18T15:12:29.000Z</updated>
+        <updated>2024-03-18T15:13:27.000Z</updated>
         <summary type="html"><![CDATA[大发放]]></summary>
         <content type="html"><![CDATA[<p>大发放</p>]]></content>
     </entry>
@@ -46,7 +46,7 @@
         <title type="html"><![CDATA[再一个]]></title>
         <id>https://frankelinli.github.io/blog/再一个</id>
         <link href="https://frankelinli.github.io/blog/再一个"/>
-        <updated>2024-03-18T15:12:29.000Z</updated>
+        <updated>2024-03-18T15:13:27.000Z</updated>
         <summary type="html"><![CDATA[发电房]]></summary>
         <content type="html"><![CDATA[<p>发电房</p>]]></content>
     </entry>
