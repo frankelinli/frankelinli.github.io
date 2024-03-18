@@ -4,7 +4,7 @@
         <title>富兰克林李 Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>富兰克林李 Blog</description>
-        <lastBuildDate>Mon, 18 Mar 2024 15:13:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Mar 2024 15:16:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,13 +12,13 @@
             <title><![CDATA[20240316]]></title>
             <link>https://frankelinli.github.io/blog/20240316</link>
             <guid>https://frankelinli.github.io/blog/20240316</guid>
-            <pubDate>Mon, 18 Mar 2024 15:13:27 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 15:16:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[20240318大化瑶族]]></title>
             <link>https://frankelinli.github.io/blog/20240318大化瑶族</link>
             <guid>https://frankelinli.github.io/blog/20240318大化瑶族</guid>
-            <pubDate>Mon, 18 Mar 2024 15:13:27 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 15:16:24 GMT</pubDate>
             <description><![CDATA[设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？]]></description>
             <content:encoded><![CDATA[<p>设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？</p>
 <p>还是改回腾讯云自带的服务，取消cloudflare了。</p>
@@ -33,13 +33,14 @@
 <p>ERR_SSL_VERSION_OR_CIPHER_MISMATCH</p>
 <div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p>别再毫无章法的乱搞了，要集中精力做主要的事情，不要无头苍蝇，没有目标乱撞！！</p></div></div>
 <hr>
-<p>![personal protective equipment warning sign](<a href="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/personal" target="_blank" rel="noopener noreferrer">https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/personal</a> protective equipment warning sign.jpg)</p>]]></content:encoded>
+<p>![personal protective equipment warning sign](<a href="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/personal" target="_blank" rel="noopener noreferrer">https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/personal</a> protective equipment warning sign.jpg)</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ceshi">ceshi<a href="https://frankelinli.github.io/blog/20240318%E5%A4%A7%E5%8C%96%E7%91%B6%E6%97%8F#ceshi" class="hash-link" aria-label="Direct link to ceshi" title="Direct link to ceshi">​</a></h3>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[20240319]]></title>
             <link>https://frankelinli.github.io/blog/20240319</link>
             <guid>https://frankelinli.github.io/blog/20240319</guid>
-            <pubDate>Mon, 18 Mar 2024 15:13:27 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 15:16:24 GMT</pubDate>
             <description><![CDATA[大发放]]></description>
             <content:encoded><![CDATA[<p>大发放</p>]]></content:encoded>
         </item>
@@ -47,7 +48,7 @@
             <title><![CDATA[再一个]]></title>
             <link>https://frankelinli.github.io/blog/再一个</link>
             <guid>https://frankelinli.github.io/blog/再一个</guid>
-            <pubDate>Mon, 18 Mar 2024 15:13:27 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 15:16:24 GMT</pubDate>
             <description><![CDATA[发电房]]></description>
             <content:encoded><![CDATA[<p>发电房</p>]]></content:encoded>
         </item>
