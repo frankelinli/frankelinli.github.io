@@ -158,14 +158,14 @@ const config = {
           //   type: 'docSidebar',
           //   sidebarId: 'zidongSidebar',
           //   position: 'left',
-          //   label: 'amfori BSCI',
+          //   label: 'apple',
           // },
 
           // {
           //   docsPluginId:'wrap',
           //   type: 'docSidebar',            
           //   sidebarId: 'zidongSidebar',
-          //   label: 'Wrap',
+          //   label: 'orange',
           // },
           {to: '/test', label: 'Docusaurua实践', position: 'left'},
 
@@ -209,7 +209,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                //to: '/docs/amfori-BSCI/BSCI简介',
+                //to: '/docs/abc/简介',
                 href: 'http://www.baidu.com',
               },
             ],
