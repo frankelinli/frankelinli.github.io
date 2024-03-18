@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankelinli.github.io/blog</id>
     <title>富兰克林李 Blog</title>
-    <updated>2024-03-18T15:36:06.000Z</updated>
+    <updated>2024-03-18T15:48:28.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankelinli.github.io/blog"/>
     <subtitle>富兰克林李 Blog</subtitle>
@@ -11,13 +11,13 @@
         <title type="html"><![CDATA[20240316]]></title>
         <id>https://frankelinli.github.io/blog/20240316</id>
         <link href="https://frankelinli.github.io/blog/20240316"/>
-        <updated>2024-03-18T15:36:06.000Z</updated>
+        <updated>2024-03-18T15:48:28.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[20240318大化瑶族]]></title>
         <id>https://frankelinli.github.io/blog/20240318大化瑶族</id>
         <link href="https://frankelinli.github.io/blog/20240318大化瑶族"/>
-        <updated>2024-03-18T15:36:06.000Z</updated>
+        <updated>2024-03-18T15:48:28.000Z</updated>
         <summary type="html"><![CDATA[设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？]]></summary>
         <content type="html"><![CDATA[<p>设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？</p>
 <p>还是改回腾讯云自带的服务，取消cloudflare了。</p>
@@ -37,13 +37,14 @@
 <p>![personal protective equipment warning sign](<a href="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/personal" target="_blank" rel="noopener noreferrer">https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/personal</a> protective equipment warning sign.jpg)</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="ceshi">ceshi<a href="https://frankelinli.github.io/blog/20240318%E5%A4%A7%E5%8C%96%E7%91%B6%E6%97%8F#ceshi" class="hash-link" aria-label="Direct link to ceshi" title="Direct link to ceshi">​</a></h3>
 <div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</div><div class="admonitionContent_BuS1"><p>因为 Docusaurus 本质上是一个静态网站生成器，它会把我们的 md 文件编译成 HTML 文件，GitHub Page 会把构建后的文件部署发布上线。
-所以我们要区分两个分支，develop 分支用于存储源代码，我们主要在这个分支上编写文档，main 分支用于存储构建后的文件。两者的目录结构不一样，所以我们在开发过程中要注意查看分支（VScode 左下角会显示分支信息）。</p></div></div>]]></content>
+所以我们要区分两个分支，develop 分支用于存储源代码，我们主要在这个分支上编写文档，main 分支用于存储构建后的文件。两者的目录结构不一样，所以我们在开发过程中要注意查看分支（VScode 左下角会显示分支信息）。</p></div></div>
+<h1>终于搞定了，不要再高了</h1>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[20240319]]></title>
         <id>https://frankelinli.github.io/blog/20240319</id>
         <link href="https://frankelinli.github.io/blog/20240319"/>
-        <updated>2024-03-18T15:36:06.000Z</updated>
+        <updated>2024-03-18T15:48:28.000Z</updated>
         <summary type="html"><![CDATA[大发放]]></summary>
         <content type="html"><![CDATA[<p>大发放</p>]]></content>
     </entry>
@@ -51,7 +52,7 @@
         <title type="html"><![CDATA[再一个]]></title>
         <id>https://frankelinli.github.io/blog/再一个</id>
         <link href="https://frankelinli.github.io/blog/再一个"/>
-        <updated>2024-03-18T15:36:06.000Z</updated>
+        <updated>2024-03-18T15:48:28.000Z</updated>
         <summary type="html"><![CDATA[发电房]]></summary>
         <content type="html"><![CDATA[<p>发电房</p>]]></content>
     </entry>
