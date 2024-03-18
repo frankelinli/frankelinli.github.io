@@ -4,7 +4,7 @@
         <title>富兰克林李 Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>富兰克林李 Blog</description>
-        <lastBuildDate>Mon, 18 Mar 2024 17:31:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Mar 2024 17:37:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,13 +12,13 @@
             <title><![CDATA[20240316]]></title>
             <link>https://frankelinli.github.io/blog/20240316</link>
             <guid>https://frankelinli.github.io/blog/20240316</guid>
-            <pubDate>Mon, 18 Mar 2024 17:31:21 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 17:37:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[20240318大化瑶族]]></title>
             <link>https://frankelinli.github.io/blog/20240318大化瑶族</link>
             <guid>https://frankelinli.github.io/blog/20240318大化瑶族</guid>
-            <pubDate>Mon, 18 Mar 2024 17:31:21 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 17:37:29 GMT</pubDate>
             <description><![CDATA[设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？]]></description>
             <content:encoded><![CDATA[<p>设置了cloudflare后，网站评分提高了，但是网速变慢了。得不偿失？</p>
 <p>还是改回腾讯云自带的服务，取消cloudflare了。</p>
@@ -40,7 +40,7 @@
             <title><![CDATA[docusaurus和腾讯云服务器的朴素沟通]]></title>
             <link>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</link>
             <guid>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</guid>
-            <pubDate>Mon, 18 Mar 2024 17:31:21 GMT</pubDate>
+            <pubDate>Mon, 18 Mar 2024 17:37:29 GMT</pubDate>
             <description><![CDATA[本地电脑，访问远程主机的localhost:3000]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="Direct link to 本地电脑，访问远程主机的localhost:3000" title="Direct link to 本地电脑，访问远程主机的localhost:3000">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@121.220.83.133</p>
