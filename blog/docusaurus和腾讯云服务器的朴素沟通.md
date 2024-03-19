@@ -15,10 +15,10 @@ SSH 端口转发是一次性的，只要你关闭了终端窗口，端口转发�
 ### 从远程服务器下载（备份）文件到本地
 
 ```bash
-scp -r root@121.220.83.133:/www/wwwroot/konglong/* C:\Users\wingxu\Desktop\shiyishi\
+scp -r root@121.220.83.133:/www/wwwroot/konglong/* C:\Users\frankelin\Desktop\shiyishi\
 ```
 
-在这个命令中，`-r` 选项表示要递归复制整个目录树，`root@121.220.83.133:/www/wwwroot/ceshi/*` 指定了要复制的远程目录和文件名通配符，`C:\Users\wingxu\Desktop\shiyishi\` 指定了要将文件复制到本地的目录。请注意，路径末尾的斜杠很重要，它表示将文件复制到目录中，而不是将整个远程目录复制到本地目录中。
+在这个命令中，`-r` 选项表示要递归复制整个目录树，`root@121.220.83.133:/www/wwwroot/ceshi/*` 指定了要复制的远程目录和文件名通配符，`C:\Users\frankelin\Desktop\shiyishi\` 指定了要将文件复制到本地的目录。请注意，路径末尾的斜杠很重要，它表示将文件复制到目录中，而不是将整个远程目录复制到本地目录中。
 
 在运行命令时，您需要输入远程主机的密码。另外，请确保本地主机和远程主机之间的网络连接正常，并且您具有足够的权限访问远程主机上的文件和目录。
 
@@ -151,6 +151,6 @@ ssh root@121.220.83.133
 ---
 
 ```bash
-rsync -avzhe ssh --delete C:\Users\wingxu\wiki root@121.220.83.133:/www/wwwroot/konglong
+rsync -avzhe ssh --delete C:\Users\frankelin\wiki root@121.220.83.133:/www/wwwroot/konglong
 ```
 
