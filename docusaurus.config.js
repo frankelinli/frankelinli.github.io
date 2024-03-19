@@ -36,8 +36,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en', //及时不用多语言网站，设置这个zh，可以是docusaurus页面呈现中文UI；
-    locales: ['en'],
+    defaultLocale: 'en', //即使不用多语言网站，设置这个zh，可以是docusaurus页面呈现中文UI；
+    locales: ['en'], //这个数组填写多个语言，npm run build就会生成多个语言的文件
   },
 
   presets: [
@@ -185,6 +185,7 @@ const config = {
           // },
 
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/scr/pages/friend-link', label: '友情链接', position: 'left'},
           
           //顶部导航栏的下拉二级菜单
           {
@@ -252,7 +253,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} csrwiki.com   <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">粤ICP备2023098295号</a>`  ,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
         
       },
 
