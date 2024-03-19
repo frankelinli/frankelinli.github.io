@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[16],{3002:e=>{e.exports=JSON.parse('{"permalink":"/en/blog/page/2","page":2,"postsPerPage":2,"totalPages":4,"totalCount":8,"previousPage":"/en/blog","nextPage":"/en/blog/page/3","blogDescription":"A Docusaurus powered blog!","blogTitle":"frankelinle blog!"}')}}]);
