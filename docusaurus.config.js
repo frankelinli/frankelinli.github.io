@@ -36,8 +36,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh', //及时不用多语言网站，设置这个zh，可以是docusaurus页面呈现中文UI；
-    locales: ['en','zh'],
+    defaultLocale: 'en', //及时不用多语言网站，设置这个zh，可以是docusaurus页面呈现中文UI；
+    locales: ['en'],
   },
 
   presets: [
@@ -53,13 +53,13 @@ const config = {
           breadcrumbs: false,
           showLastUpdateTime: true,
           editUrl: ({versionDocsDirPath, docPath}) =>
-          `https://frankelinli.github.io/${versionDocsDirPath}/${docPath}`,
+          `https://github.com/frankelinli/frankelinli.github.io/edit/main/${versionDocsDirPath}/${docPath}`,
         },
         blog: {
           showReadingTime: true,
           blogTitle: 'frankelinle blog!',
           blogDescription: 'A Docusaurus powered blog!',
-          postsPerPage: 2,
+          postsPerPage: 3,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
