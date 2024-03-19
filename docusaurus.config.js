@@ -60,6 +60,7 @@ const config = {
           blogTitle: 'frankelinle blog!',
           blogDescription: 'A Docusaurus powered blog!',
           postsPerPage: 3,
+          blogSidebarCount: 10,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
@@ -103,6 +104,7 @@ const config = {
         routeBasePath: 'docusaurus-test',
         sidebarPath: require.resolve('./sidebars.js'),
         breadcrumbs: false,
+        showLastUpdateTime: true,
         editUrl: ({versionDocsDirPath, docPath}) =>
         `https://github.com/frankelinli/frankelinli.github.io/edit/main/${versionDocsDirPath}/${docPath}`,
       },   
