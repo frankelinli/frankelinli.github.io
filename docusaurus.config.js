@@ -62,8 +62,8 @@ const config = {
           postsPerPage: 3,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
+          `https://github.com/frankelinli/frankelinli.github.io/edit/main/${blogDirPath}/${blogPath}`,
         },
         
         theme: {
