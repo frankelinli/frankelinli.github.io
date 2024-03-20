@@ -17,14 +17,23 @@ last_update:
 ### front matter示例🙋
 ```jsx
 ---
+//注意：“冒号:” 后面要有个空格
 id: doc-markdown
 title: Docs Markdown Features
 sidebar_label: Markdown
 slug: /myDoc
 hide_title: false
+
 hide_table_of_contents: false
+
+displayed_sidebar: null //隐藏侧边栏，【实际上是有侧边栏的，只是隐藏了】  
+
+title: My Doc Title  //默认是文件名作为侧边栏文字；设置title自定义标题
+
 //sidebar_position: 3
+
 description: How do I find you when I cannot solve this problem
+
 keywords:
   - docs
   - docusaurus

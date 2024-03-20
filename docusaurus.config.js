@@ -38,8 +38,8 @@ const config = {
   i18n: {
     defaultLocale: 'en', //即使不用多语言网站，设置这个zh，可以是docusaurus页面呈现中文UI；
     locales: ['en'], //这个数组填写多个语言，npm run build就会生成多个语言的文件
-  },
-
+  },  
+ 
   presets: [
     [
       'classic',
@@ -185,7 +185,7 @@ const config = {
           // },
 
           {to: '/blog', label: 'Blog', position: 'left'},
-          // {to: '/scr/pages/friend-link', label: '友情链接', position: 'left'},
+          {to: '/friend-link', label: '友情链接', position: 'left'},
           
           //顶部导航栏的下拉二级菜单
           {
