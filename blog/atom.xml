@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankelinli.github.io/blog</id>
     <title>富兰克林李 Blog</title>
-    <updated>2024-03-20T15:47:44.000Z</updated>
+    <updated>2024-03-20T15:53:02.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankelinli.github.io/blog"/>
     <subtitle>富兰克林李 Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[docusaurus和腾讯云服务器的朴素沟通]]></title>
         <id>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</id>
         <link href="https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通"/>
-        <updated>2024-03-20T15:47:44.000Z</updated>
+        <updated>2024-03-20T15:53:02.000Z</updated>
         <summary type="html"><![CDATA[本地电脑，访问远程主机的localhost:3000]]></summary>
         <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="本地电脑，访问远程主机的localhost:3000的直接链接" title="本地电脑，访问远程主机的localhost:3000的直接链接">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@121.220.83.133</p>
@@ -88,7 +88,7 @@
         <title type="html"><![CDATA[git命令]]></title>
         <id>https://frankelinli.github.io/blog/git命令</id>
         <link href="https://frankelinli.github.io/blog/git命令"/>
-        <updated>2024-03-20T15:47:44.000Z</updated>
+        <updated>2024-03-20T15:53:02.000Z</updated>
         <summary type="html"><![CDATA[git add .]]></summary>
         <content type="html"><![CDATA[<p>git add .</p>
 <p>git commit -m 'abc'</p>
@@ -98,7 +98,7 @@
         <title type="html"><![CDATA[hugo]]></title>
         <id>https://frankelinli.github.io/blog/hugo</id>
         <link href="https://frankelinli.github.io/blog/hugo"/>
-        <updated>2024-03-20T15:47:44.000Z</updated>
+        <updated>2024-03-20T15:53:02.000Z</updated>
         <summary type="html"><![CDATA[尝试新的hugo?]]></summary>
         <content type="html"><![CDATA[<p>尝试新的hugo?</p>]]></content>
     </entry>
@@ -106,21 +106,27 @@
         <title type="html"><![CDATA[new]]></title>
         <id>https://frankelinli.github.io/blog/new</id>
         <link href="https://frankelinli.github.io/blog/new"/>
-        <updated>2024-03-20T15:47:44.000Z</updated>
+        <updated>2024-03-20T15:53:02.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[学会了用git]]></title>
         <id>https://frankelinli.github.io/blog/学会了用git</id>
         <link href="https://frankelinli.github.io/blog/学会了用git"/>
-        <updated>2024-03-20T15:47:44.000Z</updated>
+        <updated>2024-03-20T15:53:02.000Z</updated>
         <summary type="html"><![CDATA[原来菜鸟网站也是用WordPress做的]]></summary>
         <content type="html"><![CDATA[<p>原来菜鸟网站也是用WordPress做的</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米手机别买了]]></title>
+        <id>https://frankelinli.github.io/blog/小米手机别买了</id>
+        <link href="https://frankelinli.github.io/blog/小米手机别买了"/>
+        <updated>2024-03-20T15:53:02.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[用python把多个pdf合并为一个PDF并自动添加书签]]></title>
         <id>https://frankelinli.github.io/blog/用python把多个pdf合并为一个PDF并自动添加书签</id>
         <link href="https://frankelinli.github.io/blog/用python把多个pdf合并为一个PDF并自动添加书签"/>
-        <updated>2024-03-20T15:47:44.000Z</updated>
+        <updated>2024-03-20T15:53:02.000Z</updated>
         <summary type="html"><![CDATA[这是以前的一个python小程序。假如文件夹下有5个PDF文件，他们的名字分别是：]]></summary>
         <content type="html"><![CDATA[<p>这是以前的一个python小程序。假如文件夹下有5个PDF文件，他们的名字分别是：</p>
 <ol>
@@ -140,7 +146,7 @@
         <title type="html"><![CDATA[百年糊涂小酒]]></title>
         <id>https://frankelinli.github.io/blog/百年糊涂小酒</id>
         <link href="https://frankelinli.github.io/blog/百年糊涂小酒"/>
-        <updated>2024-03-20T15:47:44.000Z</updated>
+        <updated>2024-03-20T15:53:02.000Z</updated>
         <summary type="html"><![CDATA[上面已经提到文章的发布时间可以通过 date 参数设置或者从文件名或者目录名推断。如果我们不想让所有的文章都处在 blog 目录下，可以把文章 YYYY/MM/DD/my-blog-post-title.md 这样按 年/月/日 分目录存放。]]></summary>
         <content type="html"><![CDATA[<p>上面已经提到文章的发布时间可以通过 <code>date</code> 参数设置或者从文件名或者目录名推断。如果我们不想让所有的文章都处在 <code>blog</code> 目录下，可以把文章 <code>YYYY/MM/DD/my-blog-post-title.md</code> 这样按 <code>年/月/日</code> 分目录存放。</p>
 <p>这里有个问题，列表页的文章排列顺序是通过发布日期来排列的，如果在某一天发布多篇文章，那么如何决定这几篇文章的排列顺序呢？可以设置 <code>date</code> 参数格式日期到时间。</p>]]></content>
