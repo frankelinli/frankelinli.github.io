@@ -11,6 +11,8 @@
 
 把他们合并到成一个jieshao.pdf文件，并且用上面5个文件的名字来作为jieshao.pdf的书签。
 
+*<!-- truncate -->*
+
 :::info
 
 这个函数会遍历要求目录下的所有文件，将以  .pdf 结尾的所有pdf合并成一个新的pdf，并保存在 file_dir 目录下
