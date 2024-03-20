@@ -1,5 +1,7 @@
 平时自己敲敲代码，使用Git命令也渐渐多了起来。使用起来的确很方便，今天来分享下Git基本概念和本地代码提交到github上的过程，很简单的，多操作几次就会了。
 
+## <!-- truncate -->
+
 ## Git定义
 
 Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
@@ -244,11 +246,11 @@ git push [remote] --all
 
 直接在github中仓库，操作如下所示：
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522171816898-178539344.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522171816898-178539344.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522171816898-178539344.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522171816898-178539344.png)
 
 输入仓库信息，如下：
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522171856264-528726732.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522171856264-528726732.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522171856264-528726732.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522171856264-528726732.png)
 
 #### 命令创建
 
@@ -270,7 +272,7 @@ git config --global user.name` `git config --global user.email
 
  如图所示：
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173101981-604610275.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173101981-604610275.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522173101981-604610275.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173101981-604610275.png)
 
 ### 秘钥配置
 
@@ -284,7 +286,7 @@ ssh-keygen -t rsa -C ``"github注册邮箱"
 
  操作如下所示：
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173556108-1670904934.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173556108-1670904934.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522173556108-1670904934.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173556108-1670904934.png)
 
 #### 配置秘钥
 
@@ -292,11 +294,11 @@ ssh-keygen -t rsa -C ``"github注册邮箱"
 
 github配置的路径是：设置>ssh keys
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173817747-2067284804.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173817747-2067284804.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522173817747-2067284804.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173817747-2067284804.png)
 
 将id_rsa.pub文件内容复制到key中即可，配置成功后，如下所示：
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522174716773-440755689.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522174716773-440755689.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522174716773-440755689.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522174716773-440755689.png)
 
 ### 提交代码
 
@@ -306,7 +308,7 @@ github配置的路径是：设置>ssh keys
 
 操作如下所示：
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175154053-1079994801.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175154053-1079994801.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522175154053-1079994801.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175154053-1079994801.png)
 
 #### 提交暂存区到仓库区
 
@@ -314,7 +316,7 @@ github配置的路径是：设置>ssh keys
 
 操作如下所示：
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175227413-682458329.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175227413-682458329.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522175227413-682458329.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175227413-682458329.png)
 
 #### 连接远程仓库
 
@@ -322,7 +324,7 @@ github配置的路径是：设置>ssh keys
 
 操作如下所示：
 
-**[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175936775-728432202.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175936775-728432202.png)**
+**[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522175936775-728432202.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175936775-728432202.png)**
 
 #### 上传本地指定分支到远程仓库
 
@@ -330,6 +332,6 @@ github配置的路径是：设置>ssh keys
 
 操作如下所示：
 
-[![img](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522180101038-96789219.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522180101038-96789219.png)
+[![img](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522180101038-96789219.png)](https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522180101038-96789219.png)
 
 代码提交成功后，就可以在github中查看已提交的代码了。
