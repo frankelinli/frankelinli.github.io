@@ -4,7 +4,7 @@
         <title>富兰克林李 Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>富兰克林李 Blog</description>
-        <lastBuildDate>Thu, 21 Mar 2024 11:52:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Mar 2024 11:55:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Git -- git中本地与远程库的关联与取消]]></title>
             <link>https://frankelinli.github.io/blog/Git -- git中本地与远程库的关联与取消</link>
             <guid>https://frankelinli.github.io/blog/Git -- git中本地与远程库的关联与取消</guid>
-            <pubDate>Thu, 21 Mar 2024 11:52:49 GMT</pubDate>
+            <pubDate>Thu, 21 Mar 2024 11:55:57 GMT</pubDate>
             <description><![CDATA[1.在本地目录下关联远程repository ：]]></description>
             <content:encoded><![CDATA[<p>1.在本地目录下关联远程repository ：</p>
 <p>git remote add origin <a href="mailto:git@github.com" target="_blank" rel="noopener noreferrer">git@github.com</a>:git_username<!-- -->/repository_name.git</p>
@@ -23,7 +23,7 @@
             <title><![CDATA[docusaurus和腾讯云服务器的朴素沟通]]></title>
             <link>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</link>
             <guid>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</guid>
-            <pubDate>Thu, 21 Mar 2024 11:52:49 GMT</pubDate>
+            <pubDate>Thu, 21 Mar 2024 11:55:57 GMT</pubDate>
             <description><![CDATA[本地电脑，访问远程主机的localhost:3000]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="本地电脑，访问远程主机的localhost:3000的直接链接" title="本地电脑，访问远程主机的localhost:3000的直接链接">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@121.220.83.133</p>
@@ -101,21 +101,21 @@
             <title><![CDATA[docusaurus目前不适合做博客]]></title>
             <link>https://frankelinli.github.io/blog/docusaurus目前不适合做博客</link>
             <guid>https://frankelinli.github.io/blog/docusaurus目前不适合做博客</guid>
-            <pubDate>Thu, 21 Mar 2024 11:52:49 GMT</pubDate>
+            <pubDate>Thu, 21 Mar 2024 11:55:57 GMT</pubDate>
             <description><![CDATA[docusaurus目前不适合做博客。这是总结。docusaurus是为文档而生，不适合做博客。]]></description>
             <content:encoded><![CDATA[<p>docusaurus目前不适合做博客。这是总结。docusaurus是为文档而生，不适合做博客。</p>
 <p>用功能更丰富全面的hexo是最佳选择。</p>
 <hr>
 <p>折腾了以下hexo，是挺好用。但是会让我陷入折腾主题和页面外观的窘境。所以不用它了。因为折腾起来没完没了。</p>
 <p>不删除仓库了。反正免费服务空间。放这里瞻仰吧。</p>
-<p><a href="https://frankelinli.github.io/blog" target="_blank" rel="noopener noreferrer">frankelinle blog! | 富兰克林李 (frankelinli.github.io)</a></p>
+<p><a href="https://frankelinli.github.io/hexoBlog/" target="_blank" rel="noopener noreferrer">Hexo (frankelinli.github.io)</a></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="所以还是用回docusaurus"><strong>所以还是用回</strong>docusaurus。<a href="https://frankelinli.github.io/blog/docusaurus%E7%9B%AE%E5%89%8D%E4%B8%8D%E9%80%82%E5%90%88%E5%81%9A%E5%8D%9A%E5%AE%A2#%E6%89%80%E4%BB%A5%E8%BF%98%E6%98%AF%E7%94%A8%E5%9B%9Edocusaurus" class="hash-link" aria-label="所以还是用回docusaurus的直接链接" title="所以还是用回docusaurus的直接链接">​</a></h3>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[git命令操作合集简明版]]></title>
             <link>https://frankelinli.github.io/blog/git命令操作合集简明版</link>
             <guid>https://frankelinli.github.io/blog/git命令操作合集简明版</guid>
-            <pubDate>Thu, 21 Mar 2024 11:52:49 GMT</pubDate>
+            <pubDate>Thu, 21 Mar 2024 11:55:57 GMT</pubDate>
             <description><![CDATA[平时自己敲敲代码，使用Git命令也渐渐多了起来。使用起来的确很方便，今天来分享下Git基本概念和本地代码提交到github上的过程，很简单的，多操作几次就会了。]]></description>
             <content:encoded><![CDATA[<p>平时自己敲敲代码，使用Git命令也渐渐多了起来。使用起来的确很方便，今天来分享下Git基本概念和本地代码提交到github上的过程，很简单的，多操作几次就会了。</p>
 <h2></h2>
@@ -200,7 +200,7 @@
             <title><![CDATA[hugo]]></title>
             <link>https://frankelinli.github.io/blog/hugo</link>
             <guid>https://frankelinli.github.io/blog/hugo</guid>
-            <pubDate>Thu, 21 Mar 2024 11:52:49 GMT</pubDate>
+            <pubDate>Thu, 21 Mar 2024 11:55:57 GMT</pubDate>
             <description><![CDATA[尝试新的hugo?]]></description>
             <content:encoded><![CDATA[<p>尝试新的hugo?</p>]]></content:encoded>
         </item>
@@ -208,7 +208,7 @@
             <title><![CDATA[学会了用git]]></title>
             <link>https://frankelinli.github.io/blog/学会了用git</link>
             <guid>https://frankelinli.github.io/blog/学会了用git</guid>
-            <pubDate>Thu, 21 Mar 2024 11:52:49 GMT</pubDate>
+            <pubDate>Thu, 21 Mar 2024 11:55:57 GMT</pubDate>
             <description><![CDATA[原来菜鸟网站也是用WordPress做的]]></description>
             <content:encoded><![CDATA[<p>原来菜鸟网站也是用WordPress做的</p>]]></content:encoded>
         </item>
@@ -216,7 +216,7 @@
             <title><![CDATA[用python把多个pdf合并为一个PDF并自动添加书签]]></title>
             <link>https://frankelinli.github.io/blog/用python把多个pdf合并为一个PDF并自动添加书签</link>
             <guid>https://frankelinli.github.io/blog/用python把多个pdf合并为一个PDF并自动添加书签</guid>
-            <pubDate>Thu, 21 Mar 2024 11:52:49 GMT</pubDate>
+            <pubDate>Thu, 21 Mar 2024 11:55:57 GMT</pubDate>
             <description><![CDATA[这是以前的一个python小程序。假如文件夹下有5个PDF文件，他们的名字分别是：]]></description>
             <content:encoded><![CDATA[<p>这是以前的一个python小程序。假如文件夹下有5个PDF文件，他们的名字分别是：</p>
 <ol>
