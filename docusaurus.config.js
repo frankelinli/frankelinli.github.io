@@ -57,6 +57,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: '/',
           blogTitle: 'frankelinle blog!',
           blogDescription: 'A Docusaurus powered blog!',
           postsPerPage: 3,
