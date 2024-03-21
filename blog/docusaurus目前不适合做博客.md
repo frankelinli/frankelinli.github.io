@@ -8,7 +8,7 @@ docusaurus目前不适合做博客。这是总结。docusaurus是为文档而生
 
 不删除仓库了。反正免费服务空间。放这里瞻仰吧。
 
-[frankelinle blog! | 富兰克林李 (frankelinli.github.io)](https://frankelinli.github.io/blog)
+[Hexo (frankelinli.github.io)](https://frankelinli.github.io/hexoBlog/)
 
 
 
