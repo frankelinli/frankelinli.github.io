@@ -153,6 +153,13 @@ const config = {
           autoCollapseCategories: true,
         },
       },
+
+      //配置algolia站内搜索
+      algolia: {
+        apiKey: "da5dbf15a0bb70373141b416b521b462",
+        appId: "3ETERRHG23",
+        indexName: "frankelinliio",
+      },
       
       navbar: {
         title: 'Home',
