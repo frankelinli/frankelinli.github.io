@@ -156,7 +156,7 @@ const config = {
 
       //配置algolia站内搜索
       algolia: {
-        apiKey: "dd7698da292b502d6cce8ebd10fbc7c6",
+        apiKey: "dced5be745d68a46b6ed2ca641066617",
         appId: "3ETERRHG23",
         indexName: "frankelinliio",
       },
