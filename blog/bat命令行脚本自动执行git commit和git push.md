@@ -10,6 +10,10 @@ date: 2024-03-24 22:14
 2. git commit -m 'test xcfdf'
 3. git push
 
+<!-- truncate -->
+
+![image-20240324222044694](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240324222044694.png)
+
 ```bash
 @echo off
 chcp 65001 > nul
@@ -33,4 +37,3 @@ pause
 
 
 
-<!-- truncate -->
