@@ -35,7 +35,9 @@ echo Git 命令执行成功。
 pause
 ```
 
+批处理命令自动git push到GitHub，GitHub action自动执行deploy生成网页，哎呀，妈耶，过程太丝滑，全自动！
 
+写好博客后，点击以下这个批处理脚本，就万事大吉了！！！
 
 
 
