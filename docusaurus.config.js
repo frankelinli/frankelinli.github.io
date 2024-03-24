@@ -12,8 +12,8 @@ const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '富兰克林李',
-  tagline: '一生上进爱自由',
+  title: 'Frankelin Docs & BLog',
+  tagline: '道阻且长，行则将至；行而不辍，未来可期',
   favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
