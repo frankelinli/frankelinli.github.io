@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankelinli.github.io/blog</id>
-    <title>富兰克林李 Blog</title>
+    <title>Frankelin Docs &amp; BLog Blog</title>
     <updated>2024-03-24T22:14:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankelinli.github.io/blog"/>
-    <subtitle>富兰克林李 Blog</subtitle>
+    <subtitle>Frankelin Docs &amp; BLog Blog</subtitle>
     <icon>https://frankelinli.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[bat命令行脚本自动执行git commit和git push]]></title>
