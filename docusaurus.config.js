@@ -12,7 +12,7 @@ const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Frankelin Docs & BLog',
+  title: 'Frankelin Docs & Blog',
   tagline: '道阻且长，行则将至；行而不辍，未来可期',
   favicon: '/img/favicon.ico',
 
