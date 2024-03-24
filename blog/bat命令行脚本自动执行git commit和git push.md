@@ -14,7 +14,7 @@ date: 2024-03-24 22:14
 
 ![image-20240324222044694](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240324222044694.png)
 
-```bash
+``` bat
 @echo off
 chcp 65001 > nul
 echo 正在执行 Git 命令...
@@ -34,6 +34,8 @@ timeout /t 2
 echo Git 命令执行成功。
 pause
 ```
+
+
 
 
 
