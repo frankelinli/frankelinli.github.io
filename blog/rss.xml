@@ -4,15 +4,18 @@
         <title>富兰克林李 Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>富兰克林李 Blog</description>
-        <lastBuildDate>Sun, 24 Mar 2024 21:56:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Mar 2024 22:14:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <item>
-            <title><![CDATA[新建Markdown file]]></title>
-            <link>https://frankelinli.github.io/blog/新建Markdown file</link>
-            <guid>https://frankelinli.github.io/blog/新建Markdown file</guid>
-            <pubDate>Sun, 24 Mar 2024 21:56:00 GMT</pubDate>
+            <title><![CDATA[bat命令行脚本自动执行git commit和git push]]></title>
+            <link>https://frankelinli.github.io/blog/bat命令行脚本自动执行git commit和git push</link>
+            <guid>https://frankelinli.github.io/blog/bat命令行脚本自动执行git commit和git push</guid>
+            <pubDate>Sun, 24 Mar 2024 22:14:00 GMT</pubDate>
+            <description><![CDATA[用bat命令行脚本，自动执行git commit, git push。点击这个脚本，就可以自动运行了。chcp 65001 > nul是为了让终端显示中文，否则会乱码。]]></description>
+            <content:encoded><![CDATA[<p>用bat命令行脚本，自动执行git commit, git push。点击这个脚本，就可以自动运行了。<code>chcp 65001 &gt; nul</code>是为了让终端显示中文，否则会乱码。</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">@echo off</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">chcp 65001 &gt; nul</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo 正在执行 Git 命令...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo 添加更改到git...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">timeout /t 2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo 正在提交更改...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m "自动提交"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">timeout /t 2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo 正在推送更改到远程仓库...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">timeout /t 2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo Git 命令执行成功。</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pause</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[用python自动化生成Markdown文件的yml头部信息]]></title>
@@ -104,7 +107,7 @@
             <guid>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</guid>
             <pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[本地电脑，访问远程主机的localhost:3000]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="本地电脑，访问远程主机的localhost:3000的直接链接" title="本地��电脑，访问远程主机的localhost:3000的直接链接">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="本地电脑，访问远程主机的localhost:3000的直接链接" title="本地电脑，访问远程主机的localhost:3000的直接链接">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@121.220.83.133</p>
 <p>这个命令会将本地电脑的 <code>3000</code> 端口转发到远程主机上的 <code>localhost:3000</code> 端口。</p>
 <p>SSH 端口转发是一次性的，只要你关闭了终端窗口，端口转发就会自动停止。</p>
@@ -242,7 +245,7 @@
 <p>如图所示：</p>
 <p><a href="https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522173101981-604610275.png" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522173101981-604610275.png" alt="img" class="img_ev3q"></a></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="秘钥配置">秘钥配置<a href="https://frankelinli.github.io/blog/git%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C%E5%90%88%E9%9B%86%E7%AE%80%E6%98%8E%E7%89%88#%E7%A7%98%E9%92%A5%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="秘钥配置的直接链接" title="秘钥配置的直接链接">​</a></h3>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="生成秘钥">生成秘钥<a href="https://frankelinli.github.io/blog/git%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C%E5%90%88%E9%9B%86%E7%AE%80%E6%98%8E%E7%89%88#%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5" class="hash-link" aria-label="生成秘钥的直接链接" title="生成秘钥的直�接链接">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="生成秘钥">生成秘钥<a href="https://frankelinli.github.io/blog/git%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C%E5%90%88%E9%9B%86%E7%AE%80%E6%98%8E%E7%89%88#%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5" class="hash-link" aria-label="生成秘钥的直接链接" title="生成秘钥的直接链接">​</a></h4>
 <p>如何正常与github建立连接？就需要密码配置，生成秘钥命令如下：</p>
 <div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ssh-keygen -t rsa -C ``"github注册邮箱"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>操作如下所示：</p>
