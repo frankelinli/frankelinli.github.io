@@ -11,7 +11,7 @@ date: 2024-03-24 21:22
 
 <!-- truncate -->
 
-```python
+```python title="/auto creat markdown file and auto fill in yml.py"
 
 # 获取当前日期和时间
 current_datetime = datetime.datetime.now()

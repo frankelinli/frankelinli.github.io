@@ -14,7 +14,7 @@ date: 2024-03-24 22:14
 
 ![image-20240324222044694](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240324222044694.png)
 
-``` bat
+``` bat title='/auto git push.bat'
 @echo off
 chcp 65001 > nul
 echo 正在执行 Git 命令...
@@ -34,6 +34,8 @@ timeout /t 2
 echo Git 命令执行成功。
 pause
 ```
+
+
 
 批处理命令自动git push到GitHub，GitHub action自动执行deploy生成网页，哎呀，妈耶，过程太丝滑，全自动！
 
