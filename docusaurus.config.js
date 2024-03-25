@@ -13,7 +13,7 @@ const darkTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Frankelin Docs & Blog',
-  tagline: '道阻且长，行则将至；行而不辍，未来可期',
+  tagline: '道阻且长，行则将至',
   favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
@@ -159,6 +159,7 @@ const config = {
         apiKey: "20fb31de0c188cea29de98fcc11f1204",
         appId: "3ETERRHG23",
         indexName: "frankelinBlog",
+        contextualSearch: true,
       },
       
       navbar: {
