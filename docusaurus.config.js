@@ -59,7 +59,7 @@ const config = {
           showReadingTime: true,
           routeBasePath: '/blog',
           blogTitle: 'frankelinle blog!',
-          blogDescription: 'A Docusaurus powered blog!',
+          blogDescription: '个人博客和总结文档库!',
           postsPerPage: 3,
           blogSidebarCount: 10,
           // Please change this to your repo.
@@ -156,9 +156,9 @@ const config = {
 
       //配置algolia站内搜索
       algolia: {
-        apiKey: "dced5be745d68a46b6ed2ca641066617",
+        apiKey: "20fb31de0c188cea29de98fcc11f1204",
         appId: "3ETERRHG23",
-        indexName: "frankelinliio",
+        indexName: "frankelinBlog",
       },
       
       navbar: {
