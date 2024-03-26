@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1194],{8225:e=>{e.exports=JSON.parse('{"permalink":"/blog/page/5","page":5,"postsPerPage":3,"totalPages":5,"totalCount":13,"previousPage":"/blog/page/4","blogDescription":"\u4e2a\u4eba\u535a\u5ba2\u548c\u603b\u7ed3\u6587\u6863\u5e93!","blogTitle":"frankelinle blog!"}')}}]);

@@ -4,15 +4,35 @@
         <title>Frankelin Docs &amp; Blog Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>Frankelin Docs &amp; Blog Blog</description>
-        <lastBuildDate>Tue, 26 Mar 2024 20:13:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Mar 2024 22:53:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
+        <item>
+            <title><![CDATA[建设网站的成本记录]]></title>
+            <link>https://frankelinli.github.io/blog/建设网站的成本记录</link>
+            <guid>https://frankelinli.github.io/blog/建设网站的成本记录</guid>
+            <pubDate>Tue, 26 Mar 2024 22:53:00 GMT</pubDate>
+            <description><![CDATA[1. 购买docy主题50￥]]></description>
+            <content:encoded><![CDATA[<ol>
+<li>购买docy主题50￥</li>
+<li>购买eazydoc插件60￥</li>
+<li>购买elementor pro分销 100￥</li>
+</ol>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[2023年3月26号]]></title>
             <link>https://frankelinli.github.io/blog/2023年3月26号</link>
             <guid>https://frankelinli.github.io/blog/2023年3月26号</guid>
             <pubDate>Tue, 26 Mar 2024 20:13:00 GMT</pubDate>
+            <description><![CDATA[突破100个粉丝！]]></description>
+            <content:encoded><![CDATA[<p>突破100个粉丝！</p>
+<p>加油！每天有个期待了。虽然不是什么大事。也是个渺渺众生中一个小人物的一点小小的悲喜。</p>
+<p><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240326232204573.png" alt="image-20240326232204573" class="img_ev3q"></p>
+<p>我的文字可以传递个100个人。虽然这100个人并不一定都看。</p>
+<p>Python伟大，CMD命令行也挺好用。有些工作，电脑自带的cmd命令行也挺好用。只是没有python那么系统化。所以python不是凭空来的，它的出现，也是在cmd基础上的。</p>
+<p>用VBA同样能实现同样的功能。只是总体而言，实现同一个功能的情况下，Python最简单，最快捷，最方便。</p>
+<p>估计今天不会再涨粉了。谢谢各位看官大佬门。虽然我不会再公众号直接给你们发信息。没必要打扰粉丝们。大家只默默的守护者就好。我写的你喜欢看，那就足够了！在这里写的，估计粉丝们也看不到。即使看到，也是几年以后的事情。</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[2024年3月25号]]></title>
@@ -38,8 +58,7 @@
 <hr>
 <p>什么？你觉得静态网站生成器，每次都要 npm build然后上传，这个过程比较low？人家GitHub都没解决而是积极拥抱的事情，你要瞎操心？！！！</p>
 <p>静态网站就是快！！！有利有弊！！没有十全十美！！！敢号称“十全”的只有乾隆。你没有乾隆的0.0000000000000000000000000000000000001%，就不要妄想十全了！</p>
-<p>有个静态博客，有个免费的GitHub，让你免费做空间，就很好了。！！！别在奢求了！！！</p>
-<p>人心不足蛇吞象！！</p>]]></content:encoded>
+<p>有个静态博客，有个免费的GitHub，让你免费做空间，就很好了。！！！别在奢求了！！！</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[提前还房贷]]></title>
@@ -119,7 +138,7 @@
             <guid>https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通</guid>
             <pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[本地电脑，访问远程主机的localhost:3000]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="本地电脑，访问远程主机的localhost:3000的直接链接" title="本地电脑，访问远程主机的localhost:3000的直接链接">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="本地电�脑，访问远程主机的localhost:3000的直接链接" title="本地电脑，访问远程主机的localhost:3000的直接链接">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@121.220.83.133</p>
 <p>这个命令会将本地电脑的 <code>3000</code> 端口转发到远程主机上的 <code>localhost:3000</code> 端口。</p>
 <p>SSH 端口转发是一次性的，只要你关闭了终端窗口，端口转发就会自动停止。</p>
