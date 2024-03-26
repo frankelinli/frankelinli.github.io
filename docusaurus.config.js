@@ -84,17 +84,17 @@ const config = {
   plugins: [
     'docusaurus-plugin-image-zoom', //图片放大缩小插件
     '@docusaurus/theme-live-codeblock', //实时呈现代码插件
-    // //doc2文档
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'docusaurus-test',
-    //     path: 'docs/docusaurus-test',
-    //     routeBasePath: '',
-    //     sidebarPath: require.resolve('./sidebars.js'),
-    //     breadcrumbs: true,
-    //   }, 
-    // ],    
+    //VBA文档
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'VBA',
+        path: 'docs/VBA',
+        routeBasePath: 'VBA',
+        sidebarPath: require.resolve('./sidebars.js'),
+        breadcrumbs: true,
+      }, 
+    ],    
 
     //测试用，index.js首页没有添加卡片连接，需要手动在地址栏里输入
     [

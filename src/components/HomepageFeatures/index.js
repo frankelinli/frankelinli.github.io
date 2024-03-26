@@ -5,14 +5,14 @@ import styles from './styles.module.css';
 const FeatureList = [
     
   {
-    title: '梅',
-    imgSrc: 'https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/23422_138de.jpg',
+    title: '',
+    imgSrc: '/img/VBA-logo.png',
     description: (
       <>
-        文档预留
+        VBA是我接触的第一个编程语言，惊为天人。学会了自动化操作excel、word。从此步入编程的精彩世界
       </>
     ),
-    to:'doc1'
+    to:'VBA'  //指向docs里的VBA文件夹
   },
 
   {
