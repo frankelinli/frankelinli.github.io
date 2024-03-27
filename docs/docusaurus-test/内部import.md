@@ -1,3 +1,6 @@
+---
+date: 2024-03-27 16:01
+---
 在任意文件夹下的任意页面，可以引入DocCardList组件
 
 ```jsx title='docs/sidebar/index.md'
