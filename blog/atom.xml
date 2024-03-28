@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankelinli.github.io/blog</id>
     <title>Frankelin Docs &amp; Blog Blog</title>
-    <updated>2024-03-27T16:03:00.000Z</updated>
+    <updated>2024-03-28T21:37:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankelinli.github.io/blog"/>
     <subtitle>Frankelin Docs &amp; Blog Blog</subtitle>
     <icon>https://frankelinli.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[20240328]]></title>
+        <id>https://frankelinli.github.io/blog/20240328</id>
+        <link href="https://frankelinli.github.io/blog/20240328"/>
+        <updated>2024-03-28T21:37:00.000Z</updated>
+        <summary type="html"><![CDATA[我记得每天睡觉前最后一个关注的粉丝。]]></summary>
+        <content type="html"><![CDATA[<p>我记得每天睡觉前最后一个关注的粉丝。</p>
+<p>目前的总的总结是:</p>
+<p>是我觉得有价值的，没人看，</p>
+<p>我觉得是没意思的，是大批量转发</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[用python给Markdown文件批量添加头部yaml信息]]></title>
         <id>https://frankelinli.github.io/blog/用python给Markdown文件批量添加头部yaml信息</id>
@@ -161,7 +172,7 @@
         <link href="https://frankelinli.github.io/blog/docusaurus和腾讯云服务器的朴素沟通"/>
         <updated>2024-03-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[本地电脑，访问远程主机的localhost:3000]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="本地电脑，访问远程主机的localhost:3000的直�接链接" title="本地电脑，访问远程主机的localhost:3000的直接链接">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="本地电脑访问远程主机的localhost3000">本地电脑，访问远程主机的localhost:3000<a href="https://frankelinli.github.io/blog/docusaurus%E5%92%8C%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%9C%B4%E7%B4%A0%E6%B2%9F%E9%80%9A#%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E8%AE%BF%E9%97%AE%E8%BF%9C%E7%A8%8B%E4%B8%BB%E6%9C%BA%E7%9A%84localhost3000" class="hash-link" aria-label="本地电脑，访问远程主机的localhost:3000的直接链接" title="本地电脑，访问远程主机的localhost:3000的直接链接">​</a></h3>
 <p>ssh -L 3000:localhost:3000 root@121.220.83.133</p>
 <p>这个命令会将本地电脑的 <code>3000</code> 端口转发到远程主机上的 <code>localhost:3000</code> 端口。</p>
 <p>SSH 端口转发是一次性的，只要你关闭了终端窗口，端口转发就会自动停止。</p>
