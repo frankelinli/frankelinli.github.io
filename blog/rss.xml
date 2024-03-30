@@ -4,10 +4,39 @@
         <title>Frankelin Docs &amp; Blog Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>Frankelin Docs &amp; Blog Blog</description>
-        <lastBuildDate>Thu, 28 Mar 2024 21:37:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 Mar 2024 12:07:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
+        <item>
+            <title><![CDATA[WordPress主题代码改动记录]]></title>
+            <link>https://frankelinli.github.io/blog/WordPress主题代码改动记录</link>
+            <guid>https://frankelinli.github.io/blog/WordPress主题代码改动记录</guid>
+            <pubDate>Sat, 30 Mar 2024 12:07:00 GMT</pubDate>
+            <description><![CDATA[这里记录下来对WordPress代码的改动。以备使用。]]></description>
+            <content:encoded><![CDATA[<p>这里记录下来对WordPress代码的改动。以备使用。</p>
+<ol>
+<li>
+<p>要使博客头部不显示特色图像（feature image），你需要删除以下代码：</p>
+<p>docy/single.php</p>
+<div class="language-php codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-php codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">the_post_thumbnail('full', array( 'class' =&gt; 'mb-4 featured-image' ) );</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li></li>
+</ol>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2023年3月29号]]></title>
+            <link>https://frankelinli.github.io/blog/2023年3月29号</link>
+            <guid>https://frankelinli.github.io/blog/2023年3月29号</guid>
+            <pubDate>Fri, 29 Mar 2024 16:40:00 GMT</pubDate>
+            <description><![CDATA[小学【成绩等级的最新登记要求】]]></description>
+            <content:encoded><![CDATA[<p>小学【成绩等级的最新登记要求】
+A+（95-100） A（90-94） A-（85-89）
+B+（80-84）  B（75-79）
+C+（70-74）</p>
+<p>网站MySQL服务总是自动停止。不省心。不过别放弃。没有简单的事情。</p>
+<p>刷抖音、看电视，简单，但是那不叫“事情”。 如果你发抖音，制作电视，那才叫“事情”。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[20240328]]></title>
             <link>https://frankelinli.github.io/blog/20240328</link>
@@ -17,7 +46,12 @@
             <content:encoded><![CDATA[<p>我记得每天睡觉前最后一个关注的粉丝。</p>
 <p>目前的总的总结是:</p>
 <p>是我觉得有价值的，没人看，</p>
-<p>我觉得是没意思的，是大批量转发</p>]]></content:encoded>
+<p>我觉得是没意思的，是大批量转发</p>
+<p>领导在“可与不可”之间认可了我，给了我机会。想要送点礼。却不知如何去做。<!-- -->😢</p>
+<hr>
+<p>决定不要陷入粉丝增长的焦虑当中了。增长，减少，不要太关注！不然会走火入魔。</p>
+<p>主要还是要创作内容。</p>
+<p>12:30凌晨半夜还增加了一个粉丝。谢谢您！</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[用python给Markdown文件批量添加头部yaml信息]]></title>
@@ -42,7 +76,10 @@
             <pubDate>Wed, 27 Mar 2024 15:19:00 GMT</pubDate>
             <description><![CDATA[2018年就开通了公众号。当时写了3片文章，被永久封禁了。没给原因，没给解释，无理由，没有申诉渠道。直接永久封禁。而且占用名下一个账号的位置。也无法柱销。]]></description>
             <content:encoded><![CDATA[<p>2018年就开通了公众号。当时写了3片文章，被永久封禁了。没给原因，没给解释，无理由，没有申诉渠道。直接永久封禁。而且占用名下一个账号的位置。也无法柱销。</p>
-<p>因此，现在写公众号有点怕怕的。担心精心写的文章被无理由永久封禁，而且不给犯错误的机会。</p>]]></content:encoded>
+<p>因此，现在写公众号有点怕怕的。担心精心写的文章被无理由永久封禁，而且不给犯错误的机会。</p>
+<hr>
+<p>$$</p>
+<p>$$</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[建设网站的成本记录]]></title>
