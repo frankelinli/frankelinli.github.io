@@ -16,7 +16,7 @@ ChatGPT回答：
 
 下面是一个使用VBA在文件夹中批量添加日期和时间的示例代码：
 
-```vba
+```vb
 Sub AddDateTimeToFiles()
     Dim FolderPath As String
     Dim FileExtension As String
