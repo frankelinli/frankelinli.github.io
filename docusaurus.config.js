@@ -38,7 +38,15 @@ const config = {
   i18n: {
     defaultLocale: 'zh', //即使不用多语言网站，设置这个zh，可以是docusaurus页面呈现中文UI；
     locales: ['zh'], //这个数组填写多个语言，npm run build就会生成多个语言的文件
-  },  
+  },
+  
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4116228001844410',
+      async: true,
+      crossorigin: "anonymous",
+    },
+  ],
  
   presets: [
     [
