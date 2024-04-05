@@ -9,7 +9,7 @@ custom_edit_url:
 
 
 
-```
+```yaml
 - name: Install dependencies
     run: npm ci
   - name: Build website

@@ -27,7 +27,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.2.1",
-    "@docusaurus/types": "^3.2.1"
+    "@docusaurus/types": "^3.2.1",
+    "css-minimizer-webpack-plugin": "^6.0.0"
   },
   "browserslist": {
     "production": [
@@ -42,6 +43,6 @@
     ]
   },
   "engines": {
-    "node": ">=16.0"
+    "node": ">=18.0"
   }
 }
