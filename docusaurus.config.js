@@ -73,6 +73,7 @@ const config = {
           blogDescription: '个人博客和总结文档库!',
           postsPerPage: 3,
           blogSidebarCount: 10,
+          showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
