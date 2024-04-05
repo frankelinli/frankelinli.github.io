@@ -10,7 +10,7 @@ echo ********************正在构建 npm run build...********************
 call npm run build
 
 echo *******正在将build目录中的所有内容复制到远程服务器网站根目录mart...*******
-scp -r ./build/* root@111.230.81.144:/www/wwwroot/www.csrwiki.com/docu
+scp -r ./build/* root@111.230.81.144:/www/wwwroot/www.abcfed.com/docu
 
 echo *******复制完成！*******
 
