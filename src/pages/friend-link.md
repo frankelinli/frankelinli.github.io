@@ -8,3 +8,6 @@
 4. [RBA COC行为准则 – CSR Wiki](https://csrwiki.com/docs/rba/coc/)
 5. [roc 云原生 (imroc.cc)](https://imroc.cc/)
 6. [意大利临阵倒戈，欧盟的供应链社会责任验厂法案又起死回生了？ – CSR Wiki](https://csrwiki.com/eu-supply-chain-audit-law-come-back/)
+7. [使用Github Action 部署项目到云服务器 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/107545396)
+8. [博客的搭建与部署 | C01day](https://www.c01day.com/post/2021/08/08/博客的搭建与部署/)
+9. [About - Xiaohan Zou (zxh.io)](https://zxh.io/)
