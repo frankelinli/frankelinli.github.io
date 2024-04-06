@@ -17,7 +17,6 @@ date: 2024-04-06 03:00
 
 ![image-20240406040603928](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240406040603928.png)
 
-<<<<<<< HEAD
 :+1:完美实现我想要的功能。
 
 ## `enableUpdateTime` 选项启用最后更新日期DD/MM/YYYY功能。但是，该值对于每个页面都是相同的？如何解决？
