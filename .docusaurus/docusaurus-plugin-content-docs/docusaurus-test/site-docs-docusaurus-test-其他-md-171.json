@@ -1,0 +1,27 @@
+{
+  "id": "其他",
+  "title": "其他",
+  "description": "docusaurus.config.js",
+  "source": "@site/docs/docusaurus-test/其他.md",
+  "sourceDirName": ".",
+  "slug": "/其他",
+  "permalink": "/docusaurus-test/其他",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/其他.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1711541851000,
+  "frontMatter": {
+    "date": "2024-03-27 16:01"
+  },
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "使用github action自动执行发布网站",
+    "permalink": "/docusaurus-test/使用github action自动执行发布网站"
+  },
+  "next": {
+    "title": "内部import",
+    "permalink": "/docusaurus-test/内部import"
+  }
+}

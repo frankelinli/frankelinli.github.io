@@ -1,0 +1,25 @@
+{
+  "id": "assests 外部资源/pdf",
+  "title": "pdf",
+  "description": "",
+  "source": "@site/docs/docusaurus-test/assests 外部资源/pdf.md",
+  "sourceDirName": "assests 外部资源",
+  "slug": "/assests 外部资源/pdf",
+  "permalink": "/docusaurus-test/assests 外部资源/pdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/assests 外部资源/pdf.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1710788394000,
+  "frontMatter": {},
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "html文件",
+    "permalink": "/docusaurus-test/assests 外部资源/html文件"
+  },
+  "next": {
+    "title": "docusaurus建站和维护的知识点",
+    "permalink": "/docusaurus-test/docusaurus建站和维护的知识点"
+  }
+}

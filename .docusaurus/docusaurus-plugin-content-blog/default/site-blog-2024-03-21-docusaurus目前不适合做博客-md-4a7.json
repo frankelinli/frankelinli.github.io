@@ -1,0 +1,25 @@
+{
+  "permalink": "/blog/2024/03/21/docusaurus目前不适合做博客",
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/blog/2024/03-21-docusaurus目前不适合做博客.md",
+  "source": "@site/blog/2024/03-21-docusaurus目前不适合做博客.md",
+  "title": "docusaurus目前不适合做博客",
+  "description": "docusaurus目前不适合做博客。这是总结。docusaurus是为文档而生，不适合做博客。",
+  "date": "2024-03-21T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.585,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "date": "2024-03-21T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "lastUpdatedAt": 1712347586000,
+  "prevItem": {
+    "title": "用python自动化生成Markdown文件的yml头部信息",
+    "permalink": "/blog/2024/03/24/用python自动化生成Markdown文件的yml头部信息"
+  },
+  "nextItem": {
+    "title": "用python把多个pdf合并为一个PDF并自动添加书签",
+    "permalink": "/blog/2024/03/20/用python把多个pdf合并为一个PDF并自动添加书签"
+  }
+}

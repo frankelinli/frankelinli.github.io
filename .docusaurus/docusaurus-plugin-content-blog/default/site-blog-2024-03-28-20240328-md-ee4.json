@@ -1,0 +1,25 @@
+{
+  "permalink": "/blog/2024/03/28/20240328",
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/blog/2024/03-28-20240328.md",
+  "source": "@site/blog/2024/03-28-20240328.md",
+  "title": "20240328",
+  "description": "我记得每天睡觉前最后一个关注的粉丝。",
+  "date": "2024-03-28T21:37:00.000Z",
+  "tags": [],
+  "readingTime": 0.715,
+  "hasTruncateMarker": true,
+  "authors": [],
+  "frontMatter": {
+    "date": "2024-03-28 21:37"
+  },
+  "unlisted": false,
+  "lastUpdatedAt": 1712347586000,
+  "prevItem": {
+    "title": "3月29号",
+    "permalink": "/blog/2024/03/29/3月29号"
+  },
+  "nextItem": {
+    "title": "用python给Markdown文件批量添加头部yaml信息",
+    "permalink": "/blog/2024/03/27/用python给Markdown文件批量添加头部yaml信息"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "permalink": "/blog/2024/03/27/写公众号的烦恼",
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/blog/2024/03-27-写公众号的烦恼.md",
+  "source": "@site/blog/2024/03-27-写公众号的烦恼.md",
+  "title": "写公众号的烦恼",
+  "description": "2018年就开通了公众号。当时写了3片文章，被永久封禁了。没给原因，没给解释，无理由，没有申诉渠道。直接永久封禁。而且占用名下一个账号的位置。也无法柱销。",
+  "date": "2024-03-27T15:19:00.000Z",
+  "tags": [],
+  "readingTime": 0.54,
+  "hasTruncateMarker": true,
+  "authors": [],
+  "frontMatter": {
+    "date": "2024-03-27 15:19"
+  },
+  "unlisted": false,
+  "lastUpdatedAt": 1712347586000,
+  "prevItem": {
+    "title": "用python给Markdown文件批量添加头部yaml信息",
+    "permalink": "/blog/2024/03/27/用python给Markdown文件批量添加头部yaml信息"
+  },
+  "nextItem": {
+    "title": "建设网站的成本流水账",
+    "permalink": "/blog/2024/03/26/建设网站的成本流水账"
+  }
+}

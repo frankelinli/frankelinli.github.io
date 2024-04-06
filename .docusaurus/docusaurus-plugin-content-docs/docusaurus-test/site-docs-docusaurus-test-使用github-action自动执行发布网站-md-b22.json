@@ -1,0 +1,27 @@
+{
+  "id": "使用github action自动执行发布网站",
+  "title": "使用github action自动执行发布网站",
+  "description": "---",
+  "source": "@site/docs/docusaurus-test/使用github action自动执行发布网站.md",
+  "sourceDirName": ".",
+  "slug": "/使用github action自动执行发布网站",
+  "permalink": "/docusaurus-test/使用github action自动执行发布网站",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/使用github action自动执行发布网站.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1712338418000,
+  "frontMatter": {
+    "date": "2024-03-27 16:01"
+  },
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "代码实时展现",
+    "permalink": "/docusaurus-test/代码实时展现"
+  },
+  "next": {
+    "title": "其他",
+    "permalink": "/docusaurus-test/其他"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "把docusaurus一键发布到腾讯云服务器上",
+  "title": "把docusaurus一键发布到腾讯云服务器上",
+  "description": "通过一个批处理命令，把docusaurus自动构建、自动发布到腾讯云空间，也就说，写完文章后，只要点击这个bat命令文件，就可以自动发布成网页的功能。",
+  "source": "@site/docs/docusaurus-test/把docusaurus一键发布到腾讯云服务器上.md",
+  "sourceDirName": ".",
+  "slug": "/把docusaurus一键发布到腾讯云服务器上",
+  "permalink": "/docusaurus-test/把docusaurus一键发布到腾讯云服务器上",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/把docusaurus一键发布到腾讯云服务器上.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1712335287000,
+  "frontMatter": {},
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "如何多开docs实例",
+    "permalink": "/docusaurus-test/如何多开docs实例"
+  },
+  "next": {
+    "title": "标题下面插入广告",
+    "permalink": "/docusaurus-test/标题下面插入广告"
+  }
+}
