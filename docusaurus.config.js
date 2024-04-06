@@ -103,7 +103,7 @@ const config = {
         id: 'VBA',
         path: 'docs/VBA',
         routeBasePath: 'VBA',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: require.resolve('./vbaSidebar.js'),
         breadcrumbs: true,
       }, 
     ],    

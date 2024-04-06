@@ -5,7 +5,7 @@ date: 2024-04-06 03:00
 
 建站容易，维护难。记录一些知识点。
 
-## 如何让blog的网址像这个结构？
+### 如何让blog的网址像这个结构？
 
 > http://localhost:3000/blog/2024/04/01/2024年4月1号
 
@@ -19,7 +19,7 @@ date: 2024-04-06 03:00
 
 :+1:完美实现我想要的功能。
 
-## `enableUpdateTime` 选项启用最后更新日期DD/MM/YYYY功能。但是，该值对于每个页面都是相同的？如何解决？
+### `enableUpdateTime` 选项启用最后更新日期DD/MM/YYYY功能。但是，该值对于每个页面都是相同的？如何解决？
 
 最后一次更新日期是查看文件的Git历史计算出来的。
 
@@ -47,3 +47,36 @@ git commit -m 'update .gitignore'
 
 git push
 ```
+
+
+
+### 给docusaurus站点添加Google adsense广告
+
+1. https://www.google.com/adsense  在google里设置好，获取google adsense广告代码。复制代码。
+
+2. 在docusaurus.config配置文件里，把adsense广告代码，添加进去：
+   ``` json
+     scripts: [
+       // // String format.
+       // 'https://docusaurus.io/script.js',
+       // Object format.
+       {
+         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-41162283436784234310',
+         async: true,
+         crossorigin: "anonymous"
+       },
+     ],
+   ```
+
+   :::tip
+
+   要把获得的google adsense广告代码稍微修改.如上面config配置。
+
+   :::
+
+### 修改Sidebar.js后，localhost不会实时呈现。需要关闭，重新npm start后，才能看到效果。
+
+
+
+
+
