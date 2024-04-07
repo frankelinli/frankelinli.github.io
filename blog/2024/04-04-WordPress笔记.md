@@ -2,11 +2,7 @@
 date: 2024-04-04 20:54
 ---
 
-## require __DIR__ . '/wp-blog-header.php';这个什么意思
-
-
-
-
+### require __DIR__ . '/wp-blog-header.php';这个什么意思
 
 这行代码的意思是：**使用 `require` 函数载入 `wp-blog-header.php` 文件**。
 
@@ -29,3 +25,12 @@ date: 2024-04-04 20:54
 
 
 <!-- truncate -->
+
+### 要使博客头部不显示特色图像（feature image），你需要删除以下代码：
+
+docy/single.php
+
+```php
+the_post_thumbnail('full', array( 'class' => 'mb-4 featured-image' ) );
+```
+

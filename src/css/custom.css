@@ -30,6 +30,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* 给全站h1标题添加下划线 */
+h1 {
+  border-bottom: 1px dashed #e4131e;
+}
 
 
 /*navbar链接，鼠标悬停时，下划线*/

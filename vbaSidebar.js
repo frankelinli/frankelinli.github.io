@@ -18,7 +18,7 @@ const sidebars = {
 
     {
       type: 'html',
-      value: '<img src="img/VBA-logo.png" />', // The HTML to be rendered
+      value: '<img src="img/VBA-logo.png" /> <hr>', // The HTML to be rendered
       defaultStyle: true, // Use the default menu item styling
     },
 

@@ -96,7 +96,7 @@ const config = {
   plugins: [
     'docusaurus-plugin-image-zoom', //图片放大缩小插件
     '@docusaurus/theme-live-codeblock', //实时呈现代码插件
-    //VBA文档
+    //VBA文档库
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -108,7 +108,7 @@ const config = {
       }, 
     ],    
 
-    //测试用，index.js首页没有添加卡片连接，需要手动在地址栏里输入
+    //docusaurus-test库
     [
       '@docusaurus/plugin-content-docs',
       {
