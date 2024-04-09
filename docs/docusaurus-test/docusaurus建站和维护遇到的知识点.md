@@ -5,7 +5,7 @@ date: 2024-04-06 03:00
 
 建站容易，维护难。记录一些知识点。
 
-### 如何让blog的网址像这个结构？
+### 设置docusaurus blog的网址结构
 
 > http://localhost:3000/blog/2024/04/01/2024年4月1号
 
@@ -19,7 +19,11 @@ date: 2024-04-06 03:00
 
 :+1:完美实现我想要的功能。
 
-### `enableUpdateTime` 选项启用最后更新日期DD/MM/YYYY功能。但是，该值对于每个页面都是相同的？如何解决？
+
+
+### `enableUpdateTime`最近更新日期
+
+enableUpdateTime选项启用最后更新日期DD/MM/YYYY功能。但是，该值对于每个页面都是相同的？如何解决？
 
 最后一次更新日期是查看文件的Git历史计算出来的。
 
@@ -32,7 +36,9 @@ steps:
         fetch-depth: 0
 ```
 
-### 突然遇到.gitignore失效了，把.docusaurus, node-moulde都上传到GitHub了。如何解决？
+### .gitignore失效
+
+突然遇到.gitignore失效了，把.docusaurus, node-moulde都上传到GitHub了。如何解决？
 
 在项目开发过程中个，一般都会添加 .gitignore 文件，规则很简单，但有时会发现，规则不生效。
 原因是 .gitignore 只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。
@@ -74,9 +80,21 @@ git push
 
    :::
 
-### 修改Sidebar.js后，localhost不会实时呈现。需要关闭，重新npm start后，才能看到效果。
+### 修改Sidebar.js后要重启
+
+修改Sidebar.js后，localhost不会实时呈现。需要关闭，重新npm start后，才能看到效果。
 
 
 
+### 不要轻易升级docusaurus
 
+:::danger
+**等到docusaurus 4的时候再升级！其他不要动。否则浪费时间。**
+
+太浪费时间！！
+
+不要轻易升级！！！
+
+官网说的很轻松，实际很多坑！
+::::
 

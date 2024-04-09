@@ -36,6 +36,10 @@ h1 {
 }
 
 
+h2, h3, h4, h5, h6 {
+  color: green;
+}
+
 /*navbar链接，鼠标悬停时，下划线*/
 .navbar a:hover,
 .navbar a.active {
