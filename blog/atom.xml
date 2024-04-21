@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankelinli.github.io/blog</id>
     <title>Frankelin Docs &amp; Blog Blog</title>
-    <updated>2024-04-09T18:22:00.000Z</updated>
+    <updated>2024-04-21T23:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankelinli.github.io/blog"/>
     <subtitle>Frankelin Docs &amp; Blog Blog</subtitle>
     <icon>https://frankelinli.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[第一次做头等舱]]></title>
+        <id>https://frankelinli.github.io/blog/2024/04/21/第一次做头等舱</id>
+        <link href="https://frankelinli.github.io/blog/2024/04/21/第一次做头等舱"/>
+        <updated>2024-04-21T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[因为买不到票，第一次做头等舱，8000多的价格。有种VIP的感觉！]]></summary>
+        <content type="html"><![CDATA[<p>因为买不到票，第一次做头等舱，8000多的价格。有种VIP的感觉！</p>
+<p>有菜单，可以点菜。有小蛋糕，茶点、酒水。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[禁止折腾！]]></title>
+        <id>https://frankelinli.github.io/blog/2024/04/12/禁止折腾！</id>
+        <link href="https://frankelinli.github.io/blog/2024/04/12/禁止折腾！"/>
+        <updated>2024-04-12T22:19:00.000Z</updated>
+        <summary type="html"><![CDATA[不要再折腾插件、主题了！！费力不讨好！投入时间和金钱，没产出！]]></summary>
+        <content type="html"><![CDATA[<p>不要再折腾插件、主题了！！费力不讨好！投入时间和金钱，没产出！</p>
+<p>化繁为简！大道至简。</p>
+<p>去掉spetra插件。用尽量少的插件来运营，以便提高网速。</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[python猜数字游戏源码]]></title>
+        <id>https://frankelinli.github.io/blog/2024/04/10/python猜数字游戏源码</id>
+        <link href="https://frankelinli.github.io/blog/2024/04/10/python猜数字游戏源码"/>
+        <updated>2024-04-10T01:33:00.000Z</updated>
+        <summary type="html"><![CDATA[这是python猜数字游戏的源代码，非常加单。可以学习。]]></summary>
+        <content type="html"><![CDATA[<p>这是python猜数字游戏的源代码，非常加单。可以学习。</p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> random</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Welcome to the guessing game!"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Generate a random number between 1 and 100</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">secret_number </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> random</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">randint</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">100</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">while</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">True</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token comment" style="color:#999988;font-style:italic"># Get a guess from the player</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    guess </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token builtin">int</span><span class="token punctuation" style="color:#393A34">(</span><span class="token builtin">input</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Enter a number between 1 and 100: "</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token comment" style="color:#999988;font-style:italic"># Check if the guess is correct</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">if</span><span class="token plain"> guess </span><span class="token operator" style="color:#393A34">==</span><span class="token plain"> secret_number</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"You guessed it! The secret number was {}"</span><span class="token punctuation" style="color:#393A34">.</span><span class="token builtin">format</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">secret_number</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword" style="color:#00009f">break</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">elif</span><span class="token plain"> guess </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain"> secret_number</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Your guess is too low"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">else</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Your guess is too high"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[人情世故]]></title>
         <id>https://frankelinli.github.io/blog/2024/04/09/人情世故</id>
@@ -26,8 +54,11 @@
 <hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="今天犯的错误">今天犯的错误：<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E4%BB%8A%E5%A4%A9%E7%8A%AF%E7%9A%84%E9%94%99%E8%AF%AF" class="hash-link" aria-label="今天犯的错误：的直接链接" title="今天犯的错误：的直接链接">​</a></h3>
 <p>跟同事谈论代码，说自己写的代码有点乱凿凿，？！不要自曝其短好不好？这样会被小人利用。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="今天的小成就">今天的小成就：<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E4%BB%8A%E5%A4%A9%E7%9A%84%E5%B0%8F%E6%88%90%E5%B0%B1" class="hash-link" aria-label="今天的小成就：的直接链接" title="今天的小成就：的直接链接">​</a></h2>
-<p>组织小组团建，邀请小组同事团建也有点小小的技巧。如何巧妙的说话，如何巧妙的借势，如何巧妙的邀请到小组同事。</p>]]></content>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="今天的小成就">今天的小成就：<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E4%BB%8A%E5%A4%A9%E7%9A%84%E5%B0%8F%E6%88%90%E5%B0%B1" class="hash-link" aria-label="今天的小成就：的直接链接" title="今天的小成就：的直接链接">​</a></h3>
+<p>组织小组团建，邀请小组同事团建也有点小小的技巧。如何巧妙的说话，如何巧妙的借势，如何巧妙的邀请到小组同事。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="反着说话">反着说话<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E5%8F%8D%E7%9D%80%E8%AF%B4%E8%AF%9D" class="hash-link" aria-label="反着说话的直接链接" title="反着说话的直接链接">​</a></h3>
+<p>不要说你自己的意见是如何如何，而是要说情势所迫，不得不如此。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="瘦田无人耕耕了有人争">瘦田无人耕，耕了有人争<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E7%98%A6%E7%94%B0%E6%97%A0%E4%BA%BA%E8%80%95%E8%80%95%E4%BA%86%E6%9C%89%E4%BA%BA%E4%BA%89" class="hash-link" aria-label="瘦田无人耕，耕了有人争的直接链接" title="瘦田无人耕，耕了有人争的直接链接">​</a></h3>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[WordPress笔记]]></title>
@@ -411,7 +442,7 @@ C+（70-74）</p>
 <p>使用命令<strong>git remote add origin <a href="https://github.com/%E7%94%A8%E6%88%B7%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D.git" target="_blank" rel="noopener noreferrer">https://github.com/用户名/仓库名.git</a></strong></p>
 <p>操作如下所示：</p>
 <p><strong><a href="https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175936775-728432202.png" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522175936775-728432202.png" alt="img" class="img_ev3q"></a></strong></p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="上传本地指定分支到远程仓库">上传本地指定分支到远程仓库<a href="https://frankelinli.github.io/blog/2024/03/18/git%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C%E5%90%88%E9%9B%86%E7%AE%80%E6%98%8E%E7%89%88#%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%8C%87%E5%AE%9A%E5%88%86%E6%94%AF%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93" class="hash-link" aria-label="上传本地指定分支到远程仓库的��直接链接" title="上传本地指定分支到远程仓库的直接链接">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="上传本地指定分支到远程仓库">上传本地指定分支到远程仓库<a href="https://frankelinli.github.io/blog/2024/03/18/git%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C%E5%90%88%E9%9B%86%E7%AE%80%E6%98%8E%E7%89%88#%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%8C%87%E5%AE%9A%E5%88%86%E6%94%AF%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93" class="hash-link" aria-label="上传本地�指定分支到远程仓库的直接链接" title="上传本地指定分支到远程仓库的直接链接">​</a></h4>
 <p>使用命令<strong>git push -u origin master</strong></p>
 <p>操作如下所示：</p>
 <p><a href="https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522180101038-96789219.png" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522180101038-96789219.png" alt="img" class="img_ev3q"></a></p>
@@ -448,26 +479,5 @@ C+（70-74）</p>
 <li>禁止更换WordPress主题！</li>
 <li>禁止更换eazydoc插件！</li>
 </ol>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Haha]]></title>
-        <id>https://frankelinli.github.io/blog/2024/04/06/Haha</id>
-        <link href="https://frankelinli.github.io/blog/2024/04/06/Haha"/>
-        <updated>2023-03-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[汇率]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="汇率">汇率<a href="https://frankelinli.github.io/blog/2024/04/06/Haha#%E6%B1%87%E7%8E%87" class="hash-link" aria-label="汇率的直接链接" title="汇率的直接链接">​</a></h2>
-<p>年初手里有1500美元，当时汇率是7
-今天规律是7.21。
-美元放抽屉里不动，增值了300人民币？</p>
-<p>啊，这个牛肉酱竟然可以直接当下酒菜可以直接吃。也能配酒，</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="公众号粉丝">公众号粉丝<a href="https://frankelinli.github.io/blog/2024/04/06/Haha#%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B2%89%E4%B8%9D" class="hash-link" aria-label="公众号粉丝的直接链接" title="公众号粉丝的直接链接">​</a></h2>
-<p>公众号粉丝最多一次流量：1000多次阅读，分享47次，原因是写的一片很细小的东西。</p>
-<p><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/Screenshot_2024-03-22-17-11-22-784_com.tencent.mm.png" alt="Screenshot_2024-03-22-17-11-22-784_com.tencent.mm" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="公园郊游走出去别老在家里">公园郊游。走出去，别老在家里。<a href="https://frankelinli.github.io/blog/2024/04/06/Haha#%E5%85%AC%E5%9B%AD%E9%83%8A%E6%B8%B8%E8%B5%B0%E5%87%BA%E5%8E%BB%E5%88%AB%E8%80%81%E5%9C%A8%E5%AE%B6%E9%87%8C" class="hash-link" aria-label="公园郊游。走出去，别老在家里。的直接链接" title="公园郊游。走出去，别老在家里。的直接链接">​</a></h2>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="配置algolia">配置Algolia<a href="https://frankelinli.github.io/blog/2024/04/06/Haha#%E9%85%8D%E7%BD%AEalgolia" class="hash-link" aria-label="配置Algolia的直接链接" title="配置Algolia的直接链接">​</a></h2>
-<p>全部步骤对了。搜索框搜啥都没出来。等等吧。看明天是否会好起来。</p>
-<hr>
-<p>找了清洁工阿姨来帮我清理房间垃圾，花费150元。感觉很值得。我自己来回路费比这还多。自己还要累的要命。早该行动了。</p>
-<p>自己没办法什么事情都做。社会是分工的。善于花点钱来调用各种资源，来给自己的核心项目、核心实业来完善。</p>]]></content>
     </entry>
 </feed>
