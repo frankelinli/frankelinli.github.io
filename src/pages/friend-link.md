@@ -11,3 +11,4 @@
 7. [使用Github Action 部署项目到云服务器 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/107545396)
 8. [博客的搭建与部署 | C01day](https://www.c01day.com/post/2021/08/08/博客的搭建与部署/)
 9. [About - Xiaohan Zou (zxh.io)](https://zxh.io/)
+10. [如何更改WordPress类别基本前缀（分步） --- How to Change WordPress Category Base Prefix (Step-By-Step) (quadlayers.com)](https://quadlayers.com/change-the-wordpress-category-base-prefix/)
