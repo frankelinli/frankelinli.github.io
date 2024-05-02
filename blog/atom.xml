@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frankelinli.github.io/blog</id>
     <title>Frankelin Docs &amp; Blog Blog</title>
-    <updated>2024-04-21T23:00:00.000Z</updated>
+    <updated>2024-05-02T12:55:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://frankelinli.github.io/blog"/>
     <subtitle>Frankelin Docs &amp; Blog Blog</subtitle>
     <icon>https://frankelinli.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2024/xyz育儿费用]]></title>
+        <id>https://frankelinli.github.io/blog/2024/xyz育儿费用</id>
+        <link href="https://frankelinli.github.io/blog/2024/xyz育儿费用"/>
+        <updated>2024-05-02T12:55:00.000Z</updated>
+        <summary type="html"><![CDATA[厂方租金每月 3000]]></summary>
+        <content type="html"><![CDATA[<p>厂方租金每月 3000
+托管班每月1300
+托管班吃饭每月450
+学校早餐每月 450
+每月我固定出 5200 元。</p>
+<p>校服1500，班服200，春游
+还他妈的喂狗喂了五千</p>
+<p>电话手表600
+电话手表每月 30 会员
+客厅电视一年 300 会员
+ipad 2700
+两个书包1000
+补牙500</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第一次做头等舱]]></title>
         <id>https://frankelinli.github.io/blog/2024/04/21/第一次做头等舱</id>
@@ -58,7 +78,7 @@
 <p>跟同事谈论代码，说自己写的代码有点乱凿凿，？！不要自曝其短好不好？这样会被小人利用。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="今天的小成就">今天的小成就：<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E4%BB%8A%E5%A4%A9%E7%9A%84%E5%B0%8F%E6%88%90%E5%B0%B1" class="hash-link" aria-label="今天的小成就：的直接链接" title="今天的小成就：的直接链接">​</a></h3>
 <p>组织小组团建，邀请小组同事团建也有点小小的技巧。如何巧妙的说话，如何巧妙的借势，如何巧妙的邀请到小组同事。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="反着说话">反着说话<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E5%8F%8D%E7%9D%80%E8%AF%B4%E8%AF%9D" class="hash-link" aria-label="反着说话的直接链接" title="反着说话的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="反着说话">反着说话<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E5%8F%8D%E7%9D%80%E8%AF%B4%E8%AF%9D" class="hash-link" aria-label="反着说话的直接链接" title="反着说话�的直接链接">​</a></h3>
 <p>不要说你自己的意见是如何如何，而是要说情势所迫，不得不如此。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="瘦田无人耕耕了有人争">瘦田无人耕，耕了有人争<a href="https://frankelinli.github.io/blog/2024/04/09/%E4%BA%BA%E6%83%85%E4%B8%96%E6%95%85#%E7%98%A6%E7%94%B0%E6%97%A0%E4%BA%BA%E8%80%95%E8%80%95%E4%BA%86%E6%9C%89%E4%BA%BA%E4%BA%89" class="hash-link" aria-label="瘦田无人耕，耕了有人争的直接链接" title="瘦田无人耕，耕了有人争的直接链接">​</a></h3>]]></content>
     </entry>
@@ -444,42 +464,10 @@ C+（70-74）</p>
 <p>使用命令<strong>git remote add origin <a href="https://github.com/%E7%94%A8%E6%88%B7%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D.git" target="_blank" rel="noopener noreferrer">https://github.com/用户名/仓库名.git</a></strong></p>
 <p>操作如下所示：</p>
 <p><strong><a href="https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522175936775-728432202.png" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522175936775-728432202.png" alt="img" class="img_ev3q"></a></strong></p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="上传本地指定分支到远程仓库">上传本地指定分支到远程仓库<a href="https://frankelinli.github.io/blog/2024/03/18/git%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C%E5%90%88%E9%9B%86%E7%AE%80%E6%98%8E%E7%89%88#%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%8C%87%E5%AE%9A%E5%88%86%E6%94%AF%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93" class="hash-link" aria-label="上传本地�指定分支到远程仓库的直接链接" title="上传本地指定分支到远程仓库的直接链接">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="上传本地指定分支到远程仓库">上传本地指定分支到远程仓库<a href="https://frankelinli.github.io/blog/2024/03/18/git%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C%E5%90%88%E9%9B%86%E7%AE%80%E6%98%8E%E7%89%88#%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%8C%87%E5%AE%9A%E5%88%86%E6%94%AF%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93" class="hash-link" aria-label="上传本地指定分支�到远程仓库的直接链接" title="上传本地指定分支到远程仓库的直接链接">​</a></h4>
 <p>使用命令<strong>git push -u origin master</strong></p>
 <p>操作如下所示：</p>
 <p><a href="https://img2020.cnblogs.com/blog/1242227/202005/1242227-20200522180101038-96789219.png" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/1242227-20200522180101038-96789219.png" alt="img" class="img_ev3q"></a></p>
 <p>代码提交成功后，就可以在github中查看已提交的代码了。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[20240322]]></title>
-        <id>https://frankelinli.github.io/blog/2024/03/22/20240322</id>
-        <link href="https://frankelinli.github.io/blog/2024/03/22/20240322"/>
-        <updated>2024-03-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[如何创建对SEO友好的URL(分步指南) (ahrefs.com)]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://ahrefs.com/blog/zh/seo-friendly-urls/#anatomy-of-a-url" target="_blank" rel="noopener noreferrer">如何创建对SEO友好的URL(分步指南) (ahrefs.com)</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="使用子目录提供层次结构">使用子目录提供层次结构<a href="https://frankelinli.github.io/blog/2024/03/22/20240322#%E4%BD%BF%E7%94%A8%E5%AD%90%E7%9B%AE%E5%BD%95%E6%8F%90%E4%BE%9B%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84" class="hash-link" aria-label="使用子目录提供层次结构的直接链接" title="使用子目录提供层次结构的直接链接">​</a></h2>
-<p>子目录有助于提供层次感，并提供有用的额外信息。</p>
-<p>例如，使用以下URL：</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">domain.com/airpods.html</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>从URL尚不清楚页面是否在出售AirPods，提供AirPods评论或其它产品。</p>
-<p>现在来看这个：</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">domain.com/store/earbuds/apple/airpods.html</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>信息</div><div class="admonitionContent_BuS1"><p>谁说的网址URL不能四层链接？！这个权威的例子，就是4层链接！</p></div></div>
-<p>显然，这是销售AirPods的产品页面的URL。</p>
-<p>这个子目录结构还可以清楚地表明：</p>
-<ul>
-<li>耳塞只是在线商店提供的产品类型之一。</li>
-<li>苹果公司生产这款产品，并且该品牌还可能有其它耳塞出售。</li>
-<li>商店中可能还会有其它品牌的耳塞待售。</li>
-</ul>
-<p>使用子目录可以更轻松地将关键字合并到URL中，而不会让URL像垃圾链接。</p>
-<p><strong>垃圾链接</strong>**:** <code>domain.com/buy-apple-airpods-earbuds.html</code>
-<strong>友好的链接:</strong> <code>domain.com/store/earbuds/apple/airpods.html</code></p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="现在禁止2个">现在禁止2个：<a href="https://frankelinli.github.io/blog/2024/03/22/20240322#%E7%8E%B0%E5%9C%A8%E7%A6%81%E6%AD%A22%E4%B8%AA" class="hash-link" aria-label="现在禁止2个：的直接链接" title="现在禁止2个：的直接链接">​</a></h2>
-<ol>
-<li>禁止更换WordPress主题！</li>
-<li>禁止更换eazydoc插件！</li>
-</ol>]]></content>
     </entry>
 </feed>
