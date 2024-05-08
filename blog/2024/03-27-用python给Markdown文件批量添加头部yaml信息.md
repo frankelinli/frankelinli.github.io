@@ -1,6 +1,6 @@
 ---
 date: 2024-03-27 16:03
-slug: 03-27-用python给Markdown文件批量添加头部yaml信息
+slug: 用python给Markdown文件批量添加头部yaml信息
 ---
 
 docusaurus下某个文库写了几十篇doc了，但是当时没有添加头部date信息，导致docusaurus每次更新时，页面底部显示的最近更新时间都是npm build的时间，而不是文件创建时的时间。
