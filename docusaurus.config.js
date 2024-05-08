@@ -80,10 +80,10 @@ const config = {
           `https://github.com/frankelinli/frankelinli.github.io/edit/main/${blogDirPath}/${blogPath}`,
         },
         pages: {
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/website/src/pages',
+          editUrl: ({pagesDirPath, pagesPath}) =>
+            `https://github.com/frankelinli/frankelinli.github.io/edit/main/${pagesDirPath}/${pagesPath}`,
           editLocalizedFiles: true,
-          showLastUpdateAuthor: true,
+          //showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
         

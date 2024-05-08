@@ -1,3 +1,7 @@
+---
+hide_table_of_contents: true
+---
+
 ## 友情链接
 
 ---
