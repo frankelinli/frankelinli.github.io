@@ -79,6 +79,13 @@ const config = {
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
           `https://github.com/frankelinli/frankelinli.github.io/edit/main/${blogDirPath}/${blogPath}`,
         },
+        pages: {
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/website/src/pages',
+          editLocalizedFiles: true,
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+        },
         
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

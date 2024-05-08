@@ -1,7 +1,6 @@
 ---
 date: 2024-05-08 22:59
 slug: 使用python来调用tinyPNG API压缩图片
-
 ---
 
 用python来调用tinyPNG的API来压缩图片、转换图片格式。以下代码是把jpg图片转换为webp格式。转换格式时，会自动压缩图片。
