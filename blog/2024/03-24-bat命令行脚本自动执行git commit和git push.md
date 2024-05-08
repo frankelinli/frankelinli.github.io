@@ -1,5 +1,6 @@
 ---
 date: 2024-03-24 22:14
+slug: bat命令行脚本自动执行git commit和git push
 ---
 
 用bat命令行脚本，自动执行git commit, git push。点击这个脚本，就可以自动运行了。`chcp 65001 > nul`是为了让终端显示中文，否则会乱码。

@@ -1,5 +1,6 @@
 ---
 date: 2024-04-04 20:54
+slug: WordPress笔记
 ---
 
 ### require __DIR__ . '/wp-blog-header.php';这个什么意思

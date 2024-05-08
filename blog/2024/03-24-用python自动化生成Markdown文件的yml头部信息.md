@@ -1,5 +1,6 @@
 ---
 date: 2024-03-24 21:22
+slug: 用python自动化生成Markdown文件的yml头部信息
 
 ---
 
