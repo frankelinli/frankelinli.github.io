@@ -1,5 +1,6 @@
 ---
 date: 2024-05-08 22:59
+slug: 使用python来调用tinyPNG API压缩图片
 
 ---
 
