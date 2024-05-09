@@ -17,6 +17,52 @@ converted.to_file("jingdezhen." + extension)
 
 <!-- truncate -->
 
+优化版代码，提供了屏幕提示，和任意键关闭屏幕：
+
+```python
+import tinify
+import os
+import msvcrt
+
+def print_file_size(filepath):
+    size = os.path.getsize(filepath) / 1024
+    print("文件大小: %d kb" % size)
+
+def optimize_image(source_path):
+    try:
+        print_file_size(source_path)
+        print("开始读取图像到tinyPNG服务器...")
+        source = tinify.from_file(source_path)
+        print("图像加载成功，正在进行转换...")
+        converted = source.convert(type="image/webp")      # 转换为webp
+        extension = converted.result().extension
+        output_path = os.path.join(os.path.dirname(source_path), "test." + extension)
+        converted.to_file(output_path)
+        print("图像转换成功，已保存为%s" % output_path)
+        print_file_size(output_path)
+        print("按下任意键关闭...")
+        msvcrt.getch()  # 等待用户按下任意键
+    except tinify.AccountError as e:
+        print("账户错误：%s" % e.message)
+    except tinify.ClientError as e:
+        print("客户端错误：%s" % e.message)
+    except tinify.ServerError as e:
+        print("服务器错误：%s" % e.message)
+    except tinify.ConnectionError as e:
+        print("连接错误：%s" % e.message)
+    except Exception as e:
+        print("发生异常：%s" % str(e))
+
+# 设置API密钥
+tinify.key = "JRk8s8gxWYpsd6PYd925SSN172Hffrkhg"
+# 设置源图像路径
+source_path = "test.JPEG"
+# 优化图像
+optimize_image(source_path)
+```
+
+
+
 ### 为何type要使用数组？
 
 在使用 Tinify 转换图像格式时，`type` 参数接受一个数组。这是因为 Tinify 提供了一种方便的方式，允许你指定多个目标格式进行转换。通过将多个格式包含在数组中，你可以一次性将源图像转换为多个目标格式。
