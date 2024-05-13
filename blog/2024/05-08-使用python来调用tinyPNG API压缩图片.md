@@ -89,5 +89,60 @@ converted = source.convert(type="image/webp")
 
 使用数组的主要优势是在单个转换操作中指定多个目标格式。如果只需要一个格式，直接传递字符串即可。
 
+### 再次完善代码：窗口
+
+补充了代码，实现在窗口里选择原图，然后执行代码，输出为转换后的图片。
+
+```python
+
+import tinify
+import os
+import tkinter as tk
+from tkinter import filedialog
+import msvcrt
+
+def print_file_size(filepath):
+    size = os.path.getsize(filepath) / 1024
+    print("文件大小: %d kb" % size)
+
+def optimize_image(source_path):
+    try:
+        print_file_size(source_path)
+        print("开始读取图像到tinyPNG服务器...")
+        source = tinify.from_file(source_path)
+        print("图像加载成功，正在进行转换...")
+        converted = source.convert(type="image/webp")      # 转换为webp
+        extension = converted.result().extension
+        output_path = os.path.join(os.path.dirname(source_path), "test." + extension)
+        converted.to_file(output_path)
+        print("图像转换成功，已保存为%s" % output_path)
+        print_file_size(output_path)
+        print("按下任意键关闭...")
+        msvcrt.getch()  # 等待用户按下任意键
+    except tinify.AccountError as e:
+        print("账户错误：%s" % e.message)
+    except tinify.ClientError as e:
+        print("客户端错误：%s" % e.message)
+    except tinify.ServerError as e:
+        print("服务器错误：%s" % e.message)
+    except tinify.ConnectionError as e:
+        print("连接错误：%s" % e.message)
+    except Exception as e:
+        print("发生异常：%s" % str(e))
+
+def open_file_dialog():
+    root = tk.Tk()
+    root.withdraw()
+    file_path = filedialog.askopenfilename()
+    if file_path:
+        optimize_image(file_path)
+
+# 设置API密钥
+tinify.key = "JRk8s8gxWYpsd6PY925SSN172Hffrkhg"
+
+# 打开文件对话框选择图像文件并优化
+open_file_dialog()
+```
+
 
 
