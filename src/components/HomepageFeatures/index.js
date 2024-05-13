@@ -6,7 +6,7 @@ const FeatureList = [
     
   {
     title: '',
-    imgSrc: '/img/VBA-logo.webp',
+    imgSrc: require('@site/static/img/VBA-logo.webp').default,
     description: (
       <>
         VBA是我接触的第一个编程语言，惊为天人。学会了自动化操作excel、word。从此步入编程的精彩世界
