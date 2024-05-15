@@ -205,7 +205,7 @@ tinify.key = "JRk8s8gxWYpsd6PY925SSN172Hffrkhg"
 open_file_dialog()
 ```
 
-::: info
+:::info
 
 python的tkinter库，虽然过滤了只显示图片文件，但是仍然会显示文件夹。这是tikinter局限
 
