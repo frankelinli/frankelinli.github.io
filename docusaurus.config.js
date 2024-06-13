@@ -141,6 +141,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/facicon.ico',
 
+      metadata: [
+        {name: 'google-site-verification', content: '7DnXw4DphvfZhWgp2W1ig0102WONIF9qL5g2EJTUEfg'},
+      ],
+
       //配置liveCodeBlock
       liveCodeBlock: {
         /**
