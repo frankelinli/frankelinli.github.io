@@ -1,0 +1,27 @@
+{
+  "id": "src下可以直接用MD来制作页面",
+  "title": "src下可以直接用MD来制作页面",
+  "description": "A new standard for state-based, testable, visual automation",
+  "source": "@site/docs/docusaurus-test/src下可以直接用MD来制作页面.md",
+  "sourceDirName": ".",
+  "slug": "/src下可以直接用MD来制作页面",
+  "permalink": "/docusaurus-test/src下可以直接用MD来制作页面",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/src下可以直接用MD来制作页面.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "date": "2024-03-27 16:01"
+  },
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "sidebar.js配置",
+    "permalink": "/docusaurus-test/sidebar.js配置"
+  },
+  "next": {
+    "title": "youtube",
+    "permalink": "/docusaurus-test/youtube"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "sidebar.js配置",
+  "title": "sidebar.js配置",
+  "description": "自动生成的sidebar可以和自定义连接，结合在一起。例如下面官方文档：",
+  "source": "@site/docs/docusaurus-test/sidebar.js配置.md",
+  "sourceDirName": ".",
+  "slug": "/sidebar.js配置",
+  "permalink": "/docusaurus-test/sidebar.js配置",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/sidebar.js配置.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "date": "2024-03-27 16:01"
+  },
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "front matter",
+    "permalink": "/docusaurus-test/front matter"
+  },
+  "next": {
+    "title": "src下可以直接用MD来制作页面",
+    "permalink": "/docusaurus-test/src下可以直接用MD来制作页面"
+  }
+}

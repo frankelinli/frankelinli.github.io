@@ -1,0 +1,21 @@
+{
+  "id": "index",
+  "title": "我购买的课程，友情分享",
+  "description": "XelPlus Academy",
+  "source": "@site/docs/VBA/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/VBA/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "我购买的课程，友情分享"
+  },
+  "sidebar": "zidongSidebar",
+  "next": {
+    "title": "niu",
+    "permalink": "/VBA/toabc/niu"
+  }
+}

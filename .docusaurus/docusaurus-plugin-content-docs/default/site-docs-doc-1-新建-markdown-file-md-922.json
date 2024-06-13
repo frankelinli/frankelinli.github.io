@@ -1,0 +1,25 @@
+{
+  "id": "新建 Markdown File",
+  "title": "新建 Markdown File",
+  "description": "",
+  "source": "@site/docs/doc1/新建 Markdown File.md",
+  "sourceDirName": ".",
+  "slug": "/新建 Markdown File",
+  "permalink": "/doc1/新建 Markdown File",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/doc1/新建 Markdown File.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "独立的",
+    "permalink": "/doc1/2024年4月/独立的"
+  },
+  "next": {
+    "title": "明天",
+    "permalink": "/doc1/明天"
+  }
+}

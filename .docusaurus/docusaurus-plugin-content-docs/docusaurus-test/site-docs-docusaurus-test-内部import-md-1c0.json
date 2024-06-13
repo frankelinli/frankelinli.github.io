@@ -1,0 +1,27 @@
+{
+  "id": "内部import",
+  "title": "内部import",
+  "description": "在任意文件夹下的任意页面，可以引入DocCardList组件",
+  "source": "@site/docs/docusaurus-test/内部import.md",
+  "sourceDirName": ".",
+  "slug": "/内部import",
+  "permalink": "/docusaurus-test/内部import",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/内部import.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "date": "2024-03-27 16:01"
+  },
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "其他",
+    "permalink": "/docusaurus-test/其他"
+  },
+  "next": {
+    "title": "在MDX中定义和使用组件",
+    "permalink": "/docusaurus-test/在MDX中定义和使用组件"
+  }
+}

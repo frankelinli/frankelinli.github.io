@@ -1,0 +1,27 @@
+{
+  "id": "docusaurus建站和维护遇到的知识点",
+  "title": "docusaurus建站和维护遇到的知识点",
+  "description": "建站容易，维护难。记录一些知识点。",
+  "source": "@site/docs/docusaurus-test/docusaurus建站和维护遇到的知识点.md",
+  "sourceDirName": ".",
+  "slug": "/docusaurus建站和维护遇到的知识点",
+  "permalink": "/docusaurus-test/docusaurus建站和维护遇到的知识点",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/docusaurus建站和维护遇到的知识点.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "date": "2024-04-06 03:00"
+  },
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "pdf",
+    "permalink": "/docusaurus-test/assests 外部资源/pdf"
+  },
+  "next": {
+    "title": "front matter",
+    "permalink": "/docusaurus-test/front matter"
+  }
+}

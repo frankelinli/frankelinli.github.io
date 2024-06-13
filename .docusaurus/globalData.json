@@ -1,0 +1,245 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/doc1",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/doc1",
+          "mainDocId": "2024年1月/哈哈",
+          "docs": [
+            {
+              "id": "2024年1月/哈哈",
+              "path": "/doc1/2024年1月/哈哈",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "2024年3月/3.18号",
+              "path": "/doc1/2024年3月/3.18号",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "2024年3月/3.20号",
+              "path": "/doc1/2024年3月/3.20号",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "2024年4月/独立的",
+              "path": "/doc1/2024年4月/独立的",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "测试",
+              "path": "/doc1/测试",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "明天",
+              "path": "/doc1/明天",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "新建 Markdown File",
+              "path": "/doc1/新建 Markdown File",
+              "sidebar": "zidongSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "zidongSidebar": {
+              "link": {
+                "path": "/doc1/2024年1月/哈哈",
+                "label": "2024年1月/哈哈"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "VBA": {
+      "path": "/VBA",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/VBA",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "告别VBA学习资料",
+              "path": "/VBA/告别VBA学习资料",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "使用VBA来把word文档另存为PDF并且自动命名",
+              "path": "/VBA/使用VBA来把word文档另存为PDF并且自动命名",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "优质免费学习资源分享",
+              "path": "/VBA/优质免费学习资源分享",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/VBA/",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "toabc/niu",
+              "path": "/VBA/toabc/niu",
+              "sidebar": "zidongSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "zidongSidebar": {
+              "link": {
+                "path": "/VBA/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "docusaurus-test": {
+      "path": "/docusaurus-test",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docusaurus-test",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "把docusaurus一键发布到腾讯云服务器上",
+              "path": "/docusaurus-test/把docusaurus一键发布到腾讯云服务器上",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "标题下面插入广告",
+              "path": "/docusaurus-test/标题下面插入广告",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "错误调试/不知何种原因无法build",
+              "path": "/docusaurus-test/错误调试/不知何种原因无法build",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "代码实时展现",
+              "path": "/docusaurus-test/代码实时展现",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "内部import",
+              "path": "/docusaurus-test/内部import",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "其他",
+              "path": "/docusaurus-test/其他",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "如何多开docs实例",
+              "path": "/docusaurus-test/如何多开docs实例",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "设置doc的默认启动页面",
+              "path": "/docusaurus-test/设置doc的默认启动页面",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "使用github action自动执行发布网站",
+              "path": "/docusaurus-test/使用github action自动执行发布网站",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "预览PDF",
+              "path": "/docusaurus-test/预览PDF",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "在MDX中定义和使用组件",
+              "path": "/docusaurus-test/在MDX中定义和使用组件",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "assests 外部资源/视频",
+              "path": "/docusaurus-test/assests 外部资源/视频",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "assests 外部资源/html文件",
+              "path": "/docusaurus-test/assests 外部资源/html文件",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "assests 外部资源/pdf",
+              "path": "/docusaurus-test/assests 外部资源/pdf",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "docusaurus建站和维护遇到的知识点",
+              "path": "/docusaurus-test/docusaurus建站和维护遇到的知识点",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "front matter",
+              "path": "/docusaurus-test/front matter",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docusaurus-test/",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "sidebar.js配置",
+              "path": "/docusaurus-test/sidebar.js配置",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "src下可以直接用MD来制作页面",
+              "path": "/docusaurus-test/src下可以直接用MD来制作页面",
+              "sidebar": "zidongSidebar"
+            },
+            {
+              "id": "youtube",
+              "path": "/docusaurus-test/youtube",
+              "sidebar": "zidongSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "zidongSidebar": {
+              "link": {
+                "path": "/docusaurus-test/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    }
+  },
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-V43TVFFWC5"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2024年3月/3.18号",
+  "title": "3.18号",
+  "description": "发大幅度",
+  "source": "@site/docs/doc1/2024年3月/3.18号.md",
+  "sourceDirName": "2024年3月",
+  "slug": "/2024年3月/3.18号",
+  "permalink": "/doc1/2024年3月/3.18号",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/doc1/2024年3月/3.18号.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "哈哈",
+    "permalink": "/doc1/2024年1月/哈哈"
+  },
+  "next": {
+    "title": "3.20号",
+    "permalink": "/doc1/2024年3月/3.20号"
+  }
+}

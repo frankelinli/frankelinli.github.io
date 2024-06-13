@@ -1,0 +1,25 @@
+{
+  "id": "错误调试/不知何种原因无法build",
+  "title": "不知何种原因无法build",
+  "description": "真的气死了。某一日突然发现npm start好好的。就是运行npm run build时，停顿在88%的位置，提示错误。",
+  "source": "@site/docs/docusaurus-test/错误调试/不知何种原因无法build.md",
+  "sourceDirName": "错误调试",
+  "slug": "/错误调试/不知何种原因无法build",
+  "permalink": "/docusaurus-test/错误调试/不知何种原因无法build",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/错误调试/不知何种原因无法build.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "设置doc的默认启动页面",
+    "permalink": "/docusaurus-test/设置doc的默认启动页面"
+  },
+  "next": {
+    "title": "预览PDF",
+    "permalink": "/docusaurus-test/预览PDF"
+  }
+}

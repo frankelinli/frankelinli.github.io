@@ -1,0 +1,25 @@
+{
+  "id": "index",
+  "title": "index",
+  "description": "某个doc下，会自动把index.md作为首页",
+  "source": "@site/docs/docusaurus-test/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docusaurus-test/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/index.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "date": "2024-03-27 16:01",
+    "sidebar_position": 1
+  },
+  "sidebar": "zidongSidebar",
+  "next": {
+    "title": "视频",
+    "permalink": "/docusaurus-test/assests 外部资源/视频"
+  }
+}

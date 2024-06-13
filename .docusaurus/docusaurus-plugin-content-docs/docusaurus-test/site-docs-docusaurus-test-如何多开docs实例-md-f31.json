@@ -1,0 +1,27 @@
+{
+  "id": "如何多开docs实例",
+  "title": "如何多开docs实例",
+  "description": "参考文章：来自github",
+  "source": "@site/docs/docusaurus-test/如何多开docs实例.md",
+  "sourceDirName": ".",
+  "slug": "/如何多开docs实例",
+  "permalink": "/docusaurus-test/如何多开docs实例",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/如何多开docs实例.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "date": "2024-03-27 16:01"
+  },
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "在MDX中定义和使用组件",
+    "permalink": "/docusaurus-test/在MDX中定义和使用组件"
+  },
+  "next": {
+    "title": "把docusaurus一键发布到腾讯云服务器上",
+    "permalink": "/docusaurus-test/把docusaurus一键发布到腾讯云服务器上"
+  }
+}

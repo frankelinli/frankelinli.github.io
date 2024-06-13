@@ -1,0 +1,25 @@
+{
+  "id": "明天",
+  "title": "明天",
+  "description": "",
+  "source": "@site/docs/doc1/明天.md",
+  "sourceDirName": ".",
+  "slug": "/明天",
+  "permalink": "/doc1/明天",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/doc1/明天.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "新建 Markdown File",
+    "permalink": "/doc1/新建 Markdown File"
+  },
+  "next": {
+    "title": "测试",
+    "permalink": "/doc1/测试"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "permalink": "/blog/用python自动化生成Markdown文件的yml头部信息",
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/blog/2024/03-24-用python自动化生成Markdown文件的yml头部信息.md",
+  "source": "@site/blog/2024/03-24-用python自动化生成Markdown文件的yml头部信息.md",
+  "title": "用python自动化生成Markdown文件的yml头部信息",
+  "description": "用python自动化生成Markdown文件，并自动填入yml头部信息。你可以在代码中修改，加入自己想要自动化填入的信息，比如可以自动化填入作者、标题等等，全部都可以！",
+  "date": "2024-03-24T21:22:00.000Z",
+  "tags": [],
+  "readingTime": 1.225,
+  "hasTruncateMarker": true,
+  "authors": [],
+  "frontMatter": {
+    "date": "2024-03-24 21:22",
+    "slug": "用python自动化生成Markdown文件的yml头部信息"
+  },
+  "unlisted": false,
+  "lastUpdatedAt": 1539502055000,
+  "prevItem": {
+    "title": "bat命令行脚本自动执行git commit和git push",
+    "permalink": "/blog/bat命令行脚本自动执行git commit和git push"
+  },
+  "nextItem": {
+    "title": "用python把多个pdf合并为一个PDF并自动添加书签",
+    "permalink": "/blog/用python把多个pdf合并为一个PDF并自动添加书签"
+  }
+}

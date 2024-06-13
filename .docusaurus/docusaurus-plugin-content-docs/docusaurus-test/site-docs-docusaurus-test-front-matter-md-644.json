@@ -1,0 +1,27 @@
+{
+  "id": "front matter",
+  "title": "front matter",
+  "description": "---",
+  "source": "@site/docs/docusaurus-test/front matter.md",
+  "sourceDirName": ".",
+  "slug": "/front matter",
+  "permalink": "/docusaurus-test/front matter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/docs/docusaurus-test/front matter.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "date": "2024-03-27 16:01"
+  },
+  "sidebar": "zidongSidebar",
+  "previous": {
+    "title": "docusaurus建站和维护遇到的知识点",
+    "permalink": "/docusaurus-test/docusaurus建站和维护遇到的知识点"
+  },
+  "next": {
+    "title": "sidebar.js配置",
+    "permalink": "/docusaurus-test/sidebar.js配置"
+  }
+}

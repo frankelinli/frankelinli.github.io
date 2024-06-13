@@ -1,0 +1,26 @@
+{
+  "permalink": "/blog/20240322",
+  "editUrl": "https://github.com/frankelinli/frankelinli.github.io/edit/main/blog/2024/03-22-20240322.md",
+  "source": "@site/blog/2024/03-22-20240322.md",
+  "title": "20240322",
+  "description": "如何创建对SEO友好的URL(分步指南) (ahrefs.com)",
+  "date": "2024-03-18T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 1.355,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "date": "2024-03-18T00:00:00.000Z",
+    "slug": "20240322"
+  },
+  "unlisted": false,
+  "lastUpdatedAt": 1539502055000,
+  "prevItem": {
+    "title": "docusaurus和腾讯云服务器的朴素沟通",
+    "permalink": "/blog/docusaurus和腾讯云服务器的朴素沟通"
+  },
+  "nextItem": {
+    "title": "Haha",
+    "permalink": "/blog/流水账"
+  }
+}
