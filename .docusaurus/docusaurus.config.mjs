@@ -91,6 +91,12 @@ export default {
   ],
   "themeConfig": {
     "image": "img/facicon.ico",
+    "metadata": [
+      {
+        "name": "google-site-verification",
+        "content": "7DnXw4DphvfZhWgp2W1ig0102WONIF9qL5g2EJTUEfg"
+      }
+    ],
     "liveCodeBlock": {
       "playgroundPosition": "bottom"
     },
@@ -390,7 +396,8 @@ export default {
         ]
       },
       "additionalLanguages": [
-        "batch"
+        "batch",
+        "php"
       ],
       "magicComments": [
         {
@@ -411,8 +418,7 @@ export default {
       "defaultMode": "light",
       "disableSwitch": false,
       "respectPrefersColorScheme": false
-    },
-    "metadata": []
+    }
   },
   "baseUrlIssueBanner": true,
   "future": {

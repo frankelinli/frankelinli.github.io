@@ -293,7 +293,7 @@ const config = {
       prism: {
         theme: lightTheme,
         darkTheme: darkTheme,
-        additionalLanguages: ['batch'],
+        additionalLanguages: ['batch','php'],
       },      
 
       tableOfContents: {

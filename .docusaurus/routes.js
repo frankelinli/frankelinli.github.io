@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '2e3'),
+    component: ComponentCreator('/blog', 'aa0'),
     exact: true
   },
   {
@@ -138,6 +138,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/整站变黑白',
+    component: ComponentCreator('/blog/整站变黑白', '90e'),
+    exact: true
+  },
+  {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive', '182'),
     exact: true
@@ -158,38 +163,48 @@ export default [
     exact: true
   },
   {
+    path: '/blog/page/10',
+    component: ComponentCreator('/blog/page/10', '136'),
+    exact: true
+  },
+  {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', '4b7'),
+    component: ComponentCreator('/blog/page/2', 'c6f'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '41f'),
+    component: ComponentCreator('/blog/page/3', '4ac'),
     exact: true
   },
   {
     path: '/blog/page/4',
-    component: ComponentCreator('/blog/page/4', '6b7'),
+    component: ComponentCreator('/blog/page/4', '2c6'),
     exact: true
   },
   {
     path: '/blog/page/5',
-    component: ComponentCreator('/blog/page/5', '927'),
+    component: ComponentCreator('/blog/page/5', 'c42'),
     exact: true
   },
   {
     path: '/blog/page/6',
-    component: ComponentCreator('/blog/page/6', '2e0'),
+    component: ComponentCreator('/blog/page/6', '07c'),
     exact: true
   },
   {
     path: '/blog/page/7',
-    component: ComponentCreator('/blog/page/7', '6d3'),
+    component: ComponentCreator('/blog/page/7', '259'),
     exact: true
   },
   {
     path: '/blog/page/8',
-    component: ComponentCreator('/blog/page/8', 'dbb'),
+    component: ComponentCreator('/blog/page/8', '1e9'),
+    exact: true
+  },
+  {
+    path: '/blog/page/9',
+    component: ComponentCreator('/blog/page/9', 'cd0'),
     exact: true
   },
   {
@@ -200,6 +215,21 @@ export default [
   {
     path: '/blog/WordPress笔记',
     component: ComponentCreator('/blog/WordPress笔记', '47b'),
+    exact: true
+  },
+  {
+    path: '/blog/WordPress给鼠标点击添加颜色效果',
+    component: ComponentCreator('/blog/WordPress给鼠标点击添加颜色效果', '4ae'),
+    exact: true
+  },
+  {
+    path: '/blog/wordpress全站禁止鼠标复制文字和鼠标右键',
+    component: ComponentCreator('/blog/wordpress全站禁止鼠标复制文字和鼠标右键', '120'),
+    exact: true
+  },
+  {
+    path: '/blog/wordpress修改代码，在文章底部增加打赏按钮',
+    component: ComponentCreator('/blog/wordpress修改代码，在文章底部增加打赏按钮', 'd05'),
     exact: true
   },
   {

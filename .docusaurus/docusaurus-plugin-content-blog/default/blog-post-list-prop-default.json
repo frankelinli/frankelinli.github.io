@@ -2,6 +2,26 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "整站变黑白",
+      "permalink": "/blog/整站变黑白",
+      "unlisted": false
+    },
+    {
+      "title": "WordPress给鼠标点击添加颜色效果",
+      "permalink": "/blog/WordPress给鼠标点击添加颜色效果",
+      "unlisted": false
+    },
+    {
+      "title": "wordpress全站禁止鼠标复制文字和鼠标右键",
+      "permalink": "/blog/wordpress全站禁止鼠标复制文字和鼠标右键",
+      "unlisted": false
+    },
+    {
+      "title": "wordpress修改代码，在文章底部增加打赏按钮",
+      "permalink": "/blog/wordpress修改代码，在文章底部增加打赏按钮",
+      "unlisted": false
+    },
+    {
       "title": "csdn是个抄袭大本营",
       "permalink": "/blog/csdn是个抄袭大本营",
       "unlisted": false
@@ -29,26 +49,6 @@
     {
       "title": "xyz育儿费用",
       "permalink": "/blog/育儿费用",
-      "unlisted": false
-    },
-    {
-      "title": "第一次做头等舱",
-      "permalink": "/blog/第一次做头等舱",
-      "unlisted": false
-    },
-    {
-      "title": "禁止折腾！",
-      "permalink": "/blog/禁止折腾！",
-      "unlisted": false
-    },
-    {
-      "title": "python猜数字游戏源码",
-      "permalink": "/blog/python猜数字游戏源码",
-      "unlisted": false
-    },
-    {
-      "title": "人情世故",
-      "permalink": "/blog/人情世故",
       "unlisted": false
     }
   ]
