@@ -13,7 +13,7 @@ slug: wordpress全站禁止鼠标复制文字和鼠标右键
 
 <!-- truncate -->
 
-```php+HTML
+```php
 function disable_mouse_clicks() {
     ?>
     <script type="text/javascript">
