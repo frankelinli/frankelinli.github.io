@@ -4,10 +4,70 @@
         <title>Frankelin Docs &amp; Blog Blog</title>
         <link>https://frankelinli.github.io/blog</link>
         <description>Frankelin Docs &amp; Blog Blog</description>
-        <lastBuildDate>Sun, 16 Jun 2024 16:20:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Jun 2024 23:05:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
+        <item>
+            <title><![CDATA[整站变黑白]]></title>
+            <link>https://frankelinli.github.io/blog/整站变黑白</link>
+            <guid>https://frankelinli.github.io/blog/整站变黑白</guid>
+            <pubDate>Sun, 16 Jun 2024 23:05:00 GMT</pubDate>
+            <description><![CDATA[要实现整个 WordPress 网站变成黑白效果，可以通过添加自定义的 CSS 样式来实现。使用 CSS 的 filter 属性可以很容易地将页面的所有颜色转换为黑白。具体步骤如下：]]></description>
+            <content:encoded><![CDATA[<p>要实现整个 WordPress 网站变成黑白效果，可以通过添加自定义的 CSS 样式来实现。使用 CSS 的 <code>filter</code> 属性可以很容易地将页面的所有颜色转换为黑白。具体步骤如下：</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-添加自定义-css">1. 添加自定义 CSS<a class="hash-link" aria-label="1. 添加自定义 CSS的直接链接" title="1. 添加自定义 CSS的直接链接" href="https://frankelinli.github.io/blog/%E6%95%B4%E7%AB%99%E5%8F%98%E9%BB%91%E7%99%BD#1-%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89-css">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="方法一通过主题的自定义-css">方法一：通过主题的自定义 CSS<a class="hash-link" aria-label="方法一：通过主题的自定义 CSS的直接链接" title="方法一：通过主题的自定义 CSS的直接链接" href="https://frankelinli.github.io/blog/%E6%95%B4%E7%AB%99%E5%8F%98%E9%BB%91%E7%99%BD#%E6%96%B9%E6%B3%95%E4%B8%80%E9%80%9A%E8%BF%87%E4%B8%BB%E9%A2%98%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89-css">​</a></h4>
+<p>你可以直接在 WordPress 管理后台的 <strong>外观 &gt; 自定义 &gt; 额外 CSS</strong> 中添加以下 CSS 代码：</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">html</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">filter</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">grayscale</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">100</span><span class="token unit">%</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="方法二通过子主题的-css-文件">方法二：通过子主题的 CSS 文件<a class="hash-link" aria-label="方法二：通过子主题的 CSS 文件的直接链接" title="方法二：通过��子主题的 CSS 文件的直接链接" href="https://frankelinli.github.io/blog/%E6%95%B4%E7%AB%99%E5%8F%98%E9%BB%91%E7%99%BD#%E6%96%B9%E6%B3%95%E4%BA%8C%E9%80%9A%E8%BF%87%E5%AD%90%E4%B8%BB%E9%A2%98%E7%9A%84-css-%E6%96%87%E4%BB%B6">​</a></h4>
+<p>如果你使用子主题并希望将这个效果添加到子主题中，请按照以下步骤操作：</p>
+<ol>
+<li>打开你的子主题目录。</li>
+<li>找到 <code>style.css</code> 文件并打开它。如果没有这个文件，可以创建一个。</li>
+<li>在 <code>style.css</code> 文件中添加以下代码：</li>
+</ol>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">html</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">filter</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">grayscale</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">100</span><span class="token unit">%</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-确保-css-加载">2. 确保 CSS 加载<a class="hash-link" aria-label="2. 确保 CSS 加载的直接链接" title="2. 确保 CSS 加载的直接链接" href="https://frankelinli.github.io/blog/%E6%95%B4%E7%AB%99%E5%8F%98%E9%BB%91%E7%99%BD#2-%E7%A1%AE%E4%BF%9D-css-%E5%8A%A0%E8%BD%BD">​</a></h3>
+<p>如果你选择通过子主题的 <code>style.css</code> 文件添加 CSS，需要确保这个文件被正确加载。请检查你的 <code>functions.php</code> 文件，确保它包含类似以下的代码：</p>
+<div class="language-php codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-php codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">function child_theme_enqueue_styles() {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    // Enqueue parent theme style</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    // Enqueue child theme style</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    wp_enqueue_style('child-style', get_stylesheet_uri(), array('parent-style'));</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">add_action('wp_enqueue_scripts', 'child_theme_enqueue_styles');</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-测试效果">3. 测试效果<a class="hash-link" aria-label="3. 测试效果的直接链接" title="3. 测试效果的直接链接" href="https://frankelinli.github.io/blog/%E6%95%B4%E7%AB%99%E5%8F%98%E9%BB%91%E7%99%BD#3-%E6%B5%8B%E8%AF%95%E6%95%88%E6%9E%9C">​</a></h3>
+<p>保存文件并刷新你的网站。整个网站应该会变成黑白效果。如果没有看到效果，请尝试清理浏览器缓存并再次刷新页面。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[WordPress给鼠标点击添加颜色效果]]></title>
+            <link>https://frankelinli.github.io/blog/WordPress给鼠标点击添加颜色效果</link>
+            <guid>https://frankelinli.github.io/blog/WordPress给鼠标点击添加颜色效果</guid>
+            <pubDate>Sun, 16 Jun 2024 22:45:00 GMT</pubDate>
+            <description><![CDATA[WordPress子主题实现：鼠标在空白处摁下左键，会弹出五彩斑斓的颜色]]></description>
+            <content:encoded><![CDATA[<p>WordPress子主题实现：鼠标在空白处摁下左键，会弹出五彩斑斓的颜色</p>
+<p>要在WordPress子主题中实现这样的效果，你需要使用JavaScript来捕获鼠标左键按下事件，并在空白处生成五彩斑斓的颜色。以下是实现此功能的基本步骤：</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="在子主题中添加javascript">在子主题中添加JavaScript<a class="hash-link" aria-label="在子主题中添加JavaScript的直接链接" title="在子主题中添加JavaScript的直接链接" href="https://frankelinli.github.io/blog/WordPress%E7%BB%99%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E6%B7%BB%E5%8A%A0%E9%A2%9C%E8%89%B2%E6%95%88%E6%9E%9C#%E5%9C%A8%E5%AD%90%E4%B8%BB%E9%A2%98%E4%B8%AD%E6%B7%BB%E5%8A%A0javascript">​</a></h3>
+<ol>
+<li>
+<p><strong>创建JavaScript文件</strong>： 在你的WordPress子主题目录下创建一个新的JavaScript文件，比如 <code>custom.js</code>。</p>
+<div class="language-php codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-php codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// custom.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">jQuery(document).ready(function($) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    $(document).mousedown(function(event) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // Check if left mouse button is pressed</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        if (event.which === 1) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            // Generate random RGB color</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            var color = getRandomColor();</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            // Create a div with the color at mouse position</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            createColorSpot(event.pageX, event.pageY, color);</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    });</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    function getRandomColor() {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        var r = Math.floor(Math.random() * 256);</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        var g = Math.floor(Math.random() * 256);</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        var b = Math.floor(Math.random() * 256);</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        return 'rgb(' + r + ',' + g + ',' + b + ')';</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    function createColorSpot(x, y, color) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // Create a colored div at the specified position</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        var $spot = $('&lt;div&gt;&lt;/div&gt;').css({</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            'position': 'absolute',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            'left': x + 'px',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            'top': y + 'px',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            'width': '20px',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            'height': '20px',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            'background-color': color,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            'border-radius': '50%'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        });</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // Append the div to the body</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        $('body').append($spot);</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // Fade out and remove the div after a certain time</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        $spot.fadeOut(1500, function() {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            $(this).remove();</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        });</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">});</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p><strong>将JavaScript文件添加到WordPress主题中</strong>： 打开你的子主题的 <code>functions.php</code> 文件，在其中添加以下代码将 <code>custom.js</code> 文件包含进来。</p>
+<div class="language-php codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-php codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">function add_custom_scripts() {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/custom.js', array('jquery'), '1.0', true);</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">add_action('wp_enqueue_scripts', 'add_custom_scripts');</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="解释与功能说明">解释与功能说明<a class="hash-link" aria-label="解释与功能说明的直接链接" title="解释与功能说明的直接链接" href="https://frankelinli.github.io/blog/WordPress%E7%BB%99%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E6%B7%BB%E5%8A%A0%E9%A2%9C%E8%89%B2%E6%95%88%E6%9E%9C#%E8%A7%A3%E9%87%8A%E4%B8%8E%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E">​</a></h3>
+<ul>
+<li><strong>jQuery Document Ready</strong>：确保文档加载完成后再执行JavaScript代码。</li>
+<li><strong>mousedown事件监听</strong>：捕获鼠标左键按下事件。</li>
+<li><strong>event.pageX和event.pageY</strong>：获取鼠标点击位置的页面坐标。</li>
+<li><strong>getRandomColor函数</strong>：生成随机的RGB颜色值。</li>
+<li><strong>createColorSpot函数</strong>：创建一个带有随机颜色的div，并将其放置在鼠标点击的位置上。</li>
+<li><strong>fadeOut和remove</strong>：设置颜色块淡出并在淡出完成后从DOM中移除，以避免页面过度加载。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="注意事项">注意事项<a class="hash-link" aria-label="注意事项的直接链接" title="注意事项的直接链接" href="https://frankelinli.github.io/blog/WordPress%E7%BB%99%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E6%B7%BB%E5%8A%A0%E9%A2%9C%E8%89%B2%E6%95%88%E6%9E%9C#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">​</a></h3>
+<ul>
+<li>这段代码假设你的子主题中已经包含了jQuery库。大多数WordPress主题都会自带jQuery，但如果没有，你需要将其手动添加到你的主题中。</li>
+<li>这种效果会在用户点击页面空白处时产生颜色斑点，但它们会渐渐消失，而不会永久留在页面上。</li>
+</ul>
+<p>通过这些步骤，你就可以在WordPress子主题中实现在空白处按下鼠标左键时产生五彩斑斓颜色的效果了。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[wordpress全站禁止鼠标复制文字和鼠标右键]]></title>
             <link>https://frankelinli.github.io/blog/wordpress全站禁止鼠标复制文字和鼠标右键</link>
@@ -309,46 +369,6 @@ C+（70-74）</p>
 <li>购买elementor pro分销 100￥</li>
 <li>腾讯云轻量服务器；</li>
 </ol>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[3月26号]]></title>
-            <link>https://frankelinli.github.io/blog/三月26号</link>
-            <guid>https://frankelinli.github.io/blog/三月26号</guid>
-            <pubDate>Tue, 26 Mar 2024 20:13:00 GMT</pubDate>
-            <description><![CDATA[突破100个粉丝！]]></description>
-            <content:encoded><![CDATA[<p>突破100个粉丝！</p>
-<p>加油！每天有个期待了。虽然不是什么大事。也是个渺渺众生中一个小人物的一点小小的悲喜。</p>
-<p><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240326232204573.png" alt="image-20240326232204573" class="img_ev3q"></p>
-<p>我的文字可以传递个100个人。虽然这100个人并不一定都看。</p>
-<p>Python伟大，CMD命令行也挺好用。有些工作，电脑自带的cmd命令行也挺好用。只是没有python那么系统化。所以python不是凭空来的，它的出现，也是在cmd基础上的。</p>
-<p>用VBA同样能实现同样的功能。只是总体而言，实现同一个功能的情况下，Python最简单，最快捷，最方便。</p>
-<p>估计今天不会再涨粉了。谢谢各位看官大佬门。虽然我不会在公众号直接给你们发信息。没必要打扰粉丝们。大家只默默的守护者就好。我写的你喜欢看，那就足够了！在这里写的，估计粉丝们也看不到。即使看到，也是几年以后的事情。</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[3月25号]]></title>
-            <link>https://frankelinli.github.io/blog/3月25号</link>
-            <guid>https://frankelinli.github.io/blog/3月25号</guid>
-            <pubDate>Mon, 25 Mar 2024 22:58:00 GMT</pubDate>
-            <description><![CDATA[剪头发。树立形象。头发太长了。早该剪了。]]></description>
-            <content:encoded><![CDATA[<p>剪头发。树立形象。头发太长了。早该剪了。</p>
-<p>吃到一顿桂林米粉。</p>
-<p>晚上想不吃，减肥。坚持到现在。结果剪头发回来没忍住，买了一瓶酒，和一包花生。</p>
-<p>现在还想再去吃米粉。。。坚持住！！！！！！！！！！！！！！！！！！！</p>
-<p>===管住嘴！！！！！！！！！！！！！！！！！！！！！！！===</p>
-<hr>
-<p>百度真的是技术有限，跟google差远了。一个网站google已经收录了几百条页面，百度才收录一条。百度在珍惜它的爬虫资源。我的天，你做搜索引擎的，居然怕浪费你的爬虫。我屮艸芔茻。</p>
-<hr>
-<p><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240325230608624.png" alt="image-20240325230608624" class="img_ev3q"></p>
-<p>公众号文章，这几天粉丝数涨了不少。虽然还是很少。。。加油！！！继续产出高质量文章！！！</p>
-<p><strong>别太在意“高质量”这三个字，有时候你抄袭的也能被评为“高质量”。！！！！！</strong></p>
-<p>很多东西，别太当真<!-- -->😢</p>
-<p>认真你就输了！！世界就是如此残酷！！！<!-- -->📶</p>
-<hr>
-<p>不要读论语！！论语害死人！！国学害死人！！论语、国学，就是让你做个傻逼老实人！<!-- -->⚠️<!-- -->如果要读，必须批判地读。！</p>
-<hr>
-<p>什么？你觉得静态网站生成器，每次都要 npm build然后上传，这个过程比较low？人家GitHub都没解决而是积极拥抱的事情，你要瞎操心？！！！</p>
-<p>静态网站就是快！！！有利有弊！！没有十全十美！！！敢号称“十全”的只有乾隆。你没有乾隆的0.0000000000000000000000000000000000001%，就不要妄想十全了！</p>
-<p>有个静态博客，有个免费的GitHub，让你免费做空间，就很好了。！！！别在奢求了！！！</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
