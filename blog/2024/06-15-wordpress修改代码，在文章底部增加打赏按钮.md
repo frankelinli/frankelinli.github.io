@@ -5,9 +5,9 @@ slug: wordpress修改代码，在文章底部增加打赏按钮
 
 通过修改WordPress主题的`single.php`文件来实现文章底部添加“打赏”功能，并弹出微信和支付宝二维码的模态框，可以按照以下步骤操作：
 
-### 1. 编辑astra的 `content-single.php` 文件
+### 1. 编辑astra主题的 `content-single.php` 文件
 
-打开你的WordPress主题目录，找到并编辑 `single.php` 文件。你可以在文章内容的末尾添加打赏按钮和模态框的HTML代码。
+打开你的WordPress主题目录，找到并编辑 `content-single.php` 文件。你可以在文章内容的末尾添加打赏按钮和模态框的HTML代码。
 
 ### 2. 添加HTML和CSS代码
 
@@ -18,10 +18,6 @@ slug: wordpress修改代码，在文章底部增加打赏按钮
 在 `single.php` 文件的底部（在 `</body>` 标签之前），添加以下JavaScript代码，以实现模态框的显示和隐藏功能：
 
 <!-- truncate -->
-
-
-
-
 
 完整代码如下：
 
@@ -106,29 +102,6 @@ window.onclick = function(event) {
 }
 </script>
 
-```
-
-
-
-```php
-<script>
-// 打开模态框
-document.getElementById('rewardBtn').onclick = function() {
-    document.getElementById('rewardModal').style.display = 'block';
-}
-
-// 关闭模态框
-document.getElementById('closeModal').onclick = function() {
-    document.getElementById('rewardModal').style.display = 'none';
-}
-
-// 点击模态框外部关闭模态框
-window.onclick = function(event) {
-    if (event.target == document.getElementById('rewardModal')) {
-        document.getElementById('rewardModal').style.display = 'none';
-    }
-}
-</script>
 ```
 
 ### 4. 添加Font Awesome图标（可选）
