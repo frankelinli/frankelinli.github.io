@@ -3,158 +3,123 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', '203'),
     exact: true
   },
   {
     path: '/blog/2024/03/28/20240328',
-    component: ComponentCreator('/blog/2024/03/28/20240328', '73f'),
+    component: ComponentCreator('/blog/2024/03/28/20240328', 'e0a'),
     exact: true
   },
   {
     path: '/blog/2024/03/29/3月29号',
-    component: ComponentCreator('/blog/2024/03/29/3月29号', 'b72'),
+    component: ComponentCreator('/blog/2024/03/29/3月29号', 'b87'),
     exact: true
   },
   {
     path: '/blog/20240322',
-    component: ComponentCreator('/blog/20240322', '4b5'),
+    component: ComponentCreator('/blog/20240322', '262'),
     exact: true
   },
   {
     path: '/blog/2024年4月1日',
-    component: ComponentCreator('/blog/2024年4月1日', 'aab'),
+    component: ComponentCreator('/blog/2024年4月1日', 'e95'),
     exact: true
   },
   {
     path: '/blog/3月25号',
-    component: ComponentCreator('/blog/3月25号', '87d'),
+    component: ComponentCreator('/blog/3月25号', 'b7e'),
     exact: true
   },
   {
     path: '/blog/第一次做头等舱',
-    component: ComponentCreator('/blog/第一次做头等舱', '7b0'),
+    component: ComponentCreator('/blog/第一次做头等舱', '938'),
     exact: true
   },
   {
     path: '/blog/高中怼女生的一个回忆',
-    component: ComponentCreator('/blog/高中怼女生的一个回忆', 'f77'),
+    component: ComponentCreator('/blog/高中怼女生的一个回忆', 'b24'),
     exact: true
   },
   {
     path: '/blog/给WordPress标题前面加个一色块',
-    component: ComponentCreator('/blog/给WordPress标题前面加个一色块', '9a0'),
+    component: ComponentCreator('/blog/给WordPress标题前面加个一色块', 'b4f'),
     exact: true
   },
   {
     path: '/blog/禁止折腾！',
-    component: ComponentCreator('/blog/禁止折腾！', 'ec3'),
+    component: ComponentCreator('/blog/禁止折腾！', '2e3'),
     exact: true
   },
   {
     path: '/blog/流水账',
-    component: ComponentCreator('/blog/流水账', '3c5'),
+    component: ComponentCreator('/blog/流水账', '40d'),
     exact: true
   },
   {
     path: '/blog/命令行代码推送网址到百度搜索引擎',
-    component: ComponentCreator('/blog/命令行代码推送网址到百度搜索引擎', 'cd8'),
+    component: ComponentCreator('/blog/命令行代码推送网址到百度搜索引擎', '823'),
     exact: true
   },
   {
     path: '/blog/人情世故',
-    component: ComponentCreator('/blog/人情世故', 'e8d'),
+    component: ComponentCreator('/blog/人情世故', 'f48'),
     exact: true
   },
   {
     path: '/blog/三月26号',
-    component: ComponentCreator('/blog/三月26号', '003'),
+    component: ComponentCreator('/blog/三月26号', '6a9'),
     exact: true
   },
   {
     path: '/blog/使用python来调用tinyPNG API压缩图片',
-    component: ComponentCreator('/blog/使用python来调用tinyPNG API压缩图片', 'f6e'),
+    component: ComponentCreator('/blog/使用python来调用tinyPNG API压缩图片', 'abb'),
     exact: true
   },
   {
     path: '/blog/网站建设成本',
-    component: ComponentCreator('/blog/网站建设成本', 'a50'),
+    component: ComponentCreator('/blog/网站建设成本', '973'),
     exact: true
   },
   {
     path: '/blog/我在深圳大梅沙发生撞车事故',
-    component: ComponentCreator('/blog/我在深圳大梅沙发生撞车事故', '619'),
+    component: ComponentCreator('/blog/我在深圳大梅沙发生撞车事故', 'c1b'),
     exact: true
   },
   {
     path: '/blog/用python把多个pdf合并为一个PDF并自动添加书签',
-    component: ComponentCreator('/blog/用python把多个pdf合并为一个PDF并自动添加书签', 'e3e'),
+    component: ComponentCreator('/blog/用python把多个pdf合并为一个PDF并自动添加书签', '312'),
     exact: true
   },
   {
     path: '/blog/用python给Markdown文件批量添加头部yaml信息',
-    component: ComponentCreator('/blog/用python给Markdown文件批量添加头部yaml信息', 'c89'),
+    component: ComponentCreator('/blog/用python给Markdown文件批量添加头部yaml信息', 'e4b'),
     exact: true
   },
   {
     path: '/blog/用python自动化生成Markdown文件的yml头部信息',
-    component: ComponentCreator('/blog/用python自动化生成Markdown文件的yml头部信息', '2b0'),
+    component: ComponentCreator('/blog/用python自动化生成Markdown文件的yml头部信息', '07a'),
     exact: true
   },
   {
     path: '/blog/用WordPress子主题实现网页底部弹窗并可以关闭',
-    component: ComponentCreator('/blog/用WordPress子主题实现网页底部弹窗并可以关闭', 'b01'),
+    component: ComponentCreator('/blog/用WordPress子主题实现网页底部弹窗并可以关闭', '407'),
     exact: true
   },
   {
     path: '/blog/育儿费用',
-    component: ComponentCreator('/blog/育儿费用', 'f3a'),
+    component: ComponentCreator('/blog/育儿费用', '4ba'),
     exact: true
   },
   {
     path: '/blog/在WordPress页面添加音乐播放器区块',
-    component: ComponentCreator('/blog/在WordPress页面添加音乐播放器区块', 'dc7'),
+    component: ComponentCreator('/blog/在WordPress页面添加音乐播放器区块', '689'),
     exact: true
   },
   {
     path: '/blog/整站变黑白',
-    component: ComponentCreator('/blog/整站变黑白', '90e'),
+    component: ComponentCreator('/blog/整站变黑白', '762'),
     exact: true
   },
   {
@@ -164,17 +129,17 @@ export default [
   },
   {
     path: '/blog/bat命令行脚本自动执行git commit和git push',
-    component: ComponentCreator('/blog/bat命令行脚本自动执行git commit和git push', 'fad'),
+    component: ComponentCreator('/blog/bat命令行脚本自动执行git commit和git push', '524'),
     exact: true
   },
   {
     path: '/blog/csdn是个抄袭大本营',
-    component: ComponentCreator('/blog/csdn是个抄袭大本营', '999'),
+    component: ComponentCreator('/blog/csdn是个抄袭大本营', '3ae'),
     exact: true
   },
   {
     path: '/blog/docusaurus和腾讯云服务器的朴素沟通',
-    component: ComponentCreator('/blog/docusaurus和腾讯云服务器的朴素沟通', '90f'),
+    component: ComponentCreator('/blog/docusaurus和腾讯云服务器的朴素沟通', '2ce'),
     exact: true
   },
   {
@@ -229,95 +194,95 @@ export default [
   },
   {
     path: '/blog/python猜数字游戏源码',
-    component: ComponentCreator('/blog/python猜数字游戏源码', 'df1'),
+    component: ComponentCreator('/blog/python猜数字游戏源码', '06b'),
     exact: true
   },
   {
     path: '/blog/WordPress笔记',
-    component: ComponentCreator('/blog/WordPress笔记', '47b'),
+    component: ComponentCreator('/blog/WordPress笔记', '430'),
     exact: true
   },
   {
     path: '/blog/WordPress给鼠标点击添加颜色效果',
-    component: ComponentCreator('/blog/WordPress给鼠标点击添加颜色效果', '4ae'),
+    component: ComponentCreator('/blog/WordPress给鼠标点击添加颜色效果', '290'),
     exact: true
   },
   {
     path: '/blog/wordpress全站禁止鼠标复制文字和鼠标右键',
-    component: ComponentCreator('/blog/wordpress全站禁止鼠标复制文字和鼠标右键', '120'),
+    component: ComponentCreator('/blog/wordpress全站禁止鼠标复制文字和鼠标右键', '9c2'),
     exact: true
   },
   {
     path: '/blog/wordpress修改代码，在文章底部增加打赏按钮',
-    component: ComponentCreator('/blog/wordpress修改代码，在文章底部增加打赏按钮', 'd05'),
+    component: ComponentCreator('/blog/wordpress修改代码，在文章底部增加打赏按钮', '820'),
     exact: true
   },
   {
     path: '/blog/WordPress子主题给全站图片增加特效',
-    component: ComponentCreator('/blog/WordPress子主题给全站图片增加特效', '5cf'),
+    component: ComponentCreator('/blog/WordPress子主题给全站图片增加特效', '78d'),
     exact: true
   },
   {
     path: '/blog/WordPress子主题实现首页浮动提示框',
-    component: ComponentCreator('/blog/WordPress子主题实现首页浮动提示框', 'ffd'),
+    component: ComponentCreator('/blog/WordPress子主题实现首页浮动提示框', '82c'),
     exact: true
   },
   {
     path: '/friend-link',
-    component: ComponentCreator('/friend-link', '309'),
+    component: ComponentCreator('/friend-link', 'c1f'),
     exact: true
   },
   {
     path: '/doc1',
-    component: ComponentCreator('/doc1', '43c'),
+    component: ComponentCreator('/doc1', '723'),
     routes: [
       {
         path: '/doc1',
-        component: ComponentCreator('/doc1', 'e4e'),
+        component: ComponentCreator('/doc1', 'c14'),
         routes: [
           {
             path: '/doc1',
-            component: ComponentCreator('/doc1', '316'),
+            component: ComponentCreator('/doc1', '8b9'),
             routes: [
               {
                 path: '/doc1/2024年1月/哈哈',
-                component: ComponentCreator('/doc1/2024年1月/哈哈', '6e1'),
+                component: ComponentCreator('/doc1/2024年1月/哈哈', '8cd'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/doc1/2024年3月/3.18号',
-                component: ComponentCreator('/doc1/2024年3月/3.18号', '23f'),
+                component: ComponentCreator('/doc1/2024年3月/3.18号', '458'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/doc1/2024年3月/3.20号',
-                component: ComponentCreator('/doc1/2024年3月/3.20号', '1ca'),
+                component: ComponentCreator('/doc1/2024年3月/3.20号', '234'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/doc1/2024年4月/独立的',
-                component: ComponentCreator('/doc1/2024年4月/独立的', '2be'),
+                component: ComponentCreator('/doc1/2024年4月/独立的', 'ac7'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/doc1/测试',
-                component: ComponentCreator('/doc1/测试', '8d0'),
+                component: ComponentCreator('/doc1/测试', 'b5b'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/doc1/明天',
-                component: ComponentCreator('/doc1/明天', '9aa'),
+                component: ComponentCreator('/doc1/明天', 'dfc'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/doc1/新建 Markdown File',
-                component: ComponentCreator('/doc1/新建 Markdown File', '7d0'),
+                component: ComponentCreator('/doc1/新建 Markdown File', '1e5'),
                 exact: true,
                 sidebar: "zidongSidebar"
               }
@@ -329,133 +294,133 @@ export default [
   },
   {
     path: '/docusaurus-test',
-    component: ComponentCreator('/docusaurus-test', '6a6'),
+    component: ComponentCreator('/docusaurus-test', 'c80'),
     routes: [
       {
         path: '/docusaurus-test',
-        component: ComponentCreator('/docusaurus-test', 'ed9'),
+        component: ComponentCreator('/docusaurus-test', '61e'),
         routes: [
           {
             path: '/docusaurus-test',
-            component: ComponentCreator('/docusaurus-test', 'c96'),
+            component: ComponentCreator('/docusaurus-test', '4e8'),
             routes: [
               {
                 path: '/docusaurus-test',
-                component: ComponentCreator('/docusaurus-test', 'fcf'),
+                component: ComponentCreator('/docusaurus-test', 'b6d'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/把docusaurus一键发布到腾讯云服务器上',
-                component: ComponentCreator('/docusaurus-test/把docusaurus一键发布到腾讯云服务器上', '7c1'),
+                component: ComponentCreator('/docusaurus-test/把docusaurus一键发布到腾讯云服务器上', '95c'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/标题下面插入广告',
-                component: ComponentCreator('/docusaurus-test/标题下面插入广告', 'fce'),
+                component: ComponentCreator('/docusaurus-test/标题下面插入广告', '4f2'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/错误调试/不知何种原因无法build',
-                component: ComponentCreator('/docusaurus-test/错误调试/不知何种原因无法build', '5cd'),
+                component: ComponentCreator('/docusaurus-test/错误调试/不知何种原因无法build', '6d5'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/代码实时展现',
-                component: ComponentCreator('/docusaurus-test/代码实时展现', '848'),
+                component: ComponentCreator('/docusaurus-test/代码实时展现', 'faa'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/内部import',
-                component: ComponentCreator('/docusaurus-test/内部import', '1be'),
+                component: ComponentCreator('/docusaurus-test/内部import', 'fe9'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/其他',
-                component: ComponentCreator('/docusaurus-test/其他', '8b0'),
+                component: ComponentCreator('/docusaurus-test/其他', '1ef'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/如何多开docs实例',
-                component: ComponentCreator('/docusaurus-test/如何多开docs实例', '61a'),
+                component: ComponentCreator('/docusaurus-test/如何多开docs实例', '28b'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/设置doc的默认启动页面',
-                component: ComponentCreator('/docusaurus-test/设置doc的默认启动页面', '798'),
+                component: ComponentCreator('/docusaurus-test/设置doc的默认启动页面', 'faf'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/使用github action自动执行发布网站',
-                component: ComponentCreator('/docusaurus-test/使用github action自动执行发布网站', '1be'),
+                component: ComponentCreator('/docusaurus-test/使用github action自动执行发布网站', 'a3e'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/预览PDF',
-                component: ComponentCreator('/docusaurus-test/预览PDF', '2b2'),
+                component: ComponentCreator('/docusaurus-test/预览PDF', '6e4'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/在MDX中定义和使用组件',
-                component: ComponentCreator('/docusaurus-test/在MDX中定义和使用组件', 'f0c'),
+                component: ComponentCreator('/docusaurus-test/在MDX中定义和使用组件', 'e8a'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/assests 外部资源/视频',
-                component: ComponentCreator('/docusaurus-test/assests 外部资源/视频', '4d3'),
+                component: ComponentCreator('/docusaurus-test/assests 外部资源/视频', 'f81'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/assests 外部资源/html文件',
-                component: ComponentCreator('/docusaurus-test/assests 外部资源/html文件', '8d7'),
+                component: ComponentCreator('/docusaurus-test/assests 外部资源/html文件', '149'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/assests 外部资源/pdf',
-                component: ComponentCreator('/docusaurus-test/assests 外部资源/pdf', '786'),
+                component: ComponentCreator('/docusaurus-test/assests 外部资源/pdf', '7f9'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/docusaurus建站和维护遇到的知识点',
-                component: ComponentCreator('/docusaurus-test/docusaurus建站和维护遇到的知识点', '081'),
+                component: ComponentCreator('/docusaurus-test/docusaurus建站和维护遇到的知识点', '33f'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/front matter',
-                component: ComponentCreator('/docusaurus-test/front matter', '0f6'),
+                component: ComponentCreator('/docusaurus-test/front matter', 'c47'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/sidebar.js配置',
-                component: ComponentCreator('/docusaurus-test/sidebar.js配置', '60b'),
+                component: ComponentCreator('/docusaurus-test/sidebar.js配置', '6e3'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/src下可以直接用MD来制作页面',
-                component: ComponentCreator('/docusaurus-test/src下可以直接用MD来制作页面', '7ac'),
+                component: ComponentCreator('/docusaurus-test/src下可以直接用MD来制作页面', '567'),
                 exact: true,
                 sidebar: "zidongSidebar"
               },
               {
                 path: '/docusaurus-test/youtube',
-                component: ComponentCreator('/docusaurus-test/youtube', 'd12'),
+                component: ComponentCreator('/docusaurus-test/youtube', '58c'),
                 exact: true,
                 sidebar: "zidongSidebar"
               }
