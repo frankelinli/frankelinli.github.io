@@ -2,6 +2,31 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "在WordPress页面添加音乐播放器区块",
+      "permalink": "/blog/在WordPress页面添加音乐播放器区块",
+      "unlisted": false
+    },
+    {
+      "title": "给WordPress标题前面加个一色块",
+      "permalink": "/blog/给WordPress标题前面加个一色块",
+      "unlisted": false
+    },
+    {
+      "title": "WordPress子主题给全站图片增加特效",
+      "permalink": "/blog/WordPress子主题给全站图片增加特效",
+      "unlisted": false
+    },
+    {
+      "title": "用WordPress子主题实现网页底部弹窗并可以关闭",
+      "permalink": "/blog/用WordPress子主题实现网页底部弹窗并可以关闭",
+      "unlisted": false
+    },
+    {
+      "title": "WordPress子主题实现首页浮动提示框",
+      "permalink": "/blog/WordPress子主题实现首页浮动提示框",
+      "unlisted": false
+    },
+    {
       "title": "整站变黑白",
       "permalink": "/blog/整站变黑白",
       "unlisted": false
@@ -24,31 +49,6 @@
     {
       "title": "csdn是个抄袭大本营",
       "permalink": "/blog/csdn是个抄袭大本营",
-      "unlisted": false
-    },
-    {
-      "title": "命令行代码推送网址到百度搜索引擎",
-      "permalink": "/blog/命令行代码推送网址到百度搜索引擎",
-      "unlisted": false
-    },
-    {
-      "title": "高中怼女生的一个回忆",
-      "permalink": "/blog/高中怼女生的一个回忆",
-      "unlisted": false
-    },
-    {
-      "title": "深圳大梅沙发生撞车事故",
-      "permalink": "/blog/我在深圳大梅沙发生撞车事故",
-      "unlisted": false
-    },
-    {
-      "title": "使用python来调用tinyPNG API压缩图片",
-      "permalink": "/blog/使用python来调用tinyPNG API压缩图片",
-      "unlisted": false
-    },
-    {
-      "title": "xyz育儿费用",
-      "permalink": "/blog/育儿费用",
       "unlisted": false
     }
   ]

@@ -23,7 +23,11 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "stylesheets": [
+    "https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"
+  ],
   "scripts": [
+    "https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js",
     {
       "src": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4116228001844410",
       "async": true,
@@ -436,7 +440,6 @@ export default {
   "customFields": {},
   "themes": [],
   "headTags": [],
-  "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,

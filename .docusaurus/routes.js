@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'aa0'),
+    component: ComponentCreator('/blog', '203'),
     exact: true
   },
   {
@@ -75,6 +75,11 @@ export default [
   {
     path: '/blog/高中怼女生的一个回忆',
     component: ComponentCreator('/blog/高中怼女生的一个回忆', 'f77'),
+    exact: true
+  },
+  {
+    path: '/blog/给WordPress标题前面加个一色块',
+    component: ComponentCreator('/blog/给WordPress标题前面加个一色块', '9a0'),
     exact: true
   },
   {
@@ -133,8 +138,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/用WordPress子主题实现网页底部弹窗并可以关闭',
+    component: ComponentCreator('/blog/用WordPress子主题实现网页底部弹窗并可以关闭', 'b01'),
+    exact: true
+  },
+  {
     path: '/blog/育儿费用',
     component: ComponentCreator('/blog/育儿费用', 'f3a'),
+    exact: true
+  },
+  {
+    path: '/blog/在WordPress页面添加音乐播放器区块',
+    component: ComponentCreator('/blog/在WordPress页面添加音乐播放器区块', 'dc7'),
     exact: true
   },
   {
@@ -164,47 +179,52 @@ export default [
   },
   {
     path: '/blog/page/10',
-    component: ComponentCreator('/blog/page/10', '136'),
+    component: ComponentCreator('/blog/page/10', '80e'),
+    exact: true
+  },
+  {
+    path: '/blog/page/11',
+    component: ComponentCreator('/blog/page/11', 'c0f'),
     exact: true
   },
   {
     path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'c6f'),
+    component: ComponentCreator('/blog/page/2', '00c'),
     exact: true
   },
   {
     path: '/blog/page/3',
-    component: ComponentCreator('/blog/page/3', '4ac'),
+    component: ComponentCreator('/blog/page/3', 'a4d'),
     exact: true
   },
   {
     path: '/blog/page/4',
-    component: ComponentCreator('/blog/page/4', '2c6'),
+    component: ComponentCreator('/blog/page/4', '34b'),
     exact: true
   },
   {
     path: '/blog/page/5',
-    component: ComponentCreator('/blog/page/5', 'c42'),
+    component: ComponentCreator('/blog/page/5', '4f3'),
     exact: true
   },
   {
     path: '/blog/page/6',
-    component: ComponentCreator('/blog/page/6', '07c'),
+    component: ComponentCreator('/blog/page/6', '67c'),
     exact: true
   },
   {
     path: '/blog/page/7',
-    component: ComponentCreator('/blog/page/7', '259'),
+    component: ComponentCreator('/blog/page/7', '75b'),
     exact: true
   },
   {
     path: '/blog/page/8',
-    component: ComponentCreator('/blog/page/8', '1e9'),
+    component: ComponentCreator('/blog/page/8', 'c48'),
     exact: true
   },
   {
     path: '/blog/page/9',
-    component: ComponentCreator('/blog/page/9', 'cd0'),
+    component: ComponentCreator('/blog/page/9', 'c9c'),
     exact: true
   },
   {
@@ -233,8 +253,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/WordPress子主题给全站图片增加特效',
+    component: ComponentCreator('/blog/WordPress子主题给全站图片增加特效', '5cf'),
+    exact: true
+  },
+  {
+    path: '/blog/WordPress子主题实现首页浮动提示框',
+    component: ComponentCreator('/blog/WordPress子主题实现首页浮动提示框', 'ffd'),
+    exact: true
+  },
+  {
     path: '/friend-link',
-    component: ComponentCreator('/friend-link', 'a22'),
+    component: ComponentCreator('/friend-link', '309'),
     exact: true
   },
   {

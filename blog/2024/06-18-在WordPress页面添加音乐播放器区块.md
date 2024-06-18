@@ -15,7 +15,7 @@ slug: 在WordPress页面添加音乐播放器区块
 
 <!-- truncate -->
 
-在你的子主题的`functions.php`文件中添加以下代码，以便在WordPress中加载APlayer的CSS和JS文件：
+在你的子主题的`functions.php`文件中添加以下代码，以便在WordPress中加载APlayer的CSS和JS文件：[首页 - APlayer](https://aplayer.js.org/#/zh-Hans/?id=cdn)
 
 ```php
 function enqueue_aplayer_scripts() {

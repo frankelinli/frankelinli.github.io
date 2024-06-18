@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-aa0": {
+  "/blog-203": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -50,13 +50,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---bloge-7-b-2d5"
+        "content": "content---bloga-95-202"
       },
       {
-        "content": "content---blog-2-bc-2b7"
+        "content": "content---blogb-3-b-cd9"
       },
       {
-        "content": "content---blog-672-f03"
+        "content": "content---blogd-11-c3e"
       }
     ],
     "__props": "__props---blogc-15-573"
@@ -137,6 +137,17 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-高中怼女生的一个回忆b-21-9e0"
+  },
+  "/blog/给WordPress标题前面加个一色块-9a0": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-2024-03-28-20240328-ace-7f2"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-给-word-press标题前面加个一色块-46-e-fed"
   },
   "/blog/禁止折腾！-ec3": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -259,6 +270,17 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-用python自动化生成-markdown文件的yml头部信息-027-0ca"
   },
+  "/blog/用WordPress子主题实现网页底部弹窗并可以关闭-b01": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-2024-03-28-20240328-ace-7f2"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-用-word-press子主题实现网页底部弹窗并可以关闭b-10-8f6"
+  },
   "/blog/育儿费用-f3a": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -269,6 +291,17 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-育儿费用-507-3b4"
+  },
+  "/blog/在WordPress页面添加音乐播放器区块-dc7": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-2024-03-28-20240328-ace-7f2"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-在-word-press页面添加音乐播放器区块-9-f-6-976"
   },
   "/blog/整站变黑白-90e": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -321,7 +354,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-docusaurus和腾讯云服务器的朴素沟通-98-a-665"
   },
-  "/blog/page/10-136": {
+  "/blog/page/10-80e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -329,12 +362,18 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-1080-c-c02"
+        "content": "content---blog-page-103-f-7-0c9"
+      },
+      {
+        "content": "content---blog-page-10-e-54-edb"
+      },
+      {
+        "content": "content---blog-page-10-da-0-3b8"
       }
     ],
     "__props": "__props---blog-page-10564-46b"
   },
-  "/blog/page/2-c6f": {
+  "/blog/page/11-c0f": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -342,18 +381,37 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-28-f-9-d50"
+        "content": "content---blog-page-11-d-1-d-fa7"
       },
       {
-        "content": "content---blog-page-26-bd-861"
+        "content": "content---blog-page-11140-de9"
       },
       {
-        "content": "content---blog-page-28-ae-229"
+        "content": "content---blog-page-1180-c-d9e"
+      }
+    ],
+    "__props": "__props---blog-page-11-cc-7-a56"
+  },
+  "/blog/page/2-00c": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-page-27-ad-1a9"
+      },
+      {
+        "content": "content---blog-page-2-b-97-2c4"
+      },
+      {
+        "content": "content---blog-page-2-e-7-b-84f"
       }
     ],
     "__props": "__props---blog-page-28-ea-cf7"
   },
-  "/blog/page/3-4ac": {
+  "/blog/page/3-a4d": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -361,18 +419,18 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-3676-a1e"
+        "content": "content---blog-page-32-bc-2c4"
       },
       {
-        "content": "content---blog-page-3175-c16"
+        "content": "content---blog-page-3672-ae9"
       },
       {
-        "content": "content---blog-page-3-a-14-1b7"
+        "content": "content---blog-page-38-f-9-6c3"
       }
     ],
     "__props": "__props---blog-page-318-f-0ee"
   },
-  "/blog/page/4-2c6": {
+  "/blog/page/4-34b": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -380,18 +438,18 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-41-f-3-129"
+        "content": "content---blog-page-46-bd-eb4"
       },
       {
-        "content": "content---blog-page-4-adf-226"
+        "content": "content---blog-page-48-ae-6ee"
       },
       {
-        "content": "content---blog-page-43-fb-fb7"
+        "content": "content---blog-page-4676-649"
       }
     ],
     "__props": "__props---blog-page-4400-ef8"
   },
-  "/blog/page/5-c42": {
+  "/blog/page/5-4f3": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -399,18 +457,18 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-5-af-4-679"
+        "content": "content---blog-page-5175-75e"
       },
       {
-        "content": "content---blog-page-51-d-8-165"
+        "content": "content---blog-page-5-a-14-57d"
       },
       {
-        "content": "content---blog-page-5-bf-2-bd2"
+        "content": "content---blog-page-51-f-3-261"
       }
     ],
     "__props": "__props---blog-page-57-dd-c44"
   },
-  "/blog/page/6-07c": {
+  "/blog/page/6-67c": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -418,18 +476,18 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-65-aa-b63"
+        "content": "content---blog-page-6-adf-7f1"
       },
       {
-        "content": "content---blog-page-6-c-54-c7c"
+        "content": "content---blog-page-63-fb-4c6"
       },
       {
-        "content": "content---blog-page-665-c-c7d"
+        "content": "content---blog-page-6-af-4-b28"
       }
     ],
     "__props": "__props---blog-page-6-a-97-c94"
   },
-  "/blog/page/7-259": {
+  "/blog/page/7-75b": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -437,18 +495,18 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-7-b-6-c-46b"
+        "content": "content---blog-page-71-d-8-281"
       },
       {
-        "content": "content---blog-page-7-ee-1-268"
+        "content": "content---blog-page-7-bf-2-945"
       },
       {
-        "content": "content---blog-page-7-f-7-d-d30"
+        "content": "content---blog-page-75-aa-8f2"
       }
     ],
     "__props": "__props---blog-page-76-df-ae0"
   },
-  "/blog/page/8-1e9": {
+  "/blog/page/8-c48": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -456,18 +514,18 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-8-ff-3-528"
+        "content": "content---blog-page-8-c-54-19e"
       },
       {
-        "content": "content---blog-page-83-f-7-dfb"
+        "content": "content---blog-page-865-c-26f"
       },
       {
-        "content": "content---blog-page-8-e-54-0bc"
+        "content": "content---blog-page-8-b-6-c-6a9"
       }
     ],
     "__props": "__props---blog-page-852-e-147"
   },
-  "/blog/page/9-cd0": {
+  "/blog/page/9-c9c": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -475,13 +533,13 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-page-9-da-0-c81"
+        "content": "content---blog-page-9-ee-1-3d3"
       },
       {
-        "content": "content---blog-page-9-d-1-d-2ec"
+        "content": "content---blog-page-9-f-7-d-987"
       },
       {
-        "content": "content---blog-page-9140-4b0"
+        "content": "content---blog-page-9-ff-3-481"
       }
     ],
     "__props": "__props---blog-page-9-f-5-d-43f"
@@ -541,12 +599,34 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-wordpress修改代码，在文章底部增加打赏按钮db-2-c2f"
   },
-  "/friend-link-a22": {
+  "/blog/WordPress子主题给全站图片增加特效-5cf": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-2024-03-28-20240328-ace-7f2"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-word-press子主题给全站图片增加特效-889-484"
+  },
+  "/blog/WordPress子主题实现首页浮动提示框-ffd": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-2024-03-28-20240328-ace-7f2"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-word-press子主题实现首页浮动提示框c-9-b-b2e"
+  },
+  "/friend-link-309": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
       "plugin": "plugin---friend-linka-74-ed3"
     },
-    "content": "content---friend-link-0-ea-f6d"
+    "content": "content---friend-link-5-d-4-674"
   },
   "/doc1-43c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",

@@ -40,9 +40,15 @@ const config = {
     locales: ['zh'], //这个数组填写多个语言，npm run build就会生成多个语言的文件
   },
 
+  stylesheets: [
+    'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css',
+  ],
+
   scripts: [
     // // String format.
     // 'https://docusaurus.io/script.js',
+    'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js',
+    
     // Object format.
     {
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4116228001844410',
