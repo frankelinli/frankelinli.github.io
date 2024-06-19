@@ -72,3 +72,37 @@ add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
 以上步骤完成后，你应该能够在你的网站左下角看到APlayer播放区块。你可以根据需要调整CSS样式和JavaScript配置来满足你的需求。
 
 如果你有任何问题或需要进一步的帮助，请告诉我！
+
+---
+
+以上代码，网页刷新后，音乐就停止了，而且要从头开始播放。
+
+一个简单的刷新网页，继续播放的方案,，使用localStorage
+
+```js
+<audio id="myAudio" controls>
+  <source src="https://spacexcode.oss-cn-hangzhou.aliyuncs.com/mp3/那女孩对我说.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+window.onload = function() {
+  var audio = document.getElementById("myAudio");
+  var playedTime = localStorage.getItem("playedTime");
+  
+  if (playedTime) {
+    audio.currentTime = parseFloat(playedTime);
+    audio.play();
+  }
+
+  audio.addEventListener('timeupdate', function() {
+    localStorage.setItem("playedTime", audio.currentTime);
+  });
+  
+  audio.addEventListener('ended', function() {
+    localStorage.removeItem("playedTime");
+  });
+};
+</script>
+```
+

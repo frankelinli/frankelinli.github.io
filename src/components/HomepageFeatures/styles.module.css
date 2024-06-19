@@ -12,12 +12,12 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transform: translateY(0);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
 
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: aliceblue; /* 鼠标悬停在feature卡上时，卡片背景色为爱丽丝蓝 */
-  }
+.featureLink:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: aliceblue; /* 鼠标悬停在 feature 卡上时，卡片背景色为爱丽丝蓝 */
 }
 
 /* 为了保持链接的样式和文本颜色与其他部分一致，将链接的文本颜色和下划线去掉，只保留了原本的颜色 */

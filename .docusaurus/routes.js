@@ -229,7 +229,7 @@ export default [
   },
   {
     path: '/friend-link',
-    component: ComponentCreator('/friend-link', 'c1f'),
+    component: ComponentCreator('/friend-link', '067'),
     exact: true
   },
   {
