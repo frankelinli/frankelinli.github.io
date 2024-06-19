@@ -2,6 +2,16 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "个人站长千万不要使用docusaurus建站的10个理由",
+      "permalink": "/blog/个人站长千万不要使用docusaurus建站的10个理由",
+      "unlisted": false
+    },
+    {
+      "title": "个人站长选择WordPress还是docusaurus",
+      "permalink": "/blog/个人站长选择WordPress还是docusaurus",
+      "unlisted": false
+    },
+    {
       "title": "在WordPress页面添加音乐播放器区块",
       "permalink": "/blog/在WordPress页面添加音乐播放器区块",
       "unlisted": false
@@ -39,16 +49,6 @@
     {
       "title": "wordpress全站禁止鼠标复制文字和鼠标右键",
       "permalink": "/blog/wordpress全站禁止鼠标复制文字和鼠标右键",
-      "unlisted": false
-    },
-    {
-      "title": "wordpress修改代码，在文章底部增加打赏按钮",
-      "permalink": "/blog/wordpress修改代码，在文章底部增加打赏按钮",
-      "unlisted": false
-    },
-    {
-      "title": "csdn是个抄袭大本营",
-      "permalink": "/blog/csdn是个抄袭大本营",
       "unlisted": false
     }
   ]

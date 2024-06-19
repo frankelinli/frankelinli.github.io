@@ -41,13 +41,13 @@ const config = {
   },
 
   stylesheets: [
-    'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css',
+    
   ],
 
   scripts: [
     // // String format.
     // 'https://docusaurus.io/script.js',
-    'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js',
+    // 'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js',
     
     // Object format.
     {
