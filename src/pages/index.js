@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import WordPressPosts from '../components/WordPressPosts';
 
 
 import styles from './index.module.css';
@@ -30,6 +31,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />    
+        <WordPressPosts />
         
       </main>
     </Layout>
