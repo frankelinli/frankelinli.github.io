@@ -31,7 +31,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />    
-        <WordPressPosts />
+        
         
       </main>
     </Layout>
