@@ -8,10 +8,13 @@ const [loading, setLoading] = useState(true);
 const [viewedPosts, setViewedPosts] = useState(new Set());
 
 const wordpressSites = [
-    { name: 'Site 1', url: 'https://csrwiki.com' },
-    { name: 'Site 2', url: 'https://www.wp-diary.com' },
+    { name: 'CSRWiki', url: 'https://csrwiki.com' },
     { name: 'Wrap', url: 'https://wrapcompliance.org' },
     { name: 'APSCA', url: 'https://www.theapsca.org/' },
+    { name: 'ALGI', url: 'https://www.algi.net/' },
+    { name: 'Site 2', url: 'https://www.wp-diary.com' },
+    { name: 'Sedex', url: 'https://www.sedex.com/' },  
+    
     // 添加更多 WordPress 站点的 URL 和名称
 ];
 
