@@ -41,6 +41,8 @@ const config = {
   },
 
   stylesheets: [
+    //引入bootstrap CSS
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css',
     
   ],
 
@@ -54,6 +56,12 @@ const config = {
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4116228001844410',
       async: true,
       crossorigin: "anonymous"
+    },
+    //引入bootstrap JS
+    {
+      src: 'https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js',
+      integrity: 'sha384-kaG5hG8kQ6k9p9kG8Q6k9p9kG8Q6k9p9kG8Q6k9p9kG8Q6k9p9kG8Q6k9p9kG8Q6k9',
+      crossorigin: 'anonymous',
     },
   ],
 
