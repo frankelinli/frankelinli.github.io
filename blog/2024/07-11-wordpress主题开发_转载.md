@@ -820,7 +820,7 @@ get_template_directory_uri(); //获取主题目录路径
 
 ##### 2. 在functions. php内
 
-> 注意，一定要加上 <?php wp_head(); ?>
+> 注意，一定要加上`<?php wp_head(); ?>`
 
 1. 使用 `wp_enqueue_script()` 将 JS 文件插入队列
 2. 使用 `wp_enqueue_style()` 将 CSS 文件插入队列
