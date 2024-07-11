@@ -3,9 +3,13 @@ date: 2024-07-11 00:03
 slug: wordpress主题开发_转载
 ---
 
+:::info
+
 本文是Bilibili视频博主的配套文档，讲解很棒，
 
 作者地址：[主题配置 首页分离 header和footer_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1yN4y1e7Zw?p=2&vd_source=322e640a098c93612beda76ff1c257ea)
+
+::::
 
 官方文档： https://developer.wordpress.org/themes/getting-started/
 模仿： https://xingpingcn.top/
@@ -137,8 +141,6 @@ wp_footer();
 #### 用户相关
 
 ```php
-//获取当前用户（已弃用）
-get_currentuserinfo();
 //获取当前用户（推荐使用）
 wp_get_current_user();
 
