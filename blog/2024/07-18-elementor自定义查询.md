@@ -3,7 +3,7 @@ date: 2024-07-18 01:04
 slug: elementor自定义查询
 ---
 
-要在Elementor中查询最近一个月的帖子，可以使用你已经设置的Query ID，并在相应的代码中定义查询逻辑。以下是如何实现这一目标的详细步骤：
+![image-20240718113440784](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240718113440784.png)要在Elementor中查询最近一个月的帖子，可以使用你已经设置的Query ID，并在相应的代码中定义查询逻辑。以下是如何实现这一目标的详细步骤：
 
 :::info
 
