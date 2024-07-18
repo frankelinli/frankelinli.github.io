@@ -12,8 +12,8 @@
         <id>https://frankelinli.github.io/blog/elementor自定义查询</id>
         <link href="https://frankelinli.github.io/blog/elementor自定义查询"/>
         <updated>2024-07-18T01:04:00.000Z</updated>
-        <summary type="html"><![CDATA[要在Elementor中查询最近一个月的帖子，可以使用你已经设置的Query ID，并在相应的代码中定义查询逻辑。以下是如何实现这一目标的详细步骤：]]></summary>
-        <content type="html"><![CDATA[<p>要在Elementor中查询最近一个月的帖子，可以使用你已经设置的Query ID，并在相应的代码中定义查询逻辑。以下是如何实现这一目标的详细步骤：</p>
+        <summary type="html"><![CDATA[image-20240718113440784要在Elementor中查询最近一个月的帖子，可以使用你已经设置的Query ID，并在相应的代码中定义查询逻辑。以下是如何实现这一目标的详细步骤：]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240718113440784.png" alt="image-20240718113440784" class="img_ev3q">要在Elementor中查询最近一个月的帖子，可以使用你已经设置的Query ID，并在相应的代码中定义查询逻辑。以下是如何实现这一目标的详细步骤：</p>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>信息</div><div class="admonitionContent_BuS1"><p>原来如此简单！elementor的自定义查询，等于把“elementor可视化”与WordPress代码结合起来了。</p></div></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-添加自定义查询逻辑">1. 添加自定义查询逻辑<a class="hash-link" aria-label="1. 添加自定义查询逻辑的直接链接" title="1. 添加自定义查询逻辑的直接链接" href="https://frankelinli.github.io/blog/elementor%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9F%A5%E8%AF%A2#1-%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9F%A5%E8%AF%A2%E9%80%BB%E8%BE%91">​</a></h3>
 <p>将以下代码添加到你的WordPress主题的<code>functions.php</code>文件，或者通过插件添加：</p>
