@@ -1,6 +1,6 @@
 ---
 date: 2024-07-19 10:02
-slug: header.php和footer.php必须要包含wp_head()和wp_footer()函数
+slug: header.php和footer.php必须要包含wp_head和wp_footer函数
 ---
 
 在 WordPress 主题开发中，header.php 和 footer.php 文件确实必须分别包含 wp_head() 和 wp_footer() 函数。这两个函数对于 WordPress 主题的正确功能至关重要。让我解释一下原因，并给出一些例子。
@@ -9,7 +9,7 @@ slug: header.php和footer.php必须要包含wp_head()和wp_footer()函数
 
 1. header.php 中的 wp_head()
 
-wp_head() 应该放在 header.php 文件的 </head> 标签之前：
+wp_head() 应该放在 header.php 文件的` </head>` 标签之前：
 
 ```php
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ wp_head() 应该放在 header.php 文件的 </head> 标签之前：
 
 2. footer.php 中的 wp_footer()
 
-wp_footer() 应该放在 footer.php 文件的 </body> 标签之前：
+wp_footer() 应该放在 footer.php 文件的 `</body>` 标签之前：
 
 ```php
     <footer>

@@ -1,9 +1,10 @@
 ---
 date: 2024-06-16 22:45
 slug: WordPress给鼠标点击添加颜色效果
+
 ---
 
-
+![image-20240721202652772](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240721202652772.png)
 
 WordPress子主题实现：鼠标在空白处摁下左键，会弹出五彩斑斓的颜色
 
