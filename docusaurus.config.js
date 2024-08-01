@@ -144,6 +144,21 @@ const config = {
       },   
     ],
 
+    //wordpress-astra-theme库
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'wordpress-astra-theme',
+        path: 'docs/wordpress-astra-theme',
+        routeBasePath: 'wordpress-astra-theme',
+        sidebarPath: require.resolve('./sidebars.js'),
+        breadcrumbs: false,
+        showLastUpdateTime: true,
+        editUrl: ({versionDocsDirPath, docPath}) =>
+        `https://github.com/frankelinli/frankelinli.github.io/edit/main/${versionDocsDirPath}/${docPath}`,
+      },   
+    ],
+
     
 
   ],

@@ -38,6 +38,17 @@ const FeatureList = [
     ),
     to:'/blog'
   },
+
+  {
+    title: 'WordPress Astra主题',
+    imgSrc: require('@site/static/img/blog.png').default,
+    description: (
+      <>
+        WordPress Astra主题使用备忘录<br/>
+      </>
+    ),
+    to:'/wordpress-astra-theme'
+  },
   
 
 

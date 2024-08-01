@@ -18,7 +18,7 @@ const sidebars = {
 
     {
       type: 'html',
-      value: '<img src="img/VBA-logo.webp" /> <hr>', // The HTML to be rendered
+      value: '<img src="img/VBA-logo.webp" style="width: 30px; height: auto; border-radius: 15px;" /> <hr>', // The HTML to be rendered
       defaultStyle: true, // Use the default menu item styling
     },
 
