@@ -30,3 +30,6 @@ http://localhost:3000/haha.html
 
 :::
 
+
+
+这样的独立HTML文件，是完全独立于docusaurus系统之外的。
