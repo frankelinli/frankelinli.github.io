@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8146],{9328:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":3,"totalPages":28,"totalCount":84,"nextPage":"/blog/page/2","blogDescription":"\u4e2a\u4eba\u535a\u5ba2\u548c\u603b\u7ed3\u6587\u6863\u5e93!","blogTitle":"frankelinle blog!"}}')}}]);
