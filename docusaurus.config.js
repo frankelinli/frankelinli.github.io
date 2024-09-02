@@ -87,10 +87,7 @@ const config = {
           blogDescription: '个人博客和总结文档库!',
           postsPerPage: 3,
           blogSidebarCount: 10,
-          showLastUpdateTime: true,
-          sidebar: {
-            groupByYear: true,
-          },
+          showLastUpdateTime: true,          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
@@ -207,6 +204,12 @@ const config = {
         sidebar: {
           hideable: true,
           autoCollapseCategories: true,
+        },
+      },
+
+      blog: {
+        sidebar: {
+          groupByYear: false,//关闭博客左侧栏按年份分组；默认：true
         },
       },
 
