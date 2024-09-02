@@ -88,6 +88,9 @@ const config = {
           postsPerPage: 3,
           blogSidebarCount: 10,
           showLastUpdateTime: true,
+          sidebar: {
+            groupByYear: true,
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
