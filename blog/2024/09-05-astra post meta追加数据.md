@@ -66,3 +66,95 @@ add_filter('astra_single_post_meta', 'modify_entry_meta');
 ```
 
 将这段 CSS 添加到您的子主题的 `style.css` 文件中。
+
+## 鼠标悬停弹出二维码分享文章
+
+引入外部Qrcode JS来实现。最终效果如图：
+
+![image-20240905181958274](https://docu-1319658309.cos.ap-guangzhou.myqcloud.com/image-20240905181958274.png)
+
+```php
+//function.php部分
+function modify_entry_meta($output) {
+    if (is_single()) {
+        $print_button = '<span class="posted-on print-button"><a href="javascript:window.print();">打印</a></span>';
+        $qr_share = '<span class="posted-on qr-share"><a href="#" class="qr-trigger">分享</a><div class="qr-popup"><div id="qrcode"></div></div></span>';
+        
+        // 查找 entry-meta 结束标签的位置
+        $pos = strrpos($output, '</div>');
+        
+        if ($pos !== false) {
+            // 在 </div> 之前插入打印按钮和二维码分享
+            $output = substr_replace($output, $print_button . $qr_share, $pos, 0);
+        }
+        
+        // 在页脚添加 qrcode.js 库
+        wp_enqueue_script('qrcode-js', 'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js', array('jquery'), null, true);
+        
+        // 添加自定义 JavaScript
+        wp_add_inline_script('qrcode-js', '
+            jQuery(document).ready(function($) {
+                var qrcode = new QRCode(document.getElementById("qrcode"), {
+                    text: window.location.href,
+                    width: 100,
+                    height: 100,
+                    colorDark : "#000000",
+                    colorLight : "#ffffff",
+                    correctLevel : QRCode.CorrectLevel.H
+                });
+                
+                $(".qr-trigger").hover(
+                    function() {
+                        $(this).next(".qr-popup").stop().fadeIn(200);
+                    },
+                    function() {
+                        $(this).next(".qr-popup").stop().fadeOut(200);
+                    }
+                );
+            });
+        ');
+    }
+    return $output;
+}
+add_filter('astra_single_post_meta', 'modify_entry_meta');
+```
+
+CSS部分
+
+``` css
+.entry-meta .print-button,
+.entry-meta .qr-share {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.qr-share {
+    position: relative;
+}
+
+.qr-popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+#qrcode {
+    width: 200px;
+    height: 200px;
+}
+
+#qrcode img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+```
+
