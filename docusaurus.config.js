@@ -269,8 +269,8 @@ const config = {
           },
 
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: '/contact-me',
+            label: '联系我',
             position: 'right',
           }, 
 
