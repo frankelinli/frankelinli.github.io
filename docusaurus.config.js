@@ -271,7 +271,7 @@ const config = {
           {
             href: '/contact-me',
             label: '联系我',
-            position: 'right',
+            position: 'left',
           }, 
 
         ],
