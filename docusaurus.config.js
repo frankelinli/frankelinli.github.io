@@ -256,17 +256,17 @@ const config = {
           {to: '/friend-link', label: '友情链接', position: 'left'},
           
           //顶部导航栏的下拉二级菜单
-          {
-            type: 'dropdown',
-            label: '更多',
-            position: 'left',
-            items: [
-              {
-                label: 'Facebook',
-                href: 'https://www.facebook.com',
-              },          
-            ],
-          },
+          // {
+          //   type: 'dropdown',
+          //   label: '更多',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       label: 'Facebook',
+          //       href: 'https://www.facebook.com',
+          //     },          
+          //   ],
+          // },
 
           {
             href: '/contact-me',
