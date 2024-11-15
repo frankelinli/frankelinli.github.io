@@ -5,7 +5,7 @@ slug: wordpress Astra主题钩子函数
 
 
 
-
+wordpress Astra主题钩子函数
 
 <!-- truncate -->
 
@@ -35,7 +35,7 @@ function add_icon_before_title($title) {
 }
 add_filter('astra_the_title', 'add_icon_before_title');
 ```
-::info
+:::info
 以上两处分别是用了add action和ad filter钩子函数，add action是添加内容，add filter是修改内容。大概这个意思
 :::
 
