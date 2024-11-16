@@ -3,7 +3,16 @@ date: 2024-11-16 21:26
 slug: 非常简单-Astra文章导航限定在当前分类内
 ---
 
-要实现在当前分类内导航,需要在获取上下篇文章时添加 `in_same_term` 参数。以下是修改后的代码:
+要实现在当前分类内导航,需要在获取上下篇文章时添加 `in_same_term` 参数。只需修改一个true;
+
+修改了这两行:
+
+- `get_next_post(true)`
+- `get_previous_post(true)`
+
+以下是修改后的代码:
+
+<!-- truncate -->
 
 ```php
 add_filter( 'astra_single_post_navigation', 'astra_change_next_prev_text' );
@@ -33,19 +42,9 @@ function astra_change_next_prev_text( $args ) {
 }
 ```
 
-主要修改了这两行:
-- `get_next_post(true)`
-- `get_previous_post(true)`
-
-<!-- truncate -->
-
-
-
 现在导航只会显示同一分类下的文章。如果需要指定某个分类法(taxonomy),可以使用完整参数:
 
 ```php
 get_next_post(true, '', 'category'); // 第三个参数指定taxonomy
 get_previous_post(true, '', 'category');
 ```
-
-Would you like me to explain the code in more detail?
