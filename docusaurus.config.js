@@ -175,6 +175,10 @@ const config = {
         {name: 'google-site-verification', content: '7DnXw4DphvfZhWgp2W1ig0102WONIF9qL5g2EJTUEfg'},
       ],
 
+      future: {
+        experimental_faster: true,
+      },
+
       //配置liveCodeBlock
       liveCodeBlock: {
         /**
