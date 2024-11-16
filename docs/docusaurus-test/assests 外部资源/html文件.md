@@ -1,3 +1,7 @@
+---
+slug: /waibuziyuan
+---
+
 
 
 可以把单独的html文件放在`‘/static'`文件夹下；
