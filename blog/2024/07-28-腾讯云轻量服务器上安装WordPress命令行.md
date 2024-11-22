@@ -3,10 +3,6 @@ date: 2024-07-28 02:02
 slug: 腾讯云轻量服务器上安装WordPress命令行
 ---
 
-
-
-
-
 <!-- truncate -->
 
 使用腾讯云轻量服务器的OrcaTerm终端工具，来安装WP-CLI

@@ -126,3 +126,12 @@ window.onclick = function(event) {
 2. **图片路径：** 确保你的二维码图片路径正确并且图片已经上传到你的服务器。
 3. **主题更新：** 如果你的主题更新，可能会覆盖 `single.php
 
+:::tip
+
+编辑astra的single.php时，Astra更新后，自己的设置会失效；
+
+即使astra child的single. php也有风险，无法即使获得astra的single.php的新功能。
+
+最好是使用astra 的hook；
+
+:::
