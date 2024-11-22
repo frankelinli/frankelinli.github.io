@@ -3,8 +3,6 @@ date: 2024-10-24 00:15
 slug: publicly_queryable设置
 ---
 
-
-
 `publicly_queryable => false` 是WordPress文章类型注册时的一个重要参数，它有以下作用：
 
 <!-- truncate -->
