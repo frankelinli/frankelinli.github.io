@@ -115,3 +115,11 @@ details {
 }
 
 
+
+
+.hero {
+  background-image: url('/img/hero-banner-image.webp');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+}
