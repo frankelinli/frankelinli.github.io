@@ -31,8 +31,19 @@
 }
 
 /* 给全站h1标题添加下划线 */
-h1 {
+/* h1 {
   border-bottom: 1px dashed #e4131e;
+} */
+ 
+
+/* 修改 <code> 标签的文字颜色 */
+code {
+  color: gray; /* 设置文字为灰色 */
+}
+
+/* 如果需要修改代码块样式 (<pre><code>...) */
+pre code {
+  color: gray; /* 设置文字为灰色 */
 }
 
 
@@ -108,10 +119,6 @@ details {
   font-size: xx-large;
   font-weight: bold;
   border-bottom: 10px solid black; /* 设置下划线样式 */
-}
-
-.theme-doc-toc-desktop{
-  color: pink;
 }
 
 
