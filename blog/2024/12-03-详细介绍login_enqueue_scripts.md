@@ -106,6 +106,37 @@ add_action('login_enqueue_scripts', 'custom_login_animations');
 
 
 
+### login_enqueue_scripts 钩子具有以下特点：
+
+1. 仅在WordPress登录相关页面触发，包括：
+   - wp-login.php（登录页面）
+   - wp-register.php（注册页面）
+   - wp-signup.php（注册页面）
+   - wp-admin/目录下需要登录验证的页面
+
+2. 不会影响其他页面的加载，比如：
+   - 前台页面
+   - 已登录后的后台页面
+   - 其他普通页面
+
+对比其他常用的样式加载钩子：
+```php
+// 前台页面加载样式
+add_action('wp_enqueue_scripts', 'front_end_styles');
+
+// 后台页面加载样式
+add_action('admin_enqueue_scripts', 'admin_styles');
+
+// 仅登录页面加载样式
+add_action('login_enqueue_scripts', 'login_styles');
+```
+
+这种机制可以帮助我们：
+1. 精确控制资源加载位置
+2. 避免不必要的资源加载
+3. 提高页面加载性能
+4. 更好地组织代码结构
+
 ### 对比内联CSS和外部CSS文件
 
 1. 内联CSS方式（如你提到的例子）：
