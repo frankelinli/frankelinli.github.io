@@ -1,0 +1,815 @@
+<div class="info-box">
+    <p>⚠️ 重要提示：这是一个突出显示的信息框</p>
+    <style>
+      .info-box {
+        background: #fff3cd;
+        border-left: 4px solid #ffc107;
+        padding: 15px;
+        margin: 20px 0;
+      }
+    </style>
+  </div>
+
+
+  <div class="interactive-box">
+    <button onclick="toggleContent()">点击展开</button>
+    <div id="hidden-content" style="display: none;">
+      这是隐藏的内容
+    </div>
+    <script>
+      function toggleContent() {
+        var content = document.getElementById('hidden-content');
+        content.style.display = content.style.display === 'none' ? 'block' : 'none';
+      }
+    </script>
+  </div>
+
+
+  <div class="custom-layout">
+    <div class="column">
+      <h3>第一列内容</h3>
+      <p>这里是一些文字说明...</p>
+    </div>
+    <div class="column">
+      <h3>第二列内容</h3>
+      <p>这里是一些文字说明...</p>
+    </div>
+    <style>
+      .custom-layout {
+        display: flex;
+        gap: 20px;
+      }
+      .column {
+        flex: 1;
+        padding: 15px;
+        background: #f5f5f5;
+      }
+    </style>
+  </div>
+
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="date">2024</div>
+      <div class="content">
+        <h3>重要事件一</h3>
+        <p>这里是事件描述...</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="date">2023</div>
+      <div class="content">
+        <h3>重要事件二</h3>
+        <p>这里是事件描述...</p>
+      </div>
+    </div>
+    <style>
+      .timeline {
+        position: relative;
+        max-width: 800px;
+        margin: 40px auto;
+      }
+      .timeline::before {
+        content: '';
+        position: absolute;
+        left: 100px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #ddd;
+      }
+      .timeline-item {
+        display: flex;
+        margin-bottom: 30px;
+      }
+      .date {
+        width: 80px;
+        padding-right: 20px;
+        font-weight: bold;
+        text-align: right;
+      }
+      .content {
+        flex: 1;
+        margin-left: 40px;
+        background: #f5f5f5;
+        padding: 15px;
+        border-radius: 5px;
+      }
+    </style>
+  </div>
+
+
+  <div class="calculator">
+    <input type="number" id="num1" placeholder="数字1">
+    <input type="number" id="num2" placeholder="数字2">
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">×</option>
+      <option value="/">÷</option>
+    </select>
+    <button onclick="calculate()">计算</button>
+    <div id="result">结果: </div>
+  
+    <style>
+      .calculator {
+        max-width: 300px;
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 8px;
+      }
+      .calculator input, 
+      .calculator select, 
+      .calculator button {
+        width: 100%;
+        margin: 5px 0;
+        padding: 8px;
+      }
+      #result {
+        margin-top: 15px;
+        font-weight: bold;
+      }
+    </style>
+  
+    <script>
+      function calculate() {
+        const num1 = parseFloat(document.getElementById('num1').value);
+        const num2 = parseFloat(document.getElementById('num2').value);
+        const operator = document.getElementById('operator').value;
+        let result;
+        
+        switch(operator) {
+          case '+': result = num1 + num2; break;
+          case '-': result = num1 - num2; break;
+          case '*': result = num1 * num2; break;
+          case '/': result = num2 !== 0 ? num1 / num2 : '除数不能为0';
+        }
+        
+        document.getElementById('result').textContent = '结果: ' + result;
+      }
+    </script>
+  </div>
+
+
+
+  <div class="gradient-cards">
+    <div class="card">
+      <h3>标题一</h3>
+      <p>这是一些描述文字...</p>
+    </div>
+    <div class="card">
+      <h3>标题二</h3>
+      <p>这是一些描述文字...</p>
+    </div>
+    <style>
+      .gradient-cards {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+      }
+      .card {
+        flex: 1;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        transition: transform 0.3s;
+      }
+      .card:nth-child(1) {
+        background: linear-gradient(45deg, #ff6b6b, #feca57);
+      }
+      .card:nth-child(2) {
+        background: linear-gradient(45deg, #54a0ff, #00d2d3);
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+    </style>
+  </div>
+
+
+  <div class="copy-section">
+    <div class="copy-box">
+      <code id="copyText">这是要复制的文本内容</code>
+      <button onclick="copyToClipboard()">复制</button>
+    </div>
+    <div id="copyMessage" class="copy-message"></div>
+  
+    <style>
+      .copy-section {
+        max-width: 400px;
+        margin: 20px auto;
+      }
+      .copy-box {
+        display: flex;
+        gap: 10px;
+        padding: 15px;
+        background: #f8f9fa;
+        border-radius: 5px;
+      }
+      .copy-box code {
+        flex: 1;
+        padding: 8px;
+        background: #fff;
+      }
+      .copy-message {
+        color: green;
+        margin-top: 10px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+    </style>
+  
+    <script>
+      function copyToClipboard() {
+        const text = document.getElementById('copyText').textContent;
+        navigator.clipboard.writeText(text).then(() => {
+          const message = document.getElementById('copyMessage');
+          message.textContent = '复制成功！';
+          message.style.opacity = 1;
+          setTimeout(() => message.style.opacity = 0, 2000);
+        });
+      }
+    </script>
+  </div>
+
+
+  <div class="tab-container">
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab(0)">标签1</button>
+      <button class="tab-btn" onclick="showTab(1)">标签2</button>
+      <button class="tab-btn" onclick="showTab(2)">标签3</button>
+    </div>
+    
+    <div class="tab-content active">
+      <h3>内容一</h3>
+      <p>这是第一个标签的内容...</p>
+    </div>
+    <div class="tab-content">
+      <h3>内容二</h3>
+      <p>这是第二个标签的内容...</p>
+    </div>
+    <div class="tab-content">
+      <h3>内容三</h3>
+      <p>这是第三个标签的内容...</p>
+    </div>
+  
+    <style>
+      .tab-container {
+        max-width: 800px;
+        margin: 20px auto;
+      }
+      .tabs {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 20px;
+      }
+      .tab-btn {
+        padding: 10px 20px;
+        border: none;
+        background: #f0f0f0;
+        cursor: pointer;
+      }
+      .tab-btn.active {
+        background: #007bff;
+        color: white;
+      }
+      .tab-content {
+        display: none;
+        padding: 20px;
+        background: #f8f9fa;
+      }
+      .tab-content.active {
+        display: block;
+      }
+    </style>
+  
+    <script>
+      function showTab(index) {
+        const tabs = document.querySelectorAll('.tab-btn');
+        const contents = document.querySelectorAll('.tab-content');
+        
+        tabs.forEach(tab => tab.classList.remove('active'));
+        contents.forEach(content => content.classList.remove('active'));
+        
+        tabs[index].classList.add('active');
+        contents[index].classList.add('active');
+      }
+    </script>
+  </div>
+
+
+  <div class="tooltip-container">
+    <div class="tooltip-wrapper">
+      <span class="tooltip-text">鼠标悬停显示提示</span>
+      <div class="tooltip">这是详细的提示信息，可以包含很多内容</div>
+    </div>
+    
+    <style>
+      .tooltip-wrapper {
+        display: inline-block;
+        position: relative;
+      }
+      .tooltip-text {
+        border-bottom: 1px dashed #666;
+        cursor: help;
+      }
+      .tooltip {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 8px;
+        background: #333;
+        color: white;
+        border-radius: 4px;
+        width: 200px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s;
+      }
+      .tooltip::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #333 transparent transparent;
+      }
+      .tooltip-wrapper:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
+  </div>
+
+
+
+  <div class="progress-container">
+    <div class="progress-items">
+      <div class="progress-item">
+        <div class="label">技能一</div>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%">85%</div>
+        </div>
+      </div>
+      <div class="progress-item">
+        <div class="label">技能二</div>
+        <div class="progress-bar">
+          <div class="progress" style="width: 70%">70%</div>
+        </div>
+      </div>
+      <div class="progress-item">
+        <div class="label">技能三</div>
+        <div class="progress-bar">
+          <div class="progress" style="width: 95%">95%</div>
+        </div>
+      </div>
+    </div>
+  
+    <style>
+      .progress-container {
+        max-width: 600px;
+        margin: 20px auto;
+      }
+      .progress-item {
+        margin: 15px 0;
+      }
+      .label {
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .progress-bar {
+        background: #f0f0f0;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      .progress {
+        background: linear-gradient(45deg, #007bff, #00d2d3);
+        color: white;
+        padding: 8px;
+        text-align: right;
+        transition: width 1s ease-in-out;
+      }
+    </style>
+  </div>
+
+
+  <div class="image-grid">
+    <div class="grid-item">
+      <div class="placeholder">图片1</div>
+      <div class="overlay">
+        <h3>标题1</h3>
+        <p>描述文字...</p>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="placeholder">图片2</div>
+      <div class="overlay">
+        <h3>标题2</h3>
+        <p>描述文字...</p>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div class="placeholder">图片3</div>
+      <div class="overlay">
+        <h3>标题3</h3>
+        <p>描述文字...</p>
+      </div>
+    </div>
+  
+    <style>
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+      .grid-item {
+        position: relative;
+        aspect-ratio: 1;
+        overflow: hidden;
+      }
+      .placeholder {
+        width: 100%;
+        height: 100%;
+        background: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .overlay {
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.7);
+        color: white;
+        padding: 20px;
+        transition: 0.3s;
+      }
+      .grid-item:hover .overlay {
+        bottom: 0;
+      }
+    </style>
+  </div>
+
+
+  <div class="countdown-container">
+    <div class="countdown">
+      <div class="time-block">
+        <span id="days">00</span>
+        <label>天</label>
+      </div>
+      <div class="time-block">
+        <span id="hours">00</span>
+        <label>时</label>
+      </div>
+      <div class="time-block">
+        <span id="minutes">00</span>
+        <label>分</label>
+      </div>
+      <div class="time-block">
+        <span id="seconds">00</span>
+        <label>秒</label>
+      </div>
+    </div>
+  
+    <style>
+      .countdown-container {
+        text-align: center;
+        padding: 20px;
+      }
+      .countdown {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .time-block {
+        background: #333;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        min-width: 80px;
+      }
+      .time-block span {
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .time-block label {
+        font-size: 0.8em;
+        opacity: 0.8;
+      }
+    </style>
+  
+    <script>
+      function updateCountdown() {
+        const targetDate = new Date('2024-12-31').getTime();
+        
+        function update() {
+          const now = new Date().getTime();
+          const difference = targetDate - now;
+          
+          const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+          
+          document.getElementById('days').textContent = String(days).padStart(2, '0');
+          document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+          document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+          document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+        }
+        
+        update();
+        setInterval(update, 1000);
+      }
+      
+      updateCountdown();
+    </script>
+  </div>
+
+
+  <div class="image-comparison">
+    <div class="comparison-container">
+      <div class="before-image">处理前</div>
+      <div class="after-image">处理后</div>
+      <div class="slider" id="slider"></div>
+    </div>
+  
+    <style>
+      .image-comparison {
+        max-width: 600px;
+        margin: 20px auto;
+        position: relative;
+      }
+      .comparison-container {
+        position: relative;
+        height: 300px;
+        overflow: hidden;
+      }
+      .before-image,
+      .after-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        color: white;
+      }
+      .before-image {
+        background: #666;
+        z-index: 1;
+      }
+      .after-image {
+        background: #333;
+        width: 50%;
+        border-right: 2px solid white;
+      }
+      .slider {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        cursor: ew-resize;
+      }
+    </style>
+  
+    <script>
+      const slider = document.getElementById('slider');
+      const afterImage = document.querySelector('.after-image');
+      let isDown = false;
+      
+      slider.addEventListener('mousedown', () => isDown = true);
+      window.addEventListener('mouseup', () => isDown = false);
+      window.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        
+        const rect = slider.parentElement.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const percent = Math.max(0, Math.min(100, (x / rect.width) * 100));
+        
+        afterImage.style.width = `${percent}%`;
+        slider.style.left = `${percent}%`;
+      });
+    </script>
+  </div>
+
+
+  <div class="rating-system">
+    <div class="stars">
+      <span class="star" data-rating="1">★</span>
+      <span class="star" data-rating="2">★</span>
+      <span class="star" data-rating="3">★</span>
+      <span class="star" data-rating="4">★</span>
+      <span class="star" data-rating="5">★</span>
+    </div>
+    <div class="rating-text">请评分</div>
+  
+    <style>
+      .rating-system {
+        text-align: center;
+        padding: 20px;
+      }
+      .stars {
+        font-size: 2em;
+        color: #ddd;
+        cursor: pointer;
+      }
+      .star {
+        transition: color 0.2s;
+      }
+      .star.active {
+        color: #ffd700;
+      }
+      .star:hover,
+      .star:hover ~ .star {
+        color: #ffd700;
+      }
+      .rating-text {
+        margin-top: 10px;
+        font-size: 1.2em;
+      }
+    </style>
+  
+    <script>
+      const stars = document.querySelectorAll('.star');
+      const ratingText = document.querySelector('.rating-text');
+      const texts = ['很差', '一般', '还行', '不错', '很好'];
+      
+      stars.forEach(star => {
+        star.addEventListener('click', () => {
+          const rating = star.dataset.rating;
+          stars.forEach(s => {
+            s.classList.toggle('active', s.dataset.rating <= rating);
+          });
+          ratingText.textContent = texts[rating - 1];
+        });
+      });
+    </script>
+  </div>
+
+
+
+  <div class="scroll-cards">
+    <div class="card">
+      <h3>标题1</h3>
+      <p>这是一些描述文字...</p>
+    </div>
+    <div class="card">
+      <h3>标题2</h3>
+      <p>这是一些描述文字...</p>
+    </div>
+    <div class="card">
+      <h3>标题3</h3>
+      <p>这是一些描述文字...</p>
+    </div>
+  
+    <style>
+      .scroll-cards {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .card {
+        margin: 20px 0;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 0.6s ease;
+      }
+      .card.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  
+    <script>
+      function checkScroll() {
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+          const cardTop = card.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+          if (cardTop < windowHeight * 0.9) {
+            card.classList.add('visible');
+          }
+        });
+      }
+      
+      window.addEventListener('scroll', checkScroll);
+      checkScroll();
+    </script>
+  </div>
+
+
+  <div class="notification-system">
+    <button onclick="showNotification('成功', '操作已完成', 'success')">显示成功提示</button>
+    <button onclick="showNotification('警告', '请注意...', 'warning')">显示警告提示</button>
+    <button onclick="showNotification('错误', '出现问题', 'error')">显示错误提示</button>
+    
+    <div id="notification-container"></div>
+  
+    <style>
+      .notification-system {
+        padding: 20px;
+        text-align: center;
+      }
+      .notification-system button {
+        margin: 0 10px;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      #notification-container {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+      }
+      .notification {
+        margin-bottom: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        color: white;
+        max-width: 300px;
+        animation: slideIn 0.5s forwards;
+      }
+      .notification.success { background: #28a745; }
+      .notification.warning { background: #ffc107; }
+      .notification.error { background: #dc3545; }
+      
+      @keyframes slideIn {
+        from {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+    </style>
+  
+    <script>
+      function showNotification(title, message, type) {
+        const container = document.getElementById('notification-container');
+        const notification = document.createElement('div');
+        notification.className = `notification ${type}`;
+        notification.innerHTML = `
+          <strong>${title}</strong><br>
+          ${message}
+        `;
+        
+        container.appendChild(notification);
+        
+        setTimeout(() => {
+          notification.style.opacity = '0';
+          notification.style.transform = 'translateX(100%)';
+          setTimeout(() => notification.remove(), 500);
+        }, 3000);
+      }
+    </script>
+  </div>
+
+
+
+  <div class="bouncing-ball">
+    <div class="ball"></div>
+    
+    <style>
+      .bouncing-ball {
+        height: 300px;
+        background: #f0f0f0;
+        position: relative;
+        overflow: hidden;
+      }
+      .ball {
+        width: 50px;
+        height: 50px;
+        background: #ff5722;
+        border-radius: 50%;
+        position: absolute;
+        animation: bounce 1s infinite;
+      }
+      @keyframes bounce {
+        0%, 100% { top: 0; }
+        50% { top: 250px; }
+      }
+    </style>
+  </div>
