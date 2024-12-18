@@ -33,6 +33,7 @@ slug: 给WordPress标题前面加个一色块
 ```
 
 #### 2. 创建并编辑自定义JavaScript文件
+
 在您的子主题目录中创建一个JavaScript文件，例如 `custom.js`，并添加以下代码：
 
 ```javascript

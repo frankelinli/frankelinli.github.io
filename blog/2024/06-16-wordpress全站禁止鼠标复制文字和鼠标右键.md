@@ -46,7 +46,7 @@ add_action('wp_footer', 'disable_mouse_clicks');
 
 ---
 
-上面是复杂化的方法。其实很简单，被JS代码放入网站就好了。可以直接放进`<head>`里，用elementor的自定义代码，放进去也可以。
+上面是复杂化的方法。其实很简单，把JS代码放入网站就好了。可以直接放进`<head>`里，用elementor的自定义代码，放进去也可以。用Astra hook代码或者可视化来实现更简单
 
 ## 对未登录用户禁用左右键和下载按钮
 
