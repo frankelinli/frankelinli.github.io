@@ -113,3 +113,51 @@ function add_baidu_analytics() {
 add_action('wp_head', 'add_baidu_analytics'); // 将代码插入到 <head> 部分	
 ```
 
+在PHP里插入HTML/JavaScript代码有两种主要方式：
+1. echo 输出
+2. PHP的结束标记 `?>` 直接输出
+
+在这个场景下，不使用echo的原因是：
+
+1. 当输出大段HTML/JavaScript时，使用 `?>` 直接输出更易读和维护：
+```php
+function add_baidu_analytics() {
+    ?>
+    <script>
+    // JavaScript代码
+    </script>
+    <?php
+}
+```
+
+而不是：
+```php
+function add_baidu_analytics() {
+    echo '<script>
+    // JavaScript代码
+    </script>';
+}
+```
+
+2. 使用 `?>` 方式可以避免：
+   - 引号嵌套问题
+   - 转义字符的使用
+   - 长字符串拼接的复杂性
+
+3. 当使用heredoc语法时，确实应该使用echo：
+```php
+function add_baidu_analytics() {
+    echo <<<EOT
+    <script>
+    // JavaScript代码
+    </script>
+    EOT;
+}
+```
+
+所以总结：
+- 短字符串：用 echo
+- 大段HTML/JS：用 `?>` 直接输出
+- heredoc格式：用 echo
+
+我的优化建议中展示了两种方式，你可以根据个人编码习惯选择使用。
