@@ -11,7 +11,8 @@ slug: 如何给wordpress文章设置自定义字段 is doc=true
 
 
 
-1. ## 使用WordPress原生自定义字段（最简单）：
+### 使用WordPress原生自定义字段（最简单）：
+
 ```php
 // 添加到functions.php，显示自定义字段框
 function show_is_doc_meta_box() {
@@ -68,7 +69,8 @@ add_action('save_post', 'save_is_doc_meta');
 - 包含一个简单的复选框
 - 勾选后该文章就会被标记为文档类
 
-2. ### 使用Quick Edit（快速编辑）方式：
+### 使用Quick Edit（快速编辑）方式：
+
 ```php
 // 在文章列表添加自定义列（已有）
 function add_is_doc_column($columns) {
