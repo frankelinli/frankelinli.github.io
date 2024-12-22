@@ -81,7 +81,7 @@ const config = {
           `https://github.com/frankelinli/frankelinli.github.io/edit/main/${versionDocsDirPath}/${docPath}`,
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           routeBasePath: '/blog',
           blogTitle: 'frankelinle blog!',
           blogDescription: '个人博客和总结文档库!',
