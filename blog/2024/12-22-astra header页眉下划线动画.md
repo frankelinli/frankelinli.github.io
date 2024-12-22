@@ -9,15 +9,10 @@ slug: astra header页眉下划线动画
 
 <!-- truncate -->
 
-没问题，上面的代码已经实现了从左到右展开的效果。因为我们使用了：
-- `width: 0` 到 `width: 100%` 的过渡
-- `transition: all 0.1s linear`
-- `left: 0` 确保从左边开始
-
-但如果你觉得效果不够明显，我们可以稍微调整过渡时间和动画曲线，让效果更加清晰：
+### 完整代码：
 
 ```php
-function add_header_underline_animation() {
+function add_menu_hover_underline() {
     ?>
     <style>
         .main-header-menu a {
@@ -29,11 +24,10 @@ function add_header_underline_animation() {
             position: absolute;
             width: 0;
             height: 2px;
-            bottom: 0;
+            bottom: -2px;
             left: 0;
             background-color: currentColor;
-            /* 增加过渡时间，使用 ease-out 使动画更自然 */
-            transition: width 0.3s ease-out;
+            transition: width 0.2s ease-out;
             opacity: 1;
         }
         
@@ -43,13 +37,23 @@ function add_header_underline_animation() {
     </style>
     <?php
 }
-add_action('wp_head', 'add_header_underline_animation');
+add_action('wp_head', 'add_menu_hover_underline');
 ```
 
-主要改动：
-1. 将过渡时间从0.1s改为0.3s，使动画更容易观察
-2. 使用 `ease-out` 替代 `linear`，让动画更自然
-3. 移除了opacity的过渡，专注于宽度的变化
-4. 明确指定只对width属性进行过渡（`transition: width 0.3s ease-out`）
+###      position: relative不可以去掉
 
-这样下划线会更明显地呈现出从左到右逐渐展开的效果。如果想调整动画速度，可以修改0.3s这个值。
+`.main-header-menu a {
+            position: relative;
+        }`
+
+不可以去掉。`position: relative` 是必需的，因为它建立了一个定位上下文，是下划线动画正常工作的关键。
+
+原因是：
+
+1. `::after` 伪元素使用了 `position: absolute`
+2. 没有 `position: relative` 的父元素，绝对定位的下划线将相对于最近的已定位祖先元素定位
+3. 这可能导致下划线出现在错误的位置
+
+### 使用currentColor
+
+使用currentColor，这样下划线颜色会自动跟随Astra主题设置的菜单颜色
