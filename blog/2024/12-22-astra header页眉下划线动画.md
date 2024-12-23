@@ -5,39 +5,34 @@ slug: astra header页眉下划线动画
 
 
 
-对于Astra主题头部菜单导航的hover下划线动画效果，提供以下解决方案：
+对于Astra主题头部菜单导航的hover下划线动画效果，CSS伪元素即可实现：
 
 <!-- truncate -->
 
-### 完整代码：
+### CSS代码：
 
-```php
-function add_menu_hover_underline() {
-    ?>
-    <style>
-        .main-header-menu a {
-            position: relative;
-        }
-        
-        .main-header-menu a::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: -2px;
-            left: 0;
-            background-color: currentColor;
-            transition: width 0.2s ease-out;
-            opacity: 1;
-        }
-        
-        .main-header-menu a:hover::after {
-            width: 100%;
-        }
-    </style>
-    <?php
+```css
+
+.main-header-menu a {
+    position: relative;
 }
-add_action('wp_head', 'add_menu_hover_underline');
+
+.main-header-menu a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.2s ease-out;
+    opacity: 1;
+}
+
+.main-header-menu a:hover::after {
+    width: 100%;
+}
+
 ```
 
 ###      position: relative不可以去掉
