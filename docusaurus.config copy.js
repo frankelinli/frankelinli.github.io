@@ -88,20 +88,7 @@ const config = {
           blogDescription: '个人博客和总结文档库!',
           postsPerPage: 3,
           blogSidebarCount: 10,
-          showLastUpdateTime: true,
-          
-          feedOptions: {
-            type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} frankelin, Inc.`,
-            createFeedItems: async (params) => {
-              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
-              return defaultCreateFeedItems({
-                // keep only the 10 most recent blog posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 10),
-                ...rest,
-              });
-            },
-          },
+          showLastUpdateTime: true,          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: ({locale, blogDirPath, blogPath, permalink}) =>

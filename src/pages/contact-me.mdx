@@ -2,13 +2,107 @@
 hide_table_of_contents: true
 ---
 
-鄙人专注开发WordPress网站和Docusaurus网站，欢迎联系沟通。
 
-<div style={{ display: 'flex', justifyContent: 'center' }}>
-  <img 
-    src="/img/wechat-qr.png" 
-    alt="微信二维码" 
-    style={{ width: '200px', border: '1px solid #eee' }} 
-  />
+import React from 'react';
+
+<div style={{
+  background: 'linear-gradient(90deg, #fcb69f 0%, #ffecd2 100%)',
+  borderRadius: '16px',
+  padding: '2rem',
+  textAlign: 'center',
+  marginBottom: '2rem',
+  boxShadow: '0 4px 24px rgba(0,0,0,0.08)'
+}}>
+  <h2 style={{ margin: 0, color: '#d35400' }}>联系 Frankelin Li</h2>
+  <p style={{ color: '#555', fontSize: '1.1rem' }}>专注开发 WordPress 与 Docusaurus 网站，欢迎交流合作！</p>
 </div>
+
+<div style={{
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: '2rem',
+  justifyContent: 'center',
+  alignItems: 'flex-start',
+  marginBottom: '2rem'
+}}>
+  <div style={{
+    background: '#f7cac9',
+    borderRadius: '12px',
+    padding: '1.2rem 2rem',
+    boxShadow: '0 2px 8px rgba(247,202,201,0.12)',
+    minWidth: '220px',
+    textAlign: 'center'
+  }}>
+    <img src="https://i.pravatar.cc/80?img=3" alt="头像" style={{ borderRadius: '50%', marginBottom: '1rem' }} />
+    <div style={{ fontWeight: 'bold', fontSize: '1.15rem' }}>Frankelin Li</div>
+    <div style={{ color: '#555', marginBottom: '0.5rem' }}>前端开发者 & 博主</div>
+    <div style={{ color: '#888', fontSize: '0.95rem' }}>专注于高质量网站建设</div>
+  </div>
+
+  <div style={{
+    background: '#f6f8fa',
+    borderRadius: '10px',
+    padding: '1.2rem 2rem',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.07)',
+    minWidth: '220px'
+  }}>
+    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+      <li style={{ marginBottom: '1rem' }}>
+        <strong>电话：</strong>
+        <span style={{ color: '#d35400', marginLeft: '0.5rem' }}>138-0000-0000</span>
+      </li>
+      <li style={{ marginBottom: '1rem' }}>
+        <strong>微信：</strong>
+        <span style={{ color: '#43cea2', marginLeft: '0.5rem' }}>weixinid</span>
+      </li>
+      <li>
+        <strong>邮箱：</strong>
+        <span style={{ color: '#185a9d', marginLeft: '0.5rem' }}>frankelinli@example.com</span>
+        <button
+          style={{
+            marginLeft: '0.8rem',
+            padding: '0.2rem 0.8rem',
+            background: '#43cea2',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '6px',
+            cursor: 'pointer',
+            fontSize: '0.95rem'
+          }}
+          onClick={() => navigator.clipboard.writeText('frankelinli@example.com')}
+        >复制邮箱</button>
+      </li>
+    </ul>
+  </div>
+
+  <div style={{
+    background: '#fffbe6',
+    borderRadius: '10px',
+    padding: '1.2rem 2rem',
+    boxShadow: '0 2px 8px #f7b731',
+    minWidth: '220px',
+    textAlign: 'center'
+  }}>
+    <div style={{ marginBottom: '0.5rem', fontWeight: 'bold', color: '#f7b731' }}>微信二维码</div>
+    <img 
+      src="/img/wechat-qr.png" 
+      alt="微信二维码" 
+      style={{ width: '120px', border: '1px solid #eee', borderRadius: '8px' }} 
+    />
+    <div style={{ color: '#888', fontSize: '0.95rem', marginTop: '0.5rem' }}>扫一扫加微信</div>
+  </div>
+</div>
+
+<blockquote style={{
+  background: '#fffbe6',
+  borderLeft: '6px solid #f7b731',
+  padding: '1.2rem 2rem',
+  fontStyle: 'italic',
+  color: '#7f8c8d',
+  borderRadius: '8px',
+  marginBottom: '2rem',
+  textAlign: 'center'
+}}>
+  “期待与你的每一次沟通与合作！”
+</blockquote>
 

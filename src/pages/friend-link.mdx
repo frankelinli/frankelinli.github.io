@@ -2,30 +2,75 @@
 hide_table_of_contents: true
 ---
 
-## 友情链接
 
----
+import React from 'react';
 
-1. [虚拟手机号收发短信Sms-activate settings](https://sms-activate.io/en/profile)
-2. [介绍 | 太空编程 (spacexcode.com)](https://spacexcode.com/docs/snippet/intro)
-3. [使用 Github Action 自动部署 | 安知鱼 (anheyu.com)](https://blog.anheyu.com/posts/asdx.html)
-4. [本人搭建的hexo博客，单独的一个GitHub仓库。已不使用。](https://frankelinli.github.io/hexoBlog/)
-6. [roc 云原生 (imroc.cc)](https://imroc.cc/)
-8. [使用Github Action 部署项目到云服务器 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/107545396)
-9. [博客的搭建与部署 | C01day](https://www.c01day.com/post/2021/08/08/博客的搭建与部署/)
-10. [About - Xiaohan Zou (zxh.io)](https://zxh.io/)
-11. [如何更改WordPress类别基本前缀（分步） --- How to Change WordPress Category Base Prefix (Step-By-Step) (quadlayers.com)](https://quadlayers.com/change-the-wordpress-category-base-prefix/)
-12. [松子博客 - 学习成长分享 (szfx.top)](https://blog.szfx.top/)
-13. HTML+CSS教程开发；https://www.bilibili.com/video/BV1ux41127DU/
-14. 青蛙游戏联系CSS的Flexbox布局https://flexboxfroggy.com/
+<div style={{
+	background: 'linear-gradient(90deg, #43cea2 0%, #185a9d 100%)',
+	borderRadius: '16px',
+	padding: '2rem',
+	textAlign: 'center',
+	marginBottom: '2rem',
+	color: '#fff',
+	boxShadow: '0 4px 24px rgba(0,0,0,0.08)'
+}}>
+	<h2 style={{ margin: 0 }}>友情链接</h2>
+	<p style={{ fontSize: '1.1rem', color: '#e0e0e0' }}>精选站点推荐，资源与灵感共享</p>
+</div>
 
-https://frankelinli.github.io/wordpress%20HTML%20block%20demo.html
+<div style={{
+	display: 'flex',
+	flexWrap: 'wrap',
+	gap: '1.5rem',
+	justifyContent: 'center',
+	marginBottom: '2rem'
+}}>
+	{/* 技术博客分组 */}
+	<div style={{ minWidth: '260px', maxWidth: '320px', background: '#f6f8fa', borderRadius: '12px', boxShadow: '0 2px 8px #eee', padding: '1.2rem' }}>
+		<h3 style={{ color: '#185a9d', marginTop: 0 }}>技术博客</h3>
+		<ul style={{ listStyle: 'none', padding: 0 }}>
+			<li>🚀 <a href="https://spacexcode.com/docs/snippet/intro" target="_blank">太空编程</a></li>
+			<li>📝 <a href="https://blog.anheyu.com/posts/asdx.html" target="_blank">安知鱼自动部署</a></li>
+			<li>🌱 <a href="https://imroc.cc/" target="_blank">roc 云原生</a></li>
+			<li>📚 <a href="https://www.c01day.com/post/2021/08/08/博客的搭建与部署/" target="_blank">C01day 博客搭建</a></li>
+			<li>💡 <a href="https://zxh.io/" target="_blank">Xiaohan Zou</a></li>
+			<li>🌲 <a href="https://blog.szfx.top/" target="_blank">松子博客</a></li>
+		</ul>
+	</div>
 
----
+	{/* 工具/教程分组 */}
+	<div style={{ minWidth: '260px', maxWidth: '320px', background: '#fffbe6', borderRadius: '12px', boxShadow: '0 2px 8px #f7b731', padding: '1.2rem' }}>
+		<h3 style={{ color: '#f7b731', marginTop: 0 }}>工具 & 教程</h3>
+		<ul style={{ listStyle: 'none', padding: 0 }}>
+			<li>📱 <a href="https://sms-activate.io/en/profile" target="_blank">虚拟手机号收发短信</a></li>
+			<li>🔧 <a href="https://zhuanlan.zhihu.com/p/107545396" target="_blank">Github Action 云服务器部署</a></li>
+			<li>📦 <a href="https://quadlayers.com/change-the-wordpress-category-base-prefix/" target="_blank">WordPress分类前缀教程</a></li>
+			<li>🎬 <a href="https://www.bilibili.com/video/BV1ux41127DU/" target="_blank">HTML+CSS教程开发</a></li>
+			<li>🐸 <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy 青蛙游戏</a></li>
+		</ul>
+	</div>
 
-## 我的音频播放器
+	{/* 个人项目分组 */}
+	<div style={{ minWidth: '260px', maxWidth: '320px', background: 'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 74%)', borderRadius: '12px', boxShadow: '0 2px 8px #8ec5fc', padding: '1.2rem' }}>
+		<h3 style={{ color: '#764ba2', marginTop: 0 }}>个人项目</h3>
+		<ul style={{ listStyle: 'none', padding: 0 }}>
+			<li>🗂 <a href="https://frankelinli.github.io/hexoBlog/" target="_blank">Hexo 博客仓库</a></li>
+			<li>🔗 <a href="https://frankelinli.github.io/wordpress%20HTML%20block%20demo.html" target="_blank">WordPress HTML Block Demo</a></li>
+		</ul>
+	</div>
+</div>
 
-<audio controls src="https://spacexcode.oss-cn-hangzhou.aliyuncs.com/mp3/那女孩对我说.mp3" />
+<div style={{
+	background: 'linear-gradient(90deg, #fcb69f 0%, #ffecd2 100%)',
+	borderRadius: '12px',
+	padding: '1.2rem 2rem',
+	textAlign: 'center',
+	marginBottom: '2rem',
+	boxShadow: '0 2px 8px #fcb69f'
+}}>
+	<h3 style={{ color: '#d35400', marginTop: 0 }}>我的音频播放器</h3>
+	<audio controls src="https://spacexcode.oss-cn-hangzhou.aliyuncs.com/mp3/那女孩对我说.mp3" style={{ width: '100%', maxWidth: '400px', margin: '0 auto' }} />
+</div>
 
 
 
