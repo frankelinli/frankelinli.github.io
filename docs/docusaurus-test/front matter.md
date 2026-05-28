@@ -1,12 +1,10 @@
 ---
 date: 2024-03-27 16:01
----
----
 title: Doc front matter 介绍
 sidebar_label: Markdown front matter
 
-slug: front-matter
-//displayed_sidebar: null
+slug: /blog/dddd
+displayed_sidebar: null
 
 tags:
   - Demo
