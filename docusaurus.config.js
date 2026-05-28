@@ -50,7 +50,6 @@ const config = {
     // // String format.
     // 'https://docusaurus.io/script.js',
     // 'https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js',
-    
     // Object format.
     {
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4116228001844410',
@@ -172,12 +171,6 @@ const config = {
         `https://github.com/frankelinli/frankelinli.github.io/edit/main/${versionDocsDirPath}/${docPath}`,
       },   
     ],
-
-
-     
-
-    
-
   ],
 
 
