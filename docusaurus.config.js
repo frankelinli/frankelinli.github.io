@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-check-disabled
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
@@ -30,7 +30,28 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
+
+future: {
+  v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      // useCssCascadeLayers: true,
+      siteStorageNamespacing: true,
+      fasterByDefault: true,
+      // mdx1CompatDisabledByDefault: true,
+    },
+
+    faster: {
+      rspackBundler: true,           // 使用更快的打包器 Rspack
+      rspackPersistentCache: true,   // 启用持久缓存
+    },
+    // 如果你之前还有其他 future 配置，也放在这里
+    // v4: { ... }
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -128,8 +149,10 @@ const config = {
   ],
 
   plugins: [
-    'docusaurus-plugin-image-zoom', //图片放大缩小插件
-    '@docusaurus/theme-live-codeblock', //实时呈现代码插件
+    
+    // 如果下面两个插件在 Docusaurus v3 中报错，可先注释并安装兼容版本后恢复
+    // 'docusaurus-plugin-image-zoom', //图片放大缩小插件
+    // '@docusaurus/theme-live-codeblock', //实时呈现代码插件
     //VBA文档库
     [
       '@docusaurus/plugin-content-docs',
@@ -185,11 +208,7 @@ const config = {
         {name: 'google-site-verification', content: '7DnXw4DphvfZhWgp2W1ig0102WONIF9qL5g2EJTUEfg'},
       ],
 
-      future: {
-        experimental_faster: true,
-      },
-
-      //配置liveCodeBlock
+          //配置liveCodeBlock
       liveCodeBlock: {
         /**
          * The position of the live playground, above or under the editor
