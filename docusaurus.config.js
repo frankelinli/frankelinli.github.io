@@ -106,8 +106,8 @@ future: {
           routeBasePath: 'blog',
           blogTitle: 'frankelinle blog!',
           blogDescription: '个人博客和总结文档库!',
-          postsPerPage: 3,
-          blogSidebarCount: 10,
+          postsPerPage: 5,
+          blogSidebarCount: 0,
           showLastUpdateTime: true,
           
           feedOptions: {
@@ -138,10 +138,6 @@ future: {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
           
-        },
-        gtag: {
-          trackingID: 'G-V43TVFFWC5',
-          anonymizeIP: true,
         },
         
       }),
