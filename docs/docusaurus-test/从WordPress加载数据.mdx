@@ -5,8 +5,84 @@ description: 使用 WordPress REST API 获取最近 5 篇博客标题和摘要
 
 import WordPressLatestPosts from '@site/src/components/WordPressLatestPosts';
 
-# 从 WordPress 加载最近 5 篇文章
+# 在 Docusaurus 页面中拉取 WordPress 最近 5 篇文章
 
-下面这个示例直接在页面里调用 WordPress REST API，拉取最新 5 篇已发布文章的标题和摘要。
+这个示例展示了如何在 Docusaurus 的 MDX 页面里，通过 WordPress REST API 获取站点最近 5 篇已发布文章，并渲染标题和摘要。
+
+它适合这类场景：
+
+- 你想在文档站、博客站里嵌入外部 WordPress 内容
+- 你希望内容可以自动更新，而不是手工同步
+- 你可以接受页面中的这部分内容由前端在浏览器里动态加载
+
+## 整体思路
+
+实现上分成两层：
+
+1. MDX 页面负责文章结构、说明文字和组件展示
+2. React 组件负责调用 WordPress REST API、处理加载状态和错误状态
+
+这样做的好处是，MDX 文件保持干净，复杂逻辑不会和正文混在一起，也更容易复用。
+
+## WordPress REST API
+
+WordPress 默认提供文章列表接口：
+
+- 接口地址：`/wp-json/wp/v2/posts`
+- 常用参数：`per_page=5`、`status=publish`、`orderby=date`、`order=desc`
+- 可通过 `_fields` 限制返回字段，减少传输量
+
+本例中只取了 `id`、`link`、`title`、`excerpt` 和 `date`，足够完成文章列表展示。
+
+## 组件层实现
+
+真正的请求逻辑被放在 [WordPressLatestPosts 组件](../../src/components/WordPressLatestPosts.jsx) 里。组件做了三件事：
+
+- `useEffect` 里发起请求
+- `useState` 保存文章、加载状态和错误状态
+- 用 `AbortController` 在组件卸载时取消请求，避免内存泄漏
+
+请求成功后，组件遍历文章列表，渲染成独立卡片。摘要使用 `dangerouslySetInnerHTML` 是因为 WordPress 返回的 excerpt 本身就是 HTML 字符串。
+
+## 为什么不把所有逻辑都写在 MDX 里
+
+理论上可以写，但实践中不推荐。
+
+- MDX 对花括号、模板字符串和 JSX 的边界比较敏感
+- 大段逻辑会让页面难以维护
+- 单独拆成组件后，调试和复用都更简单
+
+这次实现里，先把逻辑从 MDX 挪到组件，再让 MDX 只负责导入和展示，就是为了降低解析风险。
+
+## SEO 与页面类型
+
+这类页面本质上是“静态页面 + 客户端动态内容”。Docusaurus 生成的页面骨架是静态的，但文章列表是浏览器加载后再渲染的。
+
+这意味着：
+
+- 页面标题、说明和正文说明对 SEO 是友好的
+- WordPress 文章列表这部分内容不一定会被搜索引擎稳定抓取
+- 如果你希望列表内容也更利于 SEO，最好改成构建时拉取数据，或者在构建阶段生成静态 Markdown
+
+## 安全与稳定性
+
+演示里为了完整性，保留了 WordPress 认证头，但如果站点是公开文章，通常可以直接请求公开接口，不一定需要用户名和密码。
+
+另外还要注意：
+
+- 浏览器直连第三方接口时，可能遇到 CORS 限制
+- 把凭据写在前端代码里并不安全，正式环境应放到服务端或代理层
+- 若接口不稳定，建议加重试、缓存或降级展示
+
+## 可进一步优化的方向
+
+- 把请求移到构建期，生成真正的静态 HTML
+- 增加文章发布日期、作者、分类标签
+- 给摘要做长度裁剪，统一列表卡片高度
+- 增加缓存和错误兜底，避免接口不可用时页面空白
+
+## 示例效果
+
+下面是当前页面的可运行示例：
 
 <WordPressLatestPosts />
